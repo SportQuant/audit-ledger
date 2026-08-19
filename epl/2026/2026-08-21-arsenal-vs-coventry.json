@@ -1,10 +1,10 @@
 {
   "status": "COMMITTED",
   "fixture": "Arsenal vs Coventry",
-  "match_id": "api_1557367",
+  "match_id": "soccer_2026_ars_cov_a924bb54",
   "league": "Premier League",
   "kickoff_utc": "2026-08-21T19:00:00+00:00",
-  "commit_utc": "2026-08-19T19:00:16.769901+00:00",
+  "commit_utc": "2026-08-19T19:00:18.732803+00:00",
   "model_version": "ensemble_v1_veritas",
-  "sha256_hash": "3508791249af155defd9541a6574901d3a3331f3e539e1fe126c59aacc7cc8c0"
+  "sha256_hash": "4560934d4e8a74b745cda90e2a6d7e698c504e6409946c9f9877493ca2ee2d7b"
 }
