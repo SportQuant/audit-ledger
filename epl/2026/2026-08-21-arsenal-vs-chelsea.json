@@ -1,10 +1,10 @@
 {
   "status": "COMMITTED",
   "fixture": "Arsenal vs Chelsea",
-  "match_id": "soccer_2026_ars_che_bbee6d82",
+  "match_id": "soccer_2026_ars_che_aa0d6ab0",
   "league": "Premier League",
-  "kickoff_utc": "2026-08-21T03:38:22.409541+00:00",
-  "commit_utc": "2026-08-19T15:38:22.420805+00:00",
+  "kickoff_utc": "2026-08-21T03:42:33.369108+00:00",
+  "commit_utc": "2026-08-19T15:42:33.377743+00:00",
   "model_version": "ensemble_v1",
-  "sha256_hash": "db3f8286f877fb9e9c03438d2ce31eca8c1824c90994139a2f361208e3451ede"
+  "sha256_hash": "2fa8e664bfdda3953147db846a8cc43f744b7b75619b1e637e8de9710c3e22d5"
 }
