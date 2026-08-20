@@ -1,10 +1,10 @@
 {
   "status": "COMMITTED",
   "fixture": "Ipswich vs Sunderland",
-  "match_id": "api_1557370",
+  "match_id": "soccer_2026_ips_sun_f981fbed",
   "league": "Premier League",
   "kickoff_utc": "2026-08-22T14:00:00+00:00",
-  "commit_utc": "2026-08-20T14:00:09.908484+00:00",
+  "commit_utc": "2026-08-20T14:00:24.640967+00:00",
   "model_version": "ensemble_v1_veritas",
-  "sha256_hash": "7e11439639adcbdf06a18f5ba374c2f80a083ca3ee7ecf7fd9ebe662fa012d6b"
+  "sha256_hash": "d841a445a94a88cbf6eb0507d51aca72ccfd552b9689ccd0a5aeb24d34e9b14d"
 }
