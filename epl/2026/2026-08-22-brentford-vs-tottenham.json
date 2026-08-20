@@ -1,10 +1,10 @@
 {
   "status": "COMMITTED",
   "fixture": "Brentford vs Tottenham",
-  "match_id": "api_1557372",
+  "match_id": "soccer_2026_bre_tot_63210045",
   "league": "Premier League",
   "kickoff_utc": "2026-08-22T16:30:00+00:00",
-  "commit_utc": "2026-08-20T16:35:25.564006+00:00",
+  "commit_utc": "2026-08-20T16:35:29.220536+00:00",
   "model_version": "ensemble_v1_veritas",
-  "sha256_hash": "0b633832c5566270f69c103f256f334440ff66a245d61b996ac680d33026730e"
+  "sha256_hash": "f791568aa76d1544e047c062e60673d8a8e211a41fb9c243e5bd7029f9dc905f"
 }
