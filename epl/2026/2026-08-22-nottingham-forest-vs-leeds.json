@@ -1,10 +1,10 @@
 {
   "status": "COMMITTED",
   "fixture": "Nottingham Forest vs Leeds",
-  "match_id": "api_1557371",
+  "match_id": "soccer_2026_not_lee_84d9e137",
   "league": "Premier League",
   "kickoff_utc": "2026-08-22T14:00:00+00:00",
-  "commit_utc": "2026-08-20T14:00:15.262416+00:00",
+  "commit_utc": "2026-08-20T14:00:22.831811+00:00",
   "model_version": "ensemble_v1_veritas",
-  "sha256_hash": "08fc86d7880f0d6261691e525f2dce1f89058dfc345f5156c101da00b57132d2"
+  "sha256_hash": "aa81fe874c3fc60d62c3a3e6239d13d60fbb3721c0fd9e43ba6446e53094175f"
 }
