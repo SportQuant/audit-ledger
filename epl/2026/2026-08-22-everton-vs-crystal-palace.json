@@ -1,0 +1,10 @@
+{
+  "status": "COMMITTED",
+  "fixture": "Everton vs Crystal Palace",
+  "match_id": "api_1557369",
+  "league": "Premier League",
+  "kickoff_utc": "2026-08-22T14:00:00+00:00",
+  "commit_utc": "2026-08-20T14:00:20.163110+00:00",
+  "model_version": "ensemble_v1_veritas",
+  "sha256_hash": "913b42890a5a8ef1511e97950ee8c43024d433cc6236767597b2eb7b131afb38"
+}
