@@ -1,10 +1,10 @@
 {
   "status": "COMMITTED",
   "fixture": "Manchester City vs Bournemouth",
-  "match_id": "api_1557374",
+  "match_id": "soccer_2026_man_bou_e0f6c8e7",
   "league": "Premier League",
   "kickoff_utc": "2026-08-23T13:00:00+00:00",
-  "commit_utc": "2026-08-21T13:00:09.634367+00:00",
+  "commit_utc": "2026-08-21T13:00:13.140623+00:00",
   "model_version": "ensemble_v1_veritas",
-  "sha256_hash": "13e7fe2538441cbe4d1ac01550a11f1e239fc7c9973907d3caa2ace3302373be"
+  "sha256_hash": "96903dfd0cbbe8cc37d5cc96b2af00917acf1788839eace1c00f2044eb679863"
 }
