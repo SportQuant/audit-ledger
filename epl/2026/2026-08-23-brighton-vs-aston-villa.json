@@ -1,0 +1,10 @@
+{
+  "status": "COMMITTED",
+  "fixture": "Brighton vs Aston Villa",
+  "match_id": "api_1557373",
+  "league": "Premier League",
+  "kickoff_utc": "2026-08-23T13:00:00+00:00",
+  "commit_utc": "2026-08-21T13:00:11.009641+00:00",
+  "model_version": "ensemble_v1_veritas",
+  "sha256_hash": "03466ed94252f84414267e22bbf330f4121e3c084774594c05b086b036ab300a"
+}
