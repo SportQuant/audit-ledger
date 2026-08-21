@@ -1,10 +1,10 @@
 {
   "status": "COMMITTED",
   "fixture": "Newcastle vs Liverpool",
-  "match_id": "api_1557375",
+  "match_id": "soccer_2026_new_liv_0fa2e64e",
   "league": "Premier League",
   "kickoff_utc": "2026-08-23T15:30:00+00:00",
-  "commit_utc": "2026-08-21T15:35:28.830397+00:00",
+  "commit_utc": "2026-08-21T15:35:31.698032+00:00",
   "model_version": "ensemble_v1_veritas",
-  "sha256_hash": "1af15d143ed7563e1450fd9baa758221dcb5d96a17cda3c9abbe6f81e856e4d1"
+  "sha256_hash": "a51679066bffa83a61a546793db53fa8318937ee317d50bf8e9f3b1831b30772"
 }
