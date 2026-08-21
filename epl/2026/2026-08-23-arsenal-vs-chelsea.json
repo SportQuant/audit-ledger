@@ -1,0 +1,10 @@
+{
+  "status": "COMMITTED",
+  "fixture": "Arsenal vs Chelsea",
+  "match_id": "soccer_2026_ars_che_059fb718",
+  "league": "Premier League",
+  "kickoff_utc": "2026-08-23T10:41:03.377290+00:00",
+  "commit_utc": "2026-08-21T22:41:03.382070+00:00",
+  "model_version": "ensemble_v1",
+  "sha256_hash": "5d23f3070620de24039ff706c58bd906a897c2571370a4e2a5a57c0201e9a2da"
+}
