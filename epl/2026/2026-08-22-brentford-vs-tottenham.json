@@ -1,10 +1,41 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "fixture": "Brentford vs Tottenham",
   "match_id": "soccer_2026_bre_tot_63210045",
   "league": "Premier League",
   "kickoff_utc": "2026-08-22T16:30:00+00:00",
-  "commit_utc": "2026-08-20T16:35:29.220536+00:00",
+  "commit_utc": "2026-08-20T16:35:30.328390+00:00",
+  "revealed_utc": "2026-08-22T18:35:15.959709+00:00",
   "model_version": "ensemble_v1_veritas",
-  "sha256_hash": "f791568aa76d1544e047c062e60673d8a8e211a41fb9c243e5bd7029f9dc905f"
+  "sha256_hash": "f791568aa76d1544e047c062e60673d8a8e211a41fb9c243e5bd7029f9dc905f",
+  "revealed_probabilities": {
+    "home_win": 0.3869,
+    "away_win": 0.3342,
+    "draw": 0.2789
+  },
+  "salt": "7d3e0406a00a72b1e55d219586a182a4",
+  "canonical_payload": {
+    "salt": "7d3e0406a00a72b1e55d219586a182a4",
+    "market": "1X2",
+    "match_id": "soccer_2026_bre_tot_63210045",
+    "away_team": "Tottenham",
+    "home_team": "Brentford",
+    "kickoff_time": "2026-08-22T16:30:00+00:00",
+    "model_version": "ensemble_v1_veritas",
+    "probabilities": {
+      "draw": 0.2789,
+      "away_win": 0.3342,
+      "home_win": 0.3869
+    }
+  },
+  "settlement": {
+    "actual_result": "HOME",
+    "brier_score": 0.5654,
+    "closing_lines": {
+      "home": 2.0,
+      "draw": 3.0,
+      "away": 2.5
+    },
+    "clv_beat": false
+  }
 }
