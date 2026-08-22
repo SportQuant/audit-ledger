@@ -1,0 +1,10 @@
+{
+  "status": "COMMITTED",
+  "fixture": "Fulham vs Chelsea",
+  "match_id": "api_1557376",
+  "league": "Premier League",
+  "kickoff_utc": "2026-08-24T19:00:00+00:00",
+  "commit_utc": "2026-08-22T19:00:09.854388+00:00",
+  "model_version": "ensemble_v1_veritas",
+  "sha256_hash": "7d6a344aa99ea1d175a589445c46b86d1338e331006212de4df5414443705d38"
+}
