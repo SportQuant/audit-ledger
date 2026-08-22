@@ -5,7 +5,7 @@
   "league": "Premier League",
   "kickoff_utc": "2026-08-22T14:00:00+00:00",
   "commit_utc": "2026-08-20T14:00:27.990702+00:00",
-  "revealed_utc": "2026-08-22T16:21:14.615761+00:00",
+  "revealed_utc": "2026-08-22T16:21:19.741323+00:00",
   "model_version": "ensemble_v1_veritas",
   "sha256_hash": "4722bccead830b91e3d43078b579d485b284635d9ba23e908f78be08beaffef8",
   "revealed_probabilities": {
