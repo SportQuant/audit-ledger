@@ -1,10 +1,41 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "fixture": "Brighton vs Aston Villa",
   "match_id": "soccer_2026_bri_ast_e1d3e190",
   "league": "Premier League",
   "kickoff_utc": "2026-08-23T13:00:00+00:00",
-  "commit_utc": "2026-08-21T13:00:14.412278+00:00",
+  "commit_utc": "2026-08-21T13:00:15.547968+00:00",
+  "revealed_utc": "2026-08-23T15:05:02.324299+00:00",
   "model_version": "ensemble_v1_veritas",
-  "sha256_hash": "a2d760f97f37ebb3f7af2f59597b52d64a4e62ecb4066e722a735869fafd789c"
+  "sha256_hash": "a2d760f97f37ebb3f7af2f59597b52d64a4e62ecb4066e722a735869fafd789c",
+  "revealed_probabilities": {
+    "home_win": 0.3803,
+    "away_win": 0.3711,
+    "draw": 0.2486
+  },
+  "salt": "0e84553e597791380e4b4ca86e479db3",
+  "canonical_payload": {
+    "salt": "0e84553e597791380e4b4ca86e479db3",
+    "market": "1X2",
+    "match_id": "soccer_2026_bri_ast_e1d3e190",
+    "away_team": "Aston Villa",
+    "home_team": "Brighton",
+    "kickoff_time": "2026-08-23T13:00:00+00:00",
+    "model_version": "ensemble_v1_veritas",
+    "probabilities": {
+      "draw": 0.2486,
+      "away_win": 0.3711,
+      "home_win": 0.3803
+    }
+  },
+  "settlement": {
+    "actual_result": "HOME",
+    "brier_score": 0.5835,
+    "closing_lines": {
+      "home": 2.0,
+      "draw": 3.0,
+      "away": 2.5
+    },
+    "clv_beat": false
+  }
 }
