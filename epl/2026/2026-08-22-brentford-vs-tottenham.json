@@ -5,7 +5,7 @@
   "league": "Premier League",
   "kickoff_utc": "2026-08-22T16:30:00+00:00",
   "commit_utc": "2026-08-20T16:35:30.328390+00:00",
-  "revealed_utc": "2026-08-22T18:35:17.096239+00:00",
+  "revealed_utc": "2026-08-26T22:14:32.065093+00:00",
   "model_version": "ensemble_v1_veritas",
   "sha256_hash": "f791568aa76d1544e047c062e60673d8a8e211a41fb9c243e5bd7029f9dc905f",
   "revealed_probabilities": {
@@ -32,9 +32,9 @@
     "actual_result": "HOME",
     "brier_score": 0.5654,
     "closing_lines": {
-      "home": 2.0,
-      "draw": 3.0,
-      "away": 2.5
+      "home": 2.19,
+      "draw": 3.77,
+      "away": 3.24
     },
     "clv_beat": false
   }
