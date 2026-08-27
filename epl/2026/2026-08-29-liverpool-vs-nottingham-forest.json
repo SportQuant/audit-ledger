@@ -1,0 +1,10 @@
+{
+  "status": "COMMITTED",
+  "fixture": "Liverpool vs Nottingham Forest",
+  "match_id": "api_1557383",
+  "league": "Premier League",
+  "kickoff_utc": "2026-08-29T11:30:00+00:00",
+  "commit_utc": "2026-08-27T11:35:13.195871+00:00",
+  "model_version": "ensemble_v1_veritas",
+  "sha256_hash": "675e89c00ba1c459f6fe14933b272b5ef230bcfb86fc1f0f1f07d5bbe627ee05"
+}
