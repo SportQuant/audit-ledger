@@ -1,0 +1,10 @@
+{
+  "status": "COMMITTED",
+  "fixture": "Bournemouth vs Everton",
+  "match_id": "api_1557378",
+  "league": "Premier League",
+  "kickoff_utc": "2026-08-29T14:00:00+00:00",
+  "commit_utc": "2026-08-27T14:00:11.315025+00:00",
+  "model_version": "ensemble_v1_veritas",
+  "sha256_hash": "86bb778eb28d8faf481e2c2bf2caa12b7a88c5469d0de2c3ee209c59e09c5520"
+}
