@@ -1,0 +1,10 @@
+{
+  "status": "COMMITTED",
+  "fixture": "Tottenham vs Newcastle",
+  "match_id": "api_1557386",
+  "league": "Premier League",
+  "kickoff_utc": "2026-08-29T16:30:00+00:00",
+  "commit_utc": "2026-08-27T16:35:13.630358+00:00",
+  "model_version": "ensemble_v1_veritas",
+  "sha256_hash": "4f5a065d31775ab0314f207cfdbf589c589d0c8ec69ed67eed1732daf95b65f4"
+}
