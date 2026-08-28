@@ -1,0 +1,10 @@
+{
+  "status": "COMMITTED",
+  "fixture": "Manchester United vs Ipswich",
+  "match_id": "api_1557384",
+  "league": "Premier League",
+  "kickoff_utc": "2026-08-30T15:30:00+00:00",
+  "commit_utc": "2026-08-28T16:00:09.884208+00:00",
+  "model_version": "ensemble_v1_veritas",
+  "sha256_hash": "3a4fee2f36232c6fa4013476ffe3440519876ff7fb9162f014c5ce735fa9768b"
+}
