@@ -1,0 +1,10 @@
+{
+  "status": "COMMITTED",
+  "fixture": "Sunderland vs Fulham",
+  "match_id": "api_1557385",
+  "league": "Premier League",
+  "kickoff_utc": "2026-08-30T13:00:00+00:00",
+  "commit_utc": "2026-08-28T13:00:10.901311+00:00",
+  "model_version": "ensemble_v1_veritas",
+  "sha256_hash": "8dd9bf5009f99af0b51ceb4214cdb0a2b4fe6e7ba9465543bb91fead0b31bbb0"
+}
