@@ -1,10 +1,41 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "fixture": "Bournemouth vs Everton",
   "match_id": "api_1557378",
   "league": "Premier League",
   "kickoff_utc": "2026-08-29T14:00:00+00:00",
-  "commit_utc": "2026-08-27T14:00:11.315025+00:00",
+  "commit_utc": "2026-08-27T14:00:13.433050+00:00",
+  "revealed_utc": "2026-08-29T16:03:41.587494+00:00",
   "model_version": "ensemble_v1_veritas",
-  "sha256_hash": "86bb778eb28d8faf481e2c2bf2caa12b7a88c5469d0de2c3ee209c59e09c5520"
+  "sha256_hash": "86bb778eb28d8faf481e2c2bf2caa12b7a88c5469d0de2c3ee209c59e09c5520",
+  "revealed_probabilities": {
+    "home_win": 0.5586,
+    "away_win": 0.2071,
+    "draw": 0.2342
+  },
+  "salt": "ad3d6ff3252c5fc9fa72071e785caa9f14cca253568d8f86ce23f58823e5a9fc",
+  "canonical_payload": {
+    "salt": "ad3d6ff3252c5fc9fa72071e785caa9f14cca253568d8f86ce23f58823e5a9fc",
+    "market": "1X2",
+    "match_id": "api_1557378",
+    "away_team": "Everton",
+    "home_team": "Bournemouth",
+    "kickoff_time": "2026-08-29T14:00:00+00:00",
+    "model_version": "ensemble_v1_veritas",
+    "probabilities": {
+      "draw": 0.2342,
+      "away_win": 0.2071,
+      "home_win": 0.5586
+    }
+  },
+  "settlement": {
+    "actual_result": "DRAW",
+    "brier_score": 0.9414,
+    "closing_lines": {
+      "home": 2.2,
+      "draw": 3.55,
+      "away": 3.43
+    },
+    "clv_beat": false
+  }
 }
