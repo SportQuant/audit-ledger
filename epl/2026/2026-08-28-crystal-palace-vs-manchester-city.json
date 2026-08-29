@@ -1,10 +1,41 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "fixture": "Crystal Palace vs Manchester City",
   "match_id": "api_1557381",
   "league": "Premier League",
   "kickoff_utc": "2026-08-28T19:00:00+00:00",
   "commit_utc": "2026-08-26T19:15:37.378109+00:00",
+  "revealed_utc": "2026-08-29T00:25:34.480338+00:00",
   "model_version": "ensemble_v1_veritas",
-  "sha256_hash": "3c1910c2781566206927ad364330d786962912950262bd0e0ebaa94864f3ad47"
+  "sha256_hash": "3c1910c2781566206927ad364330d786962912950262bd0e0ebaa94864f3ad47",
+  "revealed_probabilities": {
+    "home_win": 0.1365,
+    "away_win": 0.6659,
+    "draw": 0.1976
+  },
+  "salt": "f54cc8377c6d4006c9c6b7bb0c88b73988e4212b0e004e129b54039c9df57f07",
+  "canonical_payload": {
+    "salt": "f54cc8377c6d4006c9c6b7bb0c88b73988e4212b0e004e129b54039c9df57f07",
+    "market": "1X2",
+    "match_id": "api_1557381",
+    "away_team": "Manchester City",
+    "home_team": "Crystal Palace",
+    "kickoff_time": "2026-08-28T19:00:00+00:00",
+    "model_version": "ensemble_v1_veritas",
+    "probabilities": {
+      "draw": 0.1976,
+      "away_win": 0.6659,
+      "home_win": 0.1365
+    }
+  },
+  "settlement": {
+    "actual_result": "AWAY",
+    "brier_score": 0.1693,
+    "closing_lines": {
+      "home": 5.35,
+      "draw": 4.15,
+      "away": 1.67
+    },
+    "clv_beat": true
+  }
 }
