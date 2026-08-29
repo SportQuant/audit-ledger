@@ -1,10 +1,41 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "fixture": "Liverpool vs Nottingham Forest",
   "match_id": "api_1557383",
   "league": "Premier League",
   "kickoff_utc": "2026-08-29T11:30:00+00:00",
-  "commit_utc": "2026-08-27T11:35:13.195871+00:00",
+  "commit_utc": "2026-08-27T11:35:14.307998+00:00",
+  "revealed_utc": "2026-08-29T13:32:08.930638+00:00",
   "model_version": "ensemble_v1_veritas",
-  "sha256_hash": "675e89c00ba1c459f6fe14933b272b5ef230bcfb86fc1f0f1f07d5bbe627ee05"
+  "sha256_hash": "675e89c00ba1c459f6fe14933b272b5ef230bcfb86fc1f0f1f07d5bbe627ee05",
+  "revealed_probabilities": {
+    "home_win": 0.4552,
+    "away_win": 0.3098,
+    "draw": 0.235
+  },
+  "salt": "60cac5b1568974ce5ceb13921f80f1677da79166fd6668819c36e9201654100c",
+  "canonical_payload": {
+    "salt": "60cac5b1568974ce5ceb13921f80f1677da79166fd6668819c36e9201654100c",
+    "market": "1X2",
+    "match_id": "api_1557383",
+    "away_team": "Nottingham Forest",
+    "home_team": "Liverpool",
+    "kickoff_time": "2026-08-29T11:30:00+00:00",
+    "model_version": "ensemble_v1_veritas",
+    "probabilities": {
+      "draw": 0.235,
+      "away_win": 0.3098,
+      "home_win": 0.4552
+    }
+  },
+  "settlement": {
+    "actual_result": "DRAW",
+    "brier_score": 0.8884,
+    "closing_lines": {
+      "home": 1.47,
+      "draw": 4.9,
+      "away": 6.9
+    },
+    "clv_beat": true
+  }
 }
