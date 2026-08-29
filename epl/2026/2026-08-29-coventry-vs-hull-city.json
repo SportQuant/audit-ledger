@@ -1,10 +1,41 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "fixture": "Coventry vs Hull City",
   "match_id": "api_1557380",
   "league": "Premier League",
   "kickoff_utc": "2026-08-29T14:00:00+00:00",
-  "commit_utc": "2026-08-27T14:00:08.986611+00:00",
+  "commit_utc": "2026-08-27T14:00:10.716470+00:00",
+  "revealed_utc": "2026-08-29T16:03:40.115785+00:00",
   "model_version": "ensemble_v1_veritas",
-  "sha256_hash": "6763ad254cf22e62a1f93dee1648b482129d14dbfc4e9de1ee368b44cc7f3d5b"
+  "sha256_hash": "6763ad254cf22e62a1f93dee1648b482129d14dbfc4e9de1ee368b44cc7f3d5b",
+  "revealed_probabilities": {
+    "home_win": 0.3262,
+    "away_win": 0.3625,
+    "draw": 0.3114
+  },
+  "salt": "6035030082d52ba43ad41e2d26d18fcf927b915329d1acf71be5497a43a7b3ec",
+  "canonical_payload": {
+    "salt": "6035030082d52ba43ad41e2d26d18fcf927b915329d1acf71be5497a43a7b3ec",
+    "market": "1X2",
+    "match_id": "api_1557380",
+    "away_team": "Hull City",
+    "home_team": "Coventry",
+    "kickoff_time": "2026-08-29T14:00:00+00:00",
+    "model_version": "ensemble_v1_veritas",
+    "probabilities": {
+      "draw": 0.3114,
+      "away_win": 0.3625,
+      "home_win": 0.3262
+    }
+  },
+  "settlement": {
+    "actual_result": "AWAY",
+    "brier_score": 0.6098,
+    "closing_lines": {
+      "home": 1.8,
+      "draw": 3.76,
+      "away": 4.75
+    },
+    "clv_beat": true
+  }
 }
