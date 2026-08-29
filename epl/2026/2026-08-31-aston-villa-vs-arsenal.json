@@ -1,0 +1,10 @@
+{
+  "status": "COMMITTED",
+  "fixture": "Aston Villa vs Arsenal",
+  "match_id": "api_1557377",
+  "league": "Premier League",
+  "kickoff_utc": "2026-08-31T19:00:00+00:00",
+  "commit_utc": "2026-08-29T19:00:17.490406+00:00",
+  "model_version": "ensemble_v1_veritas",
+  "sha256_hash": "50bbc8f2ac2723d5ba0ec9dff7cd4f985b5c6d2949ceb597f03fdfa873d9a6b9"
+}
