@@ -1,10 +1,41 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "fixture": "Tottenham vs Newcastle",
   "match_id": "api_1557386",
   "league": "Premier League",
   "kickoff_utc": "2026-08-29T16:30:00+00:00",
-  "commit_utc": "2026-08-27T16:35:13.630358+00:00",
+  "commit_utc": "2026-08-27T16:35:14.814549+00:00",
+  "revealed_utc": "2026-08-29T18:40:46.169635+00:00",
   "model_version": "ensemble_v1_veritas",
-  "sha256_hash": "4f5a065d31775ab0314f207cfdbf589c589d0c8ec69ed67eed1732daf95b65f4"
+  "sha256_hash": "4f5a065d31775ab0314f207cfdbf589c589d0c8ec69ed67eed1732daf95b65f4",
+  "revealed_probabilities": {
+    "home_win": 0.3075,
+    "away_win": 0.433,
+    "draw": 0.2596
+  },
+  "salt": "c3b003a54bdfb6422d4fd8d877fd13f161cf083fe65c716e5ba918090742f71a",
+  "canonical_payload": {
+    "salt": "c3b003a54bdfb6422d4fd8d877fd13f161cf083fe65c716e5ba918090742f71a",
+    "market": "1X2",
+    "match_id": "api_1557386",
+    "away_team": "Newcastle",
+    "home_team": "Tottenham",
+    "kickoff_time": "2026-08-29T16:30:00+00:00",
+    "model_version": "ensemble_v1_veritas",
+    "probabilities": {
+      "draw": 0.2596,
+      "away_win": 0.433,
+      "home_win": 0.3075
+    }
+  },
+  "settlement": {
+    "actual_result": "AWAY",
+    "brier_score": 0.4834,
+    "closing_lines": {
+      "home": 2.23,
+      "draw": 3.79,
+      "away": 3.16
+    },
+    "clv_beat": true
+  }
 }
