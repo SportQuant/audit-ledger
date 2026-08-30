@@ -1,10 +1,41 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "fixture": "Leeds vs Brentford",
   "match_id": "api_1557382",
   "league": "Premier League",
   "kickoff_utc": "2026-08-30T13:00:00+00:00",
-  "commit_utc": "2026-08-28T13:00:13.923562+00:00",
+  "commit_utc": "2026-08-28T13:00:15.218969+00:00",
+  "revealed_utc": "2026-08-30T15:02:24.492635+00:00",
   "model_version": "ensemble_v1_veritas",
-  "sha256_hash": "09ad477b7fef2bced7c2b65050cd8fb1df79457800b25db575e2530ff5202d93"
+  "sha256_hash": "09ad477b7fef2bced7c2b65050cd8fb1df79457800b25db575e2530ff5202d93",
+  "revealed_probabilities": {
+    "home_win": 0.3826,
+    "away_win": 0.3453,
+    "draw": 0.2721
+  },
+  "salt": "8ba360a8d80080eb9754b20bd1d538588df18fc2a394d8b710ab153d7e901beb",
+  "canonical_payload": {
+    "salt": "8ba360a8d80080eb9754b20bd1d538588df18fc2a394d8b710ab153d7e901beb",
+    "market": "1X2",
+    "match_id": "api_1557382",
+    "away_team": "Brentford",
+    "home_team": "Leeds",
+    "kickoff_time": "2026-08-30T13:00:00+00:00",
+    "model_version": "ensemble_v1_veritas",
+    "probabilities": {
+      "draw": 0.2721,
+      "away_win": 0.3453,
+      "home_win": 0.3826
+    }
+  },
+  "settlement": {
+    "actual_result": "DRAW",
+    "brier_score": 0.7955,
+    "closing_lines": {
+      "home": 2.93,
+      "draw": 3.48,
+      "away": 2.5
+    },
+    "clv_beat": false
+  }
 }
