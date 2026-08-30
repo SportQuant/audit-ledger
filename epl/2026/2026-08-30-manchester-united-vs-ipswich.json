@@ -1,10 +1,41 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "fixture": "Manchester United vs Ipswich",
   "match_id": "api_1557384",
   "league": "Premier League",
   "kickoff_utc": "2026-08-30T15:30:00+00:00",
-  "commit_utc": "2026-08-28T16:00:09.884208+00:00",
+  "commit_utc": "2026-08-28T16:00:11.175296+00:00",
+  "revealed_utc": "2026-08-30T17:31:38.145444+00:00",
   "model_version": "ensemble_v1_veritas",
-  "sha256_hash": "3a4fee2f36232c6fa4013476ffe3440519876ff7fb9162f014c5ce735fa9768b"
+  "sha256_hash": "3a4fee2f36232c6fa4013476ffe3440519876ff7fb9162f014c5ce735fa9768b",
+  "revealed_probabilities": {
+    "home_win": 0.5081,
+    "away_win": 0.2461,
+    "draw": 0.2457
+  },
+  "salt": "bf4d1743ab533b5e1efce3ce075d60793384d90398a935a56cabac7ad2f44d62",
+  "canonical_payload": {
+    "salt": "bf4d1743ab533b5e1efce3ce075d60793384d90398a935a56cabac7ad2f44d62",
+    "market": "1X2",
+    "match_id": "api_1557384",
+    "away_team": "Ipswich",
+    "home_team": "Manchester United",
+    "kickoff_time": "2026-08-30T15:30:00+00:00",
+    "model_version": "ensemble_v1_veritas",
+    "probabilities": {
+      "draw": 0.2457,
+      "away_win": 0.2461,
+      "home_win": 0.5081
+    }
+  },
+  "settlement": {
+    "actual_result": "HOME",
+    "brier_score": 0.3629,
+    "closing_lines": {
+      "home": 1.36,
+      "draw": 5.55,
+      "away": 8.65
+    },
+    "clv_beat": false
+  }
 }
