@@ -1,10 +1,41 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "fixture": "Chelsea vs Brighton",
   "match_id": "api_1557379",
   "league": "Premier League",
   "kickoff_utc": "2026-08-30T13:00:00+00:00",
-  "commit_utc": "2026-08-28T13:00:09.397846+00:00",
+  "commit_utc": "2026-08-28T13:00:10.883954+00:00",
+  "revealed_utc": "2026-08-30T15:02:22.000621+00:00",
   "model_version": "ensemble_v1_veritas",
-  "sha256_hash": "3d81ac31dcf2ea6b7aa108b66cdde7de266516d9f8332582e587171b735256db"
+  "sha256_hash": "3d81ac31dcf2ea6b7aa108b66cdde7de266516d9f8332582e587171b735256db",
+  "revealed_probabilities": {
+    "home_win": 0.3867,
+    "away_win": 0.3561,
+    "draw": 0.2571
+  },
+  "salt": "9a886b29abd51de238fd247bf8d1f331c4e46fe96b5c8f83a7f1407aa01a7a74",
+  "canonical_payload": {
+    "salt": "9a886b29abd51de238fd247bf8d1f331c4e46fe96b5c8f83a7f1407aa01a7a74",
+    "market": "1X2",
+    "match_id": "api_1557379",
+    "away_team": "Brighton",
+    "home_team": "Chelsea",
+    "kickoff_time": "2026-08-30T13:00:00+00:00",
+    "model_version": "ensemble_v1_veritas",
+    "probabilities": {
+      "draw": 0.2571,
+      "away_win": 0.3561,
+      "home_win": 0.3867
+    }
+  },
+  "settlement": {
+    "actual_result": "HOME",
+    "brier_score": 0.569,
+    "closing_lines": {
+      "home": 1.9,
+      "draw": 3.89,
+      "away": 4.05
+    },
+    "clv_beat": false
+  }
 }
