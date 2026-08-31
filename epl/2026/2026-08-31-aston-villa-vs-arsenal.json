@@ -1,10 +1,41 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "fixture": "Aston Villa vs Arsenal",
   "match_id": "api_1557377",
   "league": "Premier League",
   "kickoff_utc": "2026-08-31T19:00:00+00:00",
-  "commit_utc": "2026-08-29T19:00:17.490406+00:00",
+  "commit_utc": "2026-08-29T19:00:18.734466+00:00",
+  "revealed_utc": "2026-08-31T21:02:22.430605+00:00",
   "model_version": "ensemble_v1_veritas",
-  "sha256_hash": "50bbc8f2ac2723d5ba0ec9dff7cd4f985b5c6d2949ceb597f03fdfa873d9a6b9"
+  "sha256_hash": "50bbc8f2ac2723d5ba0ec9dff7cd4f985b5c6d2949ceb597f03fdfa873d9a6b9",
+  "revealed_probabilities": {
+    "home_win": 0.1539,
+    "away_win": 0.6489,
+    "draw": 0.1972
+  },
+  "salt": "698a6e0019774e7146939224bdd8056b95bcdc05c0e5df62d5a17f2125d849a6",
+  "canonical_payload": {
+    "salt": "698a6e0019774e7146939224bdd8056b95bcdc05c0e5df62d5a17f2125d849a6",
+    "market": "1X2",
+    "match_id": "api_1557377",
+    "away_team": "Arsenal",
+    "home_team": "Aston Villa",
+    "kickoff_time": "2026-08-31T19:00:00+00:00",
+    "model_version": "ensemble_v1_veritas",
+    "probabilities": {
+      "draw": 0.1972,
+      "away_win": 0.6489,
+      "home_win": 0.1539
+    }
+  },
+  "settlement": {
+    "actual_result": "AWAY",
+    "brier_score": 0.1858,
+    "closing_lines": {
+      "home": 6.45,
+      "draw": 4.45,
+      "away": 1.54
+    },
+    "clv_beat": false
+  }
 }
