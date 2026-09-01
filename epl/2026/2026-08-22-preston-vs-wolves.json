@@ -1,36 +1,36 @@
 {
   "status": "REVEALED",
   "fixture": "Preston vs Wolves",
-  "match_id": "api_1563100",
+  "match_id": "soccer_2026_pre_wol_8fc191f2",
   "league": "Premier League",
   "kickoff_utc": "2026-08-22T14:00:00+00:00",
   "commit_utc": "2026-08-22T14:00:00+00:00",
-  "revealed_utc": "2026-09-01T20:02:03.606703+00:00",
+  "revealed_utc": "2026-09-01T20:02:32.815050+00:00",
   "model_version": "ensemble_v1_veritas",
-  "sha256_hash": "2ab6f7084497e21607ad5aaa0f27e2b24428367b1d0449d59042f43f4beed8f9",
+  "sha256_hash": "2618f68304129fdaac9b45b019836ffe49b91bc0882cc10832b2b7f0405ec902",
   "revealed_probabilities": {
-    "home_win": 0.3129,
-    "away_win": 0.4403,
-    "draw": 0.2468
+    "home_win": 0.3246,
+    "away_win": 0.4304,
+    "draw": 0.2451
   },
-  "salt": "53aa6b9826a71a0d742ee9f364805e8c",
+  "salt": "d8c3467b30d2e108ac64eee0720762aa",
   "canonical_payload": {
-    "match_id": "api_1563100",
+    "match_id": "soccer_2026_pre_wol_8fc191f2",
     "home_team": "Preston",
     "away_team": "Wolves",
     "kickoff_time": "2026-08-22T14:00:00+00:00",
     "market": "1X2",
     "model_version": "ensemble_v1_veritas",
     "probabilities": {
-      "home_win": 0.3129,
-      "draw": 0.2468,
-      "away_win": 0.4403
+      "home_win": 0.3246,
+      "draw": 0.2451,
+      "away_win": 0.4304
     },
-    "salt": "53aa6b9826a71a0d742ee9f364805e8c"
+    "salt": "d8c3467b30d2e108ac64eee0720762aa"
   },
   "settlement": {
     "actual_result": "AWAY",
-    "brier_score": 0.4721,
+    "brier_score": 0.4899,
     "closing_lines": {
       "sportsbook": "Pinnacle",
       "home_win": 3.7,
