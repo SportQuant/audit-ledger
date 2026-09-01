@@ -1,0 +1,42 @@
+{
+  "status": "REVEALED",
+  "fixture": "West Brom vs Burnley",
+  "match_id": "api_1563104",
+  "league": "Premier League",
+  "kickoff_utc": "2026-08-23T11:00:00+00:00",
+  "commit_utc": "2026-08-23T11:00:00+00:00",
+  "revealed_utc": "2026-09-01T20:02:02.263203+00:00",
+  "model_version": "ensemble_v1_veritas",
+  "sha256_hash": "1476a2339551af4450be9b46ede3d4a9b6845bc5be451e937872ac29eb5a3002",
+  "revealed_probabilities": {
+    "home_win": 0.3385,
+    "away_win": 0.3775,
+    "draw": 0.284
+  },
+  "salt": "4cc6b727f4f94db077db986d5197affb",
+  "canonical_payload": {
+    "match_id": "api_1563104",
+    "home_team": "West Brom",
+    "away_team": "Burnley",
+    "kickoff_time": "2026-08-23T11:00:00+00:00",
+    "market": "1X2",
+    "model_version": "ensemble_v1_veritas",
+    "probabilities": {
+      "home_win": 0.3385,
+      "draw": 0.284,
+      "away_win": 0.3775
+    },
+    "salt": "4cc6b727f4f94db077db986d5197affb"
+  },
+  "settlement": {
+    "actual_result": "HOME",
+    "brier_score": 0.6607,
+    "closing_lines": {
+      "sportsbook": "Pinnacle",
+      "home_win": 2.54,
+      "draw": 3.3,
+      "away_win": 2.98
+    },
+    "clv_beat": false
+  }
+}
