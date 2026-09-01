@@ -1,36 +1,36 @@
 {
   "status": "REVEALED",
   "fixture": "Swansea vs Sheffield Utd",
-  "match_id": "api_1563103",
+  "match_id": "soccer_2026_swa_she_3b9feae3",
   "league": "Premier League",
   "kickoff_utc": "2026-08-22T14:00:00+00:00",
   "commit_utc": "2026-08-22T14:00:00+00:00",
-  "revealed_utc": "2026-09-01T20:01:59.664176+00:00",
+  "revealed_utc": "2026-09-01T20:02:43.134510+00:00",
   "model_version": "ensemble_v1_veritas",
-  "sha256_hash": "78ae0df7487d3b04acfda0a8a4ecc00cf0668c06620d860ebc745805675a6e33",
+  "sha256_hash": "80c4d2bc6fcb47b7f826aa37a6b7a9461e111699c1a47388439cba3ea5864c2d",
   "revealed_probabilities": {
-    "home_win": 0.4989,
-    "away_win": 0.2493,
-    "draw": 0.2519
+    "home_win": 0.5011,
+    "away_win": 0.2466,
+    "draw": 0.2523
   },
-  "salt": "d91fde8dd27fe8efd5bcbab6aeb1689e",
+  "salt": "0ca4d4da12c449ac4815cf6274db6875",
   "canonical_payload": {
-    "match_id": "api_1563103",
+    "match_id": "soccer_2026_swa_she_3b9feae3",
     "home_team": "Swansea",
     "away_team": "Sheffield Utd",
     "kickoff_time": "2026-08-22T14:00:00+00:00",
     "market": "1X2",
     "model_version": "ensemble_v1_veritas",
     "probabilities": {
-      "home_win": 0.4989,
-      "draw": 0.2519,
-      "away_win": 0.2493
+      "home_win": 0.5011,
+      "draw": 0.2523,
+      "away_win": 0.2466
     },
-    "salt": "d91fde8dd27fe8efd5bcbab6aeb1689e"
+    "salt": "0ca4d4da12c449ac4815cf6274db6875"
   },
   "settlement": {
     "actual_result": "DRAW",
-    "brier_score": 0.8707,
+    "brier_score": 0.871,
     "closing_lines": {
       "sportsbook": "Pinnacle",
       "home_win": 2.77,
