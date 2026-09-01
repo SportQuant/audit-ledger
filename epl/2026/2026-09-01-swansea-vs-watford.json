@@ -1,0 +1,42 @@
+{
+  "status": "REVEALED",
+  "fixture": "Swansea vs Watford",
+  "match_id": "api_1563125",
+  "league": "Premier League",
+  "kickoff_utc": "2026-09-01T18:45:00+00:00",
+  "commit_utc": "2026-09-01T18:45:00+00:00",
+  "revealed_utc": "2026-09-01T21:03:14.152024+00:00",
+  "model_version": "ensemble_v1_veritas",
+  "sha256_hash": "07719bf9562074fbcfd203efe2e455056de7dc435fdb1b8d98d951fac731fe0d",
+  "revealed_probabilities": {
+    "home_win": 0.722,
+    "away_win": 0.1221,
+    "draw": 0.1559
+  },
+  "salt": "a9dda0945ce55a8a0a5db11a8965ef60",
+  "canonical_payload": {
+    "match_id": "api_1563125",
+    "home_team": "Swansea",
+    "away_team": "Watford",
+    "kickoff_time": "2026-09-01T18:45:00+00:00",
+    "market": "1X2",
+    "model_version": "ensemble_v1_veritas",
+    "probabilities": {
+      "home_win": 0.722,
+      "draw": 0.1559,
+      "away_win": 0.1221
+    },
+    "salt": "a9dda0945ce55a8a0a5db11a8965ef60"
+  },
+  "settlement": {
+    "actual_result": "HOME",
+    "brier_score": 0.1165,
+    "closing_lines": {
+      "sportsbook": "Pinnacle",
+      "home_win": 1.85,
+      "draw": 3.72,
+      "away_win": 4.4
+    },
+    "clv_beat": false
+  }
+}
