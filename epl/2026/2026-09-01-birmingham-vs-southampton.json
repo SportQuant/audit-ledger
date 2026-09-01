@@ -1,0 +1,42 @@
+{
+  "status": "REVEALED",
+  "fixture": "Birmingham vs Southampton",
+  "match_id": "api_1563119",
+  "league": "Premier League",
+  "kickoff_utc": "2026-09-01T19:00:00+00:00",
+  "commit_utc": "2026-09-01T19:00:00+00:00",
+  "revealed_utc": "2026-09-01T21:03:09.126482+00:00",
+  "model_version": "ensemble_v1_veritas",
+  "sha256_hash": "1c38a1b7fa722f349879d140e8ed17fddfea67322f038516c3caeb1cc7f426d9",
+  "revealed_probabilities": {
+    "home_win": 0.3652,
+    "away_win": 0.3006,
+    "draw": 0.3342
+  },
+  "salt": "83992a4151616d9009d063eb80322894",
+  "canonical_payload": {
+    "match_id": "api_1563119",
+    "home_team": "Birmingham",
+    "away_team": "Southampton",
+    "kickoff_time": "2026-09-01T19:00:00+00:00",
+    "market": "1X2",
+    "model_version": "ensemble_v1_veritas",
+    "probabilities": {
+      "home_win": 0.3652,
+      "draw": 0.3342,
+      "away_win": 0.3006
+    },
+    "salt": "83992a4151616d9009d063eb80322894"
+  },
+  "settlement": {
+    "actual_result": "DRAW",
+    "brier_score": 0.667,
+    "closing_lines": {
+      "sportsbook": "Pinnacle",
+      "home_win": 2.75,
+      "draw": 3.57,
+      "away_win": 2.57
+    },
+    "clv_beat": true
+  }
+}
