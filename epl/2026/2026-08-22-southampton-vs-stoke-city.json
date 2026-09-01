@@ -1,0 +1,42 @@
+{
+  "status": "REVEALED",
+  "fixture": "Southampton vs Stoke City",
+  "match_id": "api_1563102",
+  "league": "Premier League",
+  "kickoff_utc": "2026-08-22T14:00:00+00:00",
+  "commit_utc": "2026-08-22T14:00:00+00:00",
+  "revealed_utc": "2026-09-01T20:02:11.467463+00:00",
+  "model_version": "ensemble_v1_veritas",
+  "sha256_hash": "9accbf98a06985e194ff4aa79cde75193e06f2195e6dd33ac524d9ccc7a47f58",
+  "revealed_probabilities": {
+    "home_win": 0.6288,
+    "away_win": 0.1548,
+    "draw": 0.2165
+  },
+  "salt": "8dfb6efc3807ddc62234dfd4936cb74b",
+  "canonical_payload": {
+    "match_id": "api_1563102",
+    "home_team": "Southampton",
+    "away_team": "Stoke City",
+    "kickoff_time": "2026-08-22T14:00:00+00:00",
+    "market": "1X2",
+    "model_version": "ensemble_v1_veritas",
+    "probabilities": {
+      "home_win": 0.6288,
+      "draw": 0.2165,
+      "away_win": 0.1548
+    },
+    "salt": "8dfb6efc3807ddc62234dfd4936cb74b"
+  },
+  "settlement": {
+    "actual_result": "HOME",
+    "brier_score": 0.2086,
+    "closing_lines": {
+      "sportsbook": "Pinnacle",
+      "home_win": 1.62,
+      "draw": 4.32,
+      "away_win": 5.28
+    },
+    "clv_beat": false
+  }
+}
