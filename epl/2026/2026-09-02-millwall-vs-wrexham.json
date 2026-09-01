@@ -1,0 +1,10 @@
+{
+  "status": "COMMITTED",
+  "fixture": "Millwall vs Wrexham",
+  "match_id": "api_1563128",
+  "league": "Premier League",
+  "kickoff_utc": "2026-09-02T18:45:00+00:00",
+  "commit_utc": "2026-09-01T20:00:16.303558+00:00",
+  "model_version": "ensemble_v1_veritas",
+  "sha256_hash": "2894be42126be46d2c13a073dee793414e081a10d746955e6befd6e62684c8ec"
+}
