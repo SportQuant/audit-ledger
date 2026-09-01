@@ -1,0 +1,42 @@
+{
+  "status": "REVEALED",
+  "fixture": "Birmingham vs Bristol City",
+  "match_id": "api_1563095",
+  "league": "Premier League",
+  "kickoff_utc": "2026-08-22T11:30:00+00:00",
+  "commit_utc": "2026-08-22T11:30:00+00:00",
+  "revealed_utc": "2026-09-01T20:02:13.993292+00:00",
+  "model_version": "ensemble_v1_veritas",
+  "sha256_hash": "0c0d2f8ec37ee87e5cb53740d65df10d8a2ecbeec236c5036c64f0528469cce5",
+  "revealed_probabilities": {
+    "home_win": 0.4532,
+    "away_win": 0.2416,
+    "draw": 0.3053
+  },
+  "salt": "0e3bd05bb53edd9ecd3e8399027c8c4f",
+  "canonical_payload": {
+    "match_id": "api_1563095",
+    "home_team": "Birmingham",
+    "away_team": "Bristol City",
+    "kickoff_time": "2026-08-22T11:30:00+00:00",
+    "market": "1X2",
+    "model_version": "ensemble_v1_veritas",
+    "probabilities": {
+      "home_win": 0.4532,
+      "draw": 0.3053,
+      "away_win": 0.2416
+    },
+    "salt": "0e3bd05bb53edd9ecd3e8399027c8c4f"
+  },
+  "settlement": {
+    "actual_result": "DRAW",
+    "brier_score": 0.7464,
+    "closing_lines": {
+      "sportsbook": "Pinnacle",
+      "home_win": 1.77,
+      "draw": 3.91,
+      "away_win": 4.65
+    },
+    "clv_beat": true
+  }
+}
