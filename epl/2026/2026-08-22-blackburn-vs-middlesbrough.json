@@ -1,0 +1,42 @@
+{
+  "status": "REVEALED",
+  "fixture": "Blackburn vs Middlesbrough",
+  "match_id": "api_1563096",
+  "league": "Premier League",
+  "kickoff_utc": "2026-08-22T14:00:00+00:00",
+  "commit_utc": "2026-08-22T14:00:00+00:00",
+  "revealed_utc": "2026-09-01T20:01:57.119333+00:00",
+  "model_version": "ensemble_v1_veritas",
+  "sha256_hash": "399a20a06832ed25f3238ff2353f4150caf795fae2561db7b67792d2a96d3546",
+  "revealed_probabilities": {
+    "home_win": 0.3952,
+    "away_win": 0.3324,
+    "draw": 0.2724
+  },
+  "salt": "95b218ecdca86fd800a4e26bdcc33007",
+  "canonical_payload": {
+    "match_id": "api_1563096",
+    "home_team": "Blackburn",
+    "away_team": "Middlesbrough",
+    "kickoff_time": "2026-08-22T14:00:00+00:00",
+    "market": "1X2",
+    "model_version": "ensemble_v1_veritas",
+    "probabilities": {
+      "home_win": 0.3952,
+      "draw": 0.2724,
+      "away_win": 0.3324
+    },
+    "salt": "95b218ecdca86fd800a4e26bdcc33007"
+  },
+  "settlement": {
+    "actual_result": "HOME",
+    "brier_score": 0.5505,
+    "closing_lines": {
+      "sportsbook": "Pinnacle",
+      "home_win": 3.78,
+      "draw": 3.72,
+      "away_win": 2.0
+    },
+    "clv_beat": false
+  }
+}
