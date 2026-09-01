@@ -1,0 +1,10 @@
+{
+  "status": "COMMITTED",
+  "fixture": "West Brom vs Charlton",
+  "match_id": "api_1563130",
+  "league": "Premier League",
+  "kickoff_utc": "2026-09-02T18:45:00+00:00",
+  "commit_utc": "2026-09-01T20:00:17.795544+00:00",
+  "model_version": "ensemble_v1_veritas",
+  "sha256_hash": "0f5642e8b064623a33eaab8b8ad4ac2c07139750cc3c3e5f53b9963eacfb1201"
+}
