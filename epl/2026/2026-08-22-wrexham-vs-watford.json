@@ -1,0 +1,42 @@
+{
+  "status": "REVEALED",
+  "fixture": "Wrexham vs Watford",
+  "match_id": "api_1563106",
+  "league": "Premier League",
+  "kickoff_utc": "2026-08-22T14:00:00+00:00",
+  "commit_utc": "2026-08-22T14:00:00+00:00",
+  "revealed_utc": "2026-09-01T20:02:01.038360+00:00",
+  "model_version": "ensemble_v1_veritas",
+  "sha256_hash": "d242e0c0965198160d8d5a464b4fc32e3169083f982746eeecf01f74283a795d",
+  "revealed_probabilities": {
+    "home_win": 0.4624,
+    "away_win": 0.2974,
+    "draw": 0.2402
+  },
+  "salt": "233076b10a9da4ac246a3748a9163274",
+  "canonical_payload": {
+    "match_id": "api_1563106",
+    "home_team": "Wrexham",
+    "away_team": "Watford",
+    "kickoff_time": "2026-08-22T14:00:00+00:00",
+    "market": "1X2",
+    "model_version": "ensemble_v1_veritas",
+    "probabilities": {
+      "home_win": 0.4624,
+      "draw": 0.2402,
+      "away_win": 0.2974
+    },
+    "salt": "233076b10a9da4ac246a3748a9163274"
+  },
+  "settlement": {
+    "actual_result": "DRAW",
+    "brier_score": 0.8796,
+    "closing_lines": {
+      "sportsbook": "Pinnacle",
+      "home_win": 1.88,
+      "draw": 3.8,
+      "away_win": 4.16
+    },
+    "clv_beat": false
+  }
+}
