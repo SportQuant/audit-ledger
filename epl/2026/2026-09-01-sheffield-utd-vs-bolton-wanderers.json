@@ -1,0 +1,42 @@
+{
+  "status": "REVEALED",
+  "fixture": "Sheffield Utd vs Bolton Wanderers",
+  "match_id": "api_1563123",
+  "league": "Premier League",
+  "kickoff_utc": "2026-09-01T18:45:00+00:00",
+  "commit_utc": "2026-09-01T18:45:00+00:00",
+  "revealed_utc": "2026-09-01T21:03:12.995078+00:00",
+  "model_version": "ensemble_v1_veritas",
+  "sha256_hash": "71f94a796a8f563d22c32ac0ed6879a2f896d19182a6363781f4aa53f8561aff",
+  "revealed_probabilities": {
+    "home_win": 0.2387,
+    "away_win": 0.5025,
+    "draw": 0.2589
+  },
+  "salt": "501ba9b8cd48fe8eed63729785f56ce3",
+  "canonical_payload": {
+    "match_id": "api_1563123",
+    "home_team": "Sheffield Utd",
+    "away_team": "Bolton Wanderers",
+    "kickoff_time": "2026-09-01T18:45:00+00:00",
+    "market": "1X2",
+    "model_version": "ensemble_v1_veritas",
+    "probabilities": {
+      "home_win": 0.2387,
+      "draw": 0.2589,
+      "away_win": 0.5025
+    },
+    "salt": "501ba9b8cd48fe8eed63729785f56ce3"
+  },
+  "settlement": {
+    "actual_result": "HOME",
+    "brier_score": 0.8991,
+    "closing_lines": {
+      "sportsbook": "Pinnacle",
+      "home_win": 1.59,
+      "draw": 4.2,
+      "away_win": 5.85
+    },
+    "clv_beat": false
+  }
+}
