@@ -1,0 +1,42 @@
+{
+  "status": "REVEALED",
+  "fixture": "Blackburn vs QPR",
+  "match_id": "api_1563107",
+  "league": "Premier League",
+  "kickoff_utc": "2026-08-29T14:00:00+00:00",
+  "commit_utc": "2026-08-29T14:00:00+00:00",
+  "revealed_utc": "2026-09-01T20:02:19.400837+00:00",
+  "model_version": "ensemble_v1_veritas",
+  "sha256_hash": "348f58299fda7fec3b64a939e4f6d2b999874d467697946cd2b448d969e98591",
+  "revealed_probabilities": {
+    "home_win": 0.502,
+    "away_win": 0.265,
+    "draw": 0.233
+  },
+  "salt": "e143fb83ce24469d62a1f99c085cdb8c",
+  "canonical_payload": {
+    "match_id": "api_1563107",
+    "home_team": "Blackburn",
+    "away_team": "QPR",
+    "kickoff_time": "2026-08-29T14:00:00+00:00",
+    "market": "1X2",
+    "model_version": "ensemble_v1_veritas",
+    "probabilities": {
+      "home_win": 0.502,
+      "draw": 0.233,
+      "away_win": 0.265
+    },
+    "salt": "e143fb83ce24469d62a1f99c085cdb8c"
+  },
+  "settlement": {
+    "actual_result": "AWAY",
+    "brier_score": 0.8465,
+    "closing_lines": {
+      "sportsbook": "Pinnacle",
+      "home_win": 2.79,
+      "draw": 3.43,
+      "away_win": 2.61
+    },
+    "clv_beat": false
+  }
+}
