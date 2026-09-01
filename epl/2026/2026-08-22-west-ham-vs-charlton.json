@@ -1,36 +1,36 @@
 {
   "status": "REVEALED",
   "fixture": "West Ham vs Charlton",
-  "match_id": "api_1563105",
+  "match_id": "soccer_2026_wes_cha_38ef86da",
   "league": "Premier League",
   "kickoff_utc": "2026-08-22T14:00:00+00:00",
   "commit_utc": "2026-08-22T14:00:00+00:00",
-  "revealed_utc": "2026-09-01T20:02:12.764149+00:00",
+  "revealed_utc": "2026-09-01T20:02:34.082157+00:00",
   "model_version": "ensemble_v1_veritas",
-  "sha256_hash": "34ef460bcce2a297d75304c18b623a2b5b99eb24a63a7f8a9a7930177fd1411c",
+  "sha256_hash": "3b7ce8ca30b8c65cff4dae6e3611d0412a5ab2e52b7de49ef8e5ffa7943a2d1c",
   "revealed_probabilities": {
-    "home_win": 0.6206,
-    "away_win": 0.1829,
-    "draw": 0.1966
+    "home_win": 0.6221,
+    "away_win": 0.1808,
+    "draw": 0.1971
   },
-  "salt": "c8e3603ebc0234fea99522601a02aa46",
+  "salt": "77d9bec1a4bf9aa22ac267a8d6e0141b",
   "canonical_payload": {
-    "match_id": "api_1563105",
+    "match_id": "soccer_2026_wes_cha_38ef86da",
     "home_team": "West Ham",
     "away_team": "Charlton",
     "kickoff_time": "2026-08-22T14:00:00+00:00",
     "market": "1X2",
     "model_version": "ensemble_v1_veritas",
     "probabilities": {
-      "home_win": 0.6206,
-      "draw": 0.1966,
-      "away_win": 0.1829
+      "home_win": 0.6221,
+      "draw": 0.1971,
+      "away_win": 0.1808
     },
-    "salt": "c8e3603ebc0234fea99522601a02aa46"
+    "salt": "77d9bec1a4bf9aa22ac267a8d6e0141b"
   },
   "settlement": {
     "actual_result": "AWAY",
-    "brier_score": 1.0914,
+    "brier_score": 1.0969,
     "closing_lines": {
       "sportsbook": "Pinnacle",
       "home_win": 1.44,
