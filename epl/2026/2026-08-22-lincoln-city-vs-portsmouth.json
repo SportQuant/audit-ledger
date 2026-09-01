@@ -1,0 +1,42 @@
+{
+  "status": "REVEALED",
+  "fixture": "Lincoln City vs Portsmouth",
+  "match_id": "api_1563098",
+  "league": "Premier League",
+  "kickoff_utc": "2026-08-22T11:30:00+00:00",
+  "commit_utc": "2026-08-22T11:30:00+00:00",
+  "revealed_utc": "2026-09-01T20:02:16.571814+00:00",
+  "model_version": "ensemble_v1_veritas",
+  "sha256_hash": "b56d730e1e8ad92e8a6682a6979b8fedb693726f0501323fa7cf2b874364d333",
+  "revealed_probabilities": {
+    "home_win": 0.4021,
+    "away_win": 0.3421,
+    "draw": 0.2558
+  },
+  "salt": "62930a36f8db2e67bffd4e136d450266",
+  "canonical_payload": {
+    "match_id": "api_1563098",
+    "home_team": "Lincoln City",
+    "away_team": "Portsmouth",
+    "kickoff_time": "2026-08-22T11:30:00+00:00",
+    "market": "1X2",
+    "model_version": "ensemble_v1_veritas",
+    "probabilities": {
+      "home_win": 0.4021,
+      "draw": 0.2558,
+      "away_win": 0.3421
+    },
+    "salt": "62930a36f8db2e67bffd4e136d450266"
+  },
+  "settlement": {
+    "actual_result": "AWAY",
+    "brier_score": 0.66,
+    "closing_lines": {
+      "sportsbook": "Pinnacle",
+      "home_win": 2.3,
+      "draw": 3.44,
+      "away_win": 3.25
+    },
+    "clv_beat": false
+  }
+}
