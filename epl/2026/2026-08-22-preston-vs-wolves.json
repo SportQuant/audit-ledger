@@ -1,0 +1,42 @@
+{
+  "status": "REVEALED",
+  "fixture": "Preston vs Wolves",
+  "match_id": "api_1563100",
+  "league": "Premier League",
+  "kickoff_utc": "2026-08-22T14:00:00+00:00",
+  "commit_utc": "2026-08-22T14:00:00+00:00",
+  "revealed_utc": "2026-09-01T20:02:03.606703+00:00",
+  "model_version": "ensemble_v1_veritas",
+  "sha256_hash": "2ab6f7084497e21607ad5aaa0f27e2b24428367b1d0449d59042f43f4beed8f9",
+  "revealed_probabilities": {
+    "home_win": 0.3129,
+    "away_win": 0.4403,
+    "draw": 0.2468
+  },
+  "salt": "53aa6b9826a71a0d742ee9f364805e8c",
+  "canonical_payload": {
+    "match_id": "api_1563100",
+    "home_team": "Preston",
+    "away_team": "Wolves",
+    "kickoff_time": "2026-08-22T14:00:00+00:00",
+    "market": "1X2",
+    "model_version": "ensemble_v1_veritas",
+    "probabilities": {
+      "home_win": 0.3129,
+      "draw": 0.2468,
+      "away_win": 0.4403
+    },
+    "salt": "53aa6b9826a71a0d742ee9f364805e8c"
+  },
+  "settlement": {
+    "actual_result": "AWAY",
+    "brier_score": 0.4721,
+    "closing_lines": {
+      "sportsbook": "Pinnacle",
+      "home_win": 3.7,
+      "draw": 3.53,
+      "away_win": 2.08
+    },
+    "clv_beat": false
+  }
+}
