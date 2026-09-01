@@ -1,0 +1,42 @@
+{
+  "status": "REVEALED",
+  "fixture": "Derby vs Swansea",
+  "match_id": "api_1563112",
+  "league": "Premier League",
+  "kickoff_utc": "2026-08-29T11:30:00+00:00",
+  "commit_utc": "2026-08-29T11:30:00+00:00",
+  "revealed_utc": "2026-09-01T20:02:08.984276+00:00",
+  "model_version": "ensemble_v1_veritas",
+  "sha256_hash": "32f3f460b60e462f307864292fc80c32fb74f64e37fc304e220f2966e0256b23",
+  "revealed_probabilities": {
+    "home_win": 0.2775,
+    "away_win": 0.4769,
+    "draw": 0.2456
+  },
+  "salt": "a2daa84ff68751ccf23981036670f498",
+  "canonical_payload": {
+    "match_id": "api_1563112",
+    "home_team": "Derby",
+    "away_team": "Swansea",
+    "kickoff_time": "2026-08-29T11:30:00+00:00",
+    "market": "1X2",
+    "model_version": "ensemble_v1_veritas",
+    "probabilities": {
+      "home_win": 0.2775,
+      "draw": 0.2456,
+      "away_win": 0.4769
+    },
+    "salt": "a2daa84ff68751ccf23981036670f498"
+  },
+  "settlement": {
+    "actual_result": "AWAY",
+    "brier_score": 0.411,
+    "closing_lines": {
+      "sportsbook": "Pinnacle",
+      "home_win": 2.37,
+      "draw": 3.35,
+      "away_win": 3.19
+    },
+    "clv_beat": false
+  }
+}
