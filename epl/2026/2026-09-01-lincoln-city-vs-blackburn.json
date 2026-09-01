@@ -1,0 +1,42 @@
+{
+  "status": "REVEALED",
+  "fixture": "Lincoln City vs Blackburn",
+  "match_id": "api_1563120",
+  "league": "Premier League",
+  "kickoff_utc": "2026-09-01T18:45:00+00:00",
+  "commit_utc": "2026-09-01T18:45:00+00:00",
+  "revealed_utc": "2026-09-01T21:03:10.503285+00:00",
+  "model_version": "ensemble_v1_veritas",
+  "sha256_hash": "b342f12e6a6d7adbc586fe1ade462b890574da541ddb732cc22062a3974ccf85",
+  "revealed_probabilities": {
+    "home_win": 0.3593,
+    "away_win": 0.3761,
+    "draw": 0.2645
+  },
+  "salt": "1a8f40e816ef31483c70d949af19b6ae",
+  "canonical_payload": {
+    "match_id": "api_1563120",
+    "home_team": "Lincoln City",
+    "away_team": "Blackburn",
+    "kickoff_time": "2026-09-01T18:45:00+00:00",
+    "market": "1X2",
+    "model_version": "ensemble_v1_veritas",
+    "probabilities": {
+      "home_win": 0.3593,
+      "draw": 0.2645,
+      "away_win": 0.3761
+    },
+    "salt": "1a8f40e816ef31483c70d949af19b6ae"
+  },
+  "settlement": {
+    "actual_result": "DRAW",
+    "brier_score": 0.8115,
+    "closing_lines": {
+      "sportsbook": "Pinnacle",
+      "home_win": 2.46,
+      "draw": 3.4,
+      "away_win": 3.0
+    },
+    "clv_beat": false
+  }
+}
