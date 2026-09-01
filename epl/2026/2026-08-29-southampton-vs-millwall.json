@@ -1,0 +1,42 @@
+{
+  "status": "REVEALED",
+  "fixture": "Southampton vs Millwall",
+  "match_id": "api_1563115",
+  "league": "Premier League",
+  "kickoff_utc": "2026-08-29T14:00:00+00:00",
+  "commit_utc": "2026-08-29T14:00:00+00:00",
+  "revealed_utc": "2026-09-01T20:02:25.290520+00:00",
+  "model_version": "ensemble_v1_veritas",
+  "sha256_hash": "a07938f2b57b0ff5ec4e21f91d46cefd8d300add48e865d0bbf08e961cf60bfe",
+  "revealed_probabilities": {
+    "home_win": 0.3412,
+    "away_win": 0.3126,
+    "draw": 0.3461
+  },
+  "salt": "d4954b579562308695da410340b1532b",
+  "canonical_payload": {
+    "match_id": "api_1563115",
+    "home_team": "Southampton",
+    "away_team": "Millwall",
+    "kickoff_time": "2026-08-29T14:00:00+00:00",
+    "market": "1X2",
+    "model_version": "ensemble_v1_veritas",
+    "probabilities": {
+      "home_win": 0.3412,
+      "draw": 0.3461,
+      "away_win": 0.3126
+    },
+    "salt": "d4954b579562308695da410340b1532b"
+  },
+  "settlement": {
+    "actual_result": "HOME",
+    "brier_score": 0.6515,
+    "closing_lines": {
+      "sportsbook": "Pinnacle",
+      "home_win": 1.98,
+      "draw": 3.85,
+      "away_win": 3.72
+    },
+    "clv_beat": false
+  }
+}
