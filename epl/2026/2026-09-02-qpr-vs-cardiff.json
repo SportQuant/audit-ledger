@@ -1,0 +1,10 @@
+{
+  "status": "COMMITTED",
+  "fixture": "QPR vs Cardiff",
+  "match_id": "api_1563129",
+  "league": "Premier League",
+  "kickoff_utc": "2026-09-02T18:45:00+00:00",
+  "commit_utc": "2026-09-01T20:00:19.333161+00:00",
+  "model_version": "ensemble_v1_veritas",
+  "sha256_hash": "0290f7941a99ae04c28d651404503f6646dbdf3260574452c56f99b78bfe6510"
+}
