@@ -1,0 +1,42 @@
+{
+  "status": "REVEALED",
+  "fixture": "Derby vs Cardiff",
+  "match_id": "api_1563097",
+  "league": "Premier League",
+  "kickoff_utc": "2026-08-22T14:00:00+00:00",
+  "commit_utc": "2026-08-22T14:00:00+00:00",
+  "revealed_utc": "2026-09-01T20:02:04.783648+00:00",
+  "model_version": "ensemble_v1_veritas",
+  "sha256_hash": "b7bff4f911882338950d5c3e28b6e288040c1953ce4eda1fd972762f96c48ac0",
+  "revealed_probabilities": {
+    "home_win": 0.4884,
+    "away_win": 0.267,
+    "draw": 0.2446
+  },
+  "salt": "e2b65baa49ebd55e98439d05e30ad346",
+  "canonical_payload": {
+    "match_id": "api_1563097",
+    "home_team": "Derby",
+    "away_team": "Cardiff",
+    "kickoff_time": "2026-08-22T14:00:00+00:00",
+    "market": "1X2",
+    "model_version": "ensemble_v1_veritas",
+    "probabilities": {
+      "home_win": 0.4884,
+      "draw": 0.2446,
+      "away_win": 0.267
+    },
+    "salt": "e2b65baa49ebd55e98439d05e30ad346"
+  },
+  "settlement": {
+    "actual_result": "DRAW",
+    "brier_score": 0.8805,
+    "closing_lines": {
+      "sportsbook": "Pinnacle",
+      "home_win": 2.2,
+      "draw": 3.44,
+      "away_win": 3.47
+    },
+    "clv_beat": false
+  }
+}
