@@ -1,0 +1,42 @@
+{
+  "status": "REVEALED",
+  "fixture": "Preston vs Bristol City",
+  "match_id": "api_1563122",
+  "league": "Premier League",
+  "kickoff_utc": "2026-09-01T18:45:00+00:00",
+  "commit_utc": "2026-09-01T18:45:00+00:00",
+  "revealed_utc": "2026-09-01T21:03:07.971075+00:00",
+  "model_version": "ensemble_v1_veritas",
+  "sha256_hash": "c9e351af7b803d5eeeb137e8bccf387b40b6f2bd07d148e199e7b9f307412f6a",
+  "revealed_probabilities": {
+    "home_win": 0.3809,
+    "away_win": 0.3574,
+    "draw": 0.2617
+  },
+  "salt": "602d59f9dd7b577e9f923f6dc84dfbce",
+  "canonical_payload": {
+    "match_id": "api_1563122",
+    "home_team": "Preston",
+    "away_team": "Bristol City",
+    "kickoff_time": "2026-09-01T18:45:00+00:00",
+    "market": "1X2",
+    "model_version": "ensemble_v1_veritas",
+    "probabilities": {
+      "home_win": 0.3809,
+      "draw": 0.2617,
+      "away_win": 0.3574
+    },
+    "salt": "602d59f9dd7b577e9f923f6dc84dfbce"
+  },
+  "settlement": {
+    "actual_result": "AWAY",
+    "brier_score": 0.6265,
+    "closing_lines": {
+      "sportsbook": "Pinnacle",
+      "home_win": 3.03,
+      "draw": 3.49,
+      "away_win": 2.4
+    },
+    "clv_beat": false
+  }
+}
