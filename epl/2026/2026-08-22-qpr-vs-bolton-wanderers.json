@@ -1,0 +1,42 @@
+{
+  "status": "REVEALED",
+  "fixture": "QPR vs Bolton Wanderers",
+  "match_id": "api_1563101",
+  "league": "Premier League",
+  "kickoff_utc": "2026-08-22T14:00:00+00:00",
+  "commit_utc": "2026-08-22T14:00:00+00:00",
+  "revealed_utc": "2026-09-01T20:01:58.370601+00:00",
+  "model_version": "ensemble_v1_veritas",
+  "sha256_hash": "e92fc86f5abdc253718d19fd7ce9ba254d810fa1e3ae74cdc6cced4cbd19f654",
+  "revealed_probabilities": {
+    "home_win": 0.1849,
+    "away_win": 0.6161,
+    "draw": 0.199
+  },
+  "salt": "c968b45929262c55c6d8483495a091f1",
+  "canonical_payload": {
+    "match_id": "api_1563101",
+    "home_team": "QPR",
+    "away_team": "Bolton Wanderers",
+    "kickoff_time": "2026-08-22T14:00:00+00:00",
+    "market": "1X2",
+    "model_version": "ensemble_v1_veritas",
+    "probabilities": {
+      "home_win": 0.1849,
+      "draw": 0.199,
+      "away_win": 0.6161
+    },
+    "salt": "c968b45929262c55c6d8483495a091f1"
+  },
+  "settlement": {
+    "actual_result": "DRAW",
+    "brier_score": 1.0554,
+    "closing_lines": {
+      "sportsbook": "Pinnacle",
+      "home_win": 1.91,
+      "draw": 3.82,
+      "away_win": 4.0
+    },
+    "clv_beat": false
+  }
+}
