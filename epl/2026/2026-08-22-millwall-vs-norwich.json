@@ -1,0 +1,42 @@
+{
+  "status": "REVEALED",
+  "fixture": "Millwall vs Norwich",
+  "match_id": "api_1563099",
+  "league": "Premier League",
+  "kickoff_utc": "2026-08-22T11:30:00+00:00",
+  "commit_utc": "2026-08-22T11:30:00+00:00",
+  "revealed_utc": "2026-09-01T20:02:15.343079+00:00",
+  "model_version": "ensemble_v1_veritas",
+  "sha256_hash": "6c8af365931ac8e0435e787b7ed83877db06ef1b626be4fbad8d0897353b6f69",
+  "revealed_probabilities": {
+    "home_win": 0.4401,
+    "away_win": 0.2466,
+    "draw": 0.3132
+  },
+  "salt": "356de0e31e2cb5128164c3f048da7145",
+  "canonical_payload": {
+    "match_id": "api_1563099",
+    "home_team": "Millwall",
+    "away_team": "Norwich",
+    "kickoff_time": "2026-08-22T11:30:00+00:00",
+    "market": "1X2",
+    "model_version": "ensemble_v1_veritas",
+    "probabilities": {
+      "home_win": 0.4401,
+      "draw": 0.3132,
+      "away_win": 0.2466
+    },
+    "salt": "356de0e31e2cb5128164c3f048da7145"
+  },
+  "settlement": {
+    "actual_result": "HOME",
+    "brier_score": 0.4724,
+    "closing_lines": {
+      "sportsbook": "Pinnacle",
+      "home_win": 2.55,
+      "draw": 3.46,
+      "away_win": 2.85
+    },
+    "clv_beat": false
+  }
+}
