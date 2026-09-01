@@ -1,0 +1,42 @@
+{
+  "status": "REVEALED",
+  "fixture": "Charlton vs Preston",
+  "match_id": "api_1563111",
+  "league": "Premier League",
+  "kickoff_utc": "2026-08-29T14:00:00+00:00",
+  "commit_utc": "2026-08-29T14:00:00+00:00",
+  "revealed_utc": "2026-09-01T20:02:23.469170+00:00",
+  "model_version": "ensemble_v1_veritas",
+  "sha256_hash": "384fa0edaec2c1ecb33db962377e24c1b46c824d7ef963af459fdd72445db984",
+  "revealed_probabilities": {
+    "home_win": 0.4621,
+    "away_win": 0.3042,
+    "draw": 0.2337
+  },
+  "salt": "c7526c04c32cb62b1c27b89bab201253",
+  "canonical_payload": {
+    "match_id": "api_1563111",
+    "home_team": "Charlton",
+    "away_team": "Preston",
+    "kickoff_time": "2026-08-29T14:00:00+00:00",
+    "market": "1X2",
+    "model_version": "ensemble_v1_veritas",
+    "probabilities": {
+      "home_win": 0.4621,
+      "draw": 0.2337,
+      "away_win": 0.3042
+    },
+    "salt": "c7526c04c32cb62b1c27b89bab201253"
+  },
+  "settlement": {
+    "actual_result": "HOME",
+    "brier_score": 0.4365,
+    "closing_lines": {
+      "sportsbook": "Pinnacle",
+      "home_win": 2.12,
+      "draw": 3.46,
+      "away_win": 3.66
+    },
+    "clv_beat": false
+  }
+}
