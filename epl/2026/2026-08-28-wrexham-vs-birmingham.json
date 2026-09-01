@@ -1,0 +1,42 @@
+{
+  "status": "REVEALED",
+  "fixture": "Wrexham vs Birmingham",
+  "match_id": "api_1563118",
+  "league": "Premier League",
+  "kickoff_utc": "2026-08-28T19:00:00+00:00",
+  "commit_utc": "2026-08-28T19:00:00+00:00",
+  "revealed_utc": "2026-09-01T20:02:06.052391+00:00",
+  "model_version": "ensemble_v1_veritas",
+  "sha256_hash": "086165adfc51a1d7f971a62dcf94f21b9b62f6170431c47ad16d99cf3f55d68b",
+  "revealed_probabilities": {
+    "home_win": 0.2937,
+    "away_win": 0.4094,
+    "draw": 0.297
+  },
+  "salt": "7ae6e0dd4db2170b51dd1fe69b9b6297",
+  "canonical_payload": {
+    "match_id": "api_1563118",
+    "home_team": "Wrexham",
+    "away_team": "Birmingham",
+    "kickoff_time": "2026-08-28T19:00:00+00:00",
+    "market": "1X2",
+    "model_version": "ensemble_v1_veritas",
+    "probabilities": {
+      "home_win": 0.2937,
+      "draw": 0.297,
+      "away_win": 0.4094
+    },
+    "salt": "7ae6e0dd4db2170b51dd1fe69b9b6297"
+  },
+  "settlement": {
+    "actual_result": "AWAY",
+    "brier_score": 0.5233,
+    "closing_lines": {
+      "sportsbook": "Pinnacle",
+      "home_win": 2.22,
+      "draw": 3.29,
+      "away_win": 3.58
+    },
+    "clv_beat": false
+  }
+}
