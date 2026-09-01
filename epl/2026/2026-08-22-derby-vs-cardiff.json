@@ -1,36 +1,36 @@
 {
   "status": "REVEALED",
   "fixture": "Derby vs Cardiff",
-  "match_id": "api_1563097",
+  "match_id": "soccer_2026_der_car_349ce411",
   "league": "Premier League",
   "kickoff_utc": "2026-08-22T14:00:00+00:00",
   "commit_utc": "2026-08-22T14:00:00+00:00",
-  "revealed_utc": "2026-09-01T20:02:04.783648+00:00",
+  "revealed_utc": "2026-09-01T20:02:45.602773+00:00",
   "model_version": "ensemble_v1_veritas",
-  "sha256_hash": "b7bff4f911882338950d5c3e28b6e288040c1953ce4eda1fd972762f96c48ac0",
+  "sha256_hash": "deab0046f86337c954a50205d2ab54974be1d999c7e3f04278e554ea91c3362e",
   "revealed_probabilities": {
-    "home_win": 0.4884,
-    "away_win": 0.267,
-    "draw": 0.2446
+    "home_win": 0.494,
+    "away_win": 0.263,
+    "draw": 0.243
   },
-  "salt": "e2b65baa49ebd55e98439d05e30ad346",
+  "salt": "68039cf52f5728791f350590f49c991a",
   "canonical_payload": {
-    "match_id": "api_1563097",
+    "match_id": "soccer_2026_der_car_349ce411",
     "home_team": "Derby",
     "away_team": "Cardiff",
     "kickoff_time": "2026-08-22T14:00:00+00:00",
     "market": "1X2",
     "model_version": "ensemble_v1_veritas",
     "probabilities": {
-      "home_win": 0.4884,
-      "draw": 0.2446,
-      "away_win": 0.267
+      "home_win": 0.494,
+      "draw": 0.243,
+      "away_win": 0.263
     },
-    "salt": "e2b65baa49ebd55e98439d05e30ad346"
+    "salt": "68039cf52f5728791f350590f49c991a"
   },
   "settlement": {
     "actual_result": "DRAW",
-    "brier_score": 0.8805,
+    "brier_score": 0.8863,
     "closing_lines": {
       "sportsbook": "Pinnacle",
       "home_win": 2.2,
