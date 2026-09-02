@@ -1,0 +1,41 @@
+{
+  "status": "REVEALED",
+  "fixture": "Ipswich vs Sunderland",
+  "match_id": "soccer_2026_ips_sun_f981fbed",
+  "league": "Premier League",
+  "kickoff_utc": "2026-08-22T14:00:00+00:00",
+  "commit_utc": "2026-08-20T14:00:26.084209+00:00",
+  "revealed_utc": "2026-08-29T00:25:57.272945+00:00",
+  "model_version": "ensemble_v1_veritas",
+  "sha256_hash": "d841a445a94a88cbf6eb0507d51aca72ccfd552b9689ccd0a5aeb24d34e9b14d",
+  "revealed_probabilities": {
+    "home_win": 0.4709,
+    "away_win": 0.2724,
+    "draw": 0.2567
+  },
+  "salt": "6fd66d00c8e8ad6a845a4a7116099be7",
+  "canonical_payload": {
+    "salt": "6fd66d00c8e8ad6a845a4a7116099be7",
+    "market": "1X2",
+    "match_id": "soccer_2026_ips_sun_f981fbed",
+    "away_team": "Sunderland",
+    "home_team": "Ipswich",
+    "kickoff_time": "2026-08-22T14:00:00+00:00",
+    "model_version": "ensemble_v1_veritas",
+    "probabilities": {
+      "draw": 0.2567,
+      "away_win": 0.2724,
+      "home_win": 0.4709
+    }
+  },
+  "settlement": {
+    "actual_result": "HOME",
+    "brier_score": 0.42,
+    "closing_lines": {
+      "home": 2.87,
+      "draw": 3.29,
+      "away": 2.66
+    },
+    "clv_beat": true
+  }
+}
