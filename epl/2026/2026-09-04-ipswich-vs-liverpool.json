@@ -1,0 +1,10 @@
+{
+  "status": "COMMITTED",
+  "fixture": "Ipswich vs Liverpool",
+  "match_id": "api_1557393",
+  "league": "Premier League",
+  "kickoff_utc": "2026-09-04T19:00:00+00:00",
+  "commit_utc": "2026-09-02T19:00:31.554514+00:00",
+  "model_version": "ensemble_v1_veritas",
+  "sha256_hash": "73f8244d6d3acac5fb3459d2f0081fa8a89b3186410400124b0f391965b982a3"
+}
