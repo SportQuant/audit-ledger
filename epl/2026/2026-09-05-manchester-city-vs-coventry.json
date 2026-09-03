@@ -1,0 +1,10 @@
+{
+  "status": "COMMITTED",
+  "fixture": "Manchester City vs Coventry",
+  "match_id": "api_1557394",
+  "league": "Premier League",
+  "kickoff_utc": "2026-09-05T14:00:00+00:00",
+  "commit_utc": "2026-09-03T14:00:15.136066+00:00",
+  "model_version": "ensemble_v1_veritas",
+  "sha256_hash": "1a2032aa83e7e94984e7a7f28b922b9f289ab6f3a621506962f664b9573e9fed"
+}
