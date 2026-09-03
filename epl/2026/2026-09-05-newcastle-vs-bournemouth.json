@@ -1,0 +1,10 @@
+{
+  "status": "COMMITTED",
+  "fixture": "Newcastle vs Bournemouth",
+  "match_id": "api_1557395",
+  "league": "Premier League",
+  "kickoff_utc": "2026-09-05T11:30:00+00:00",
+  "commit_utc": "2026-09-03T11:32:41.827550+00:00",
+  "model_version": "ensemble_v1_veritas",
+  "sha256_hash": "1372485fcd36a901f5bfcc2e789077574c94249c6ad5e6d9298d5b182ff4ed28"
+}
