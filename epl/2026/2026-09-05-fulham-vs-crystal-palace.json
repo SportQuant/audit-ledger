@@ -1,0 +1,10 @@
+{
+  "status": "COMMITTED",
+  "fixture": "Fulham vs Crystal Palace",
+  "match_id": "api_1557391",
+  "league": "Premier League",
+  "kickoff_utc": "2026-09-05T14:00:00+00:00",
+  "commit_utc": "2026-09-03T14:00:26.425558+00:00",
+  "model_version": "ensemble_v1_veritas",
+  "sha256_hash": "eae94e4e25b6ff0d1cdec19d897e105e2126216e500e33b8b778418e52550a0b"
+}
