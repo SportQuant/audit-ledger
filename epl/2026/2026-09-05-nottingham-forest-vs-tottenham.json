@@ -1,0 +1,10 @@
+{
+  "status": "COMMITTED",
+  "fixture": "Nottingham Forest vs Tottenham",
+  "match_id": "api_1557396",
+  "league": "Premier League",
+  "kickoff_utc": "2026-09-05T14:00:00+00:00",
+  "commit_utc": "2026-09-03T14:00:22.167765+00:00",
+  "model_version": "ensemble_v1_veritas",
+  "sha256_hash": "239c49fb5a6398cfd6b8e70f245572f180b8c85d0d57330a7d877bc99878cab0"
+}
