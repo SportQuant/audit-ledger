@@ -1,10 +1,48 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "fixture": "Ipswich vs Liverpool",
   "match_id": "api_1557393",
   "league": "Premier League",
   "kickoff_utc": "2026-09-04T19:00:00+00:00",
   "commit_utc": "2026-09-02T19:00:31.554514+00:00",
+  "revealed_utc": "2026-09-04T21:03:00.271471+00:00",
   "model_version": "ensemble_v1_veritas",
-  "sha256_hash": "73f8244d6d3acac5fb3459d2f0081fa8a89b3186410400124b0f391965b982a3"
+  "sha256_hash": "73f8244d6d3acac5fb3459d2f0081fa8a89b3186410400124b0f391965b982a3",
+  "revealed_probabilities": {
+    "home_win": 0.1993,
+    "away_win": 0.5765,
+    "draw": 0.2242
+  },
+  "salt": "5ccff83d329dc6884a23fe2b8acac284471f078930d49594039aba33111caf6a",
+  "canonical_payload": {
+    "salt": "5ccff83d329dc6884a23fe2b8acac284471f078930d49594039aba33111caf6a",
+    "market": "1X2",
+    "match_id": "api_1557393",
+    "away_team": "Liverpool",
+    "home_team": "Ipswich",
+    "kickoff_time": "2026-09-04T19:00:00+00:00",
+    "model_version": "ensemble_v1_veritas",
+    "probabilities": {
+      "draw": 0.2242,
+      "away_win": 0.5765,
+      "home_win": 0.1993
+    },
+    "reference_odds": {
+      "away": 1.55,
+      "draw": 4.83,
+      "home": 5.35,
+      "provider": "pinnacle"
+    }
+  },
+  "settlement": {
+    "actual_result": "AWAY",
+    "brier_score": 0.2693,
+    "closing_lines": {
+      "sportsbook": "Pinnacle",
+      "home_win": 5.65,
+      "draw": 4.65,
+      "away_win": 1.57
+    },
+    "clv_beat": false
+  }
 }
