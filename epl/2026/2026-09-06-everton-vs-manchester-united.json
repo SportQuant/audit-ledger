@@ -1,0 +1,10 @@
+{
+  "status": "COMMITTED",
+  "fixture": "Everton vs Manchester United",
+  "match_id": "api_1557390",
+  "league": "Premier League",
+  "kickoff_utc": "2026-09-06T13:00:00+00:00",
+  "commit_utc": "2026-09-04T13:00:16.491213+00:00",
+  "model_version": "ensemble_v1_veritas",
+  "sha256_hash": "4de75eb8c908c3ca70129adc1ad5920ba8322c82159f2756d9753949b449190c"
+}
