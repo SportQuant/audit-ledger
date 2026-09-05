@@ -1,10 +1,48 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "fixture": "Newcastle vs Bournemouth",
   "match_id": "api_1557395",
   "league": "Premier League",
   "kickoff_utc": "2026-09-05T11:30:00+00:00",
   "commit_utc": "2026-09-03T11:32:41.827550+00:00",
+  "revealed_utc": "2026-09-05T13:31:12.896581+00:00",
   "model_version": "ensemble_v1_veritas",
-  "sha256_hash": "1372485fcd36a901f5bfcc2e789077574c94249c6ad5e6d9298d5b182ff4ed28"
+  "sha256_hash": "1372485fcd36a901f5bfcc2e789077574c94249c6ad5e6d9298d5b182ff4ed28",
+  "revealed_probabilities": {
+    "home_win": 0.4052,
+    "away_win": 0.3134,
+    "draw": 0.2814
+  },
+  "salt": "87cf7346cc917a30a199fe93db13b9029cf1cce8a5a15ec4c142254583a7cc45",
+  "canonical_payload": {
+    "salt": "87cf7346cc917a30a199fe93db13b9029cf1cce8a5a15ec4c142254583a7cc45",
+    "market": "1X2",
+    "match_id": "api_1557395",
+    "away_team": "Bournemouth",
+    "home_team": "Newcastle",
+    "kickoff_time": "2026-09-05T11:30:00+00:00",
+    "model_version": "ensemble_v1_veritas",
+    "probabilities": {
+      "draw": 0.2814,
+      "away_win": 0.3134,
+      "home_win": 0.4052
+    },
+    "reference_odds": {
+      "away": 3.31,
+      "draw": 3.76,
+      "home": 2.15,
+      "provider": "pinnacle"
+    }
+  },
+  "settlement": {
+    "actual_result": "DRAW",
+    "brier_score": 0.7788,
+    "closing_lines": {
+      "sportsbook": "Pinnacle",
+      "home_win": 2.16,
+      "draw": 3.69,
+      "away_win": 3.4
+    },
+    "clv_beat": true
+  }
 }
