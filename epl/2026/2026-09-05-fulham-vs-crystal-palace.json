@@ -1,10 +1,48 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "fixture": "Fulham vs Crystal Palace",
   "match_id": "api_1557391",
   "league": "Premier League",
   "kickoff_utc": "2026-09-05T14:00:00+00:00",
   "commit_utc": "2026-09-03T14:00:26.425558+00:00",
+  "revealed_utc": "2026-09-05T16:03:24.185725+00:00",
   "model_version": "ensemble_v1_veritas",
-  "sha256_hash": "eae94e4e25b6ff0d1cdec19d897e105e2126216e500e33b8b778418e52550a0b"
+  "sha256_hash": "eae94e4e25b6ff0d1cdec19d897e105e2126216e500e33b8b778418e52550a0b",
+  "revealed_probabilities": {
+    "home_win": 0.5465,
+    "away_win": 0.2094,
+    "draw": 0.2442
+  },
+  "salt": "e70bcba2a70657cf9f7aaf57c675252aabe00834714c01191daee5a17c5391a3",
+  "canonical_payload": {
+    "salt": "e70bcba2a70657cf9f7aaf57c675252aabe00834714c01191daee5a17c5391a3",
+    "market": "1X2",
+    "match_id": "api_1557391",
+    "away_team": "Crystal Palace",
+    "home_team": "Fulham",
+    "kickoff_time": "2026-09-05T14:00:00+00:00",
+    "model_version": "ensemble_v1_veritas",
+    "probabilities": {
+      "draw": 0.2442,
+      "away_win": 0.2094,
+      "home_win": 0.5465
+    },
+    "reference_odds": {
+      "away": 3.13,
+      "draw": 3.46,
+      "home": 2.35,
+      "provider": "pinnacle"
+    }
+  },
+  "settlement": {
+    "actual_result": "AWAY",
+    "brier_score": 0.9833,
+    "closing_lines": {
+      "sportsbook": "Pinnacle",
+      "home_win": 2.2,
+      "draw": 3.43,
+      "away_win": 3.55
+    },
+    "clv_beat": false
+  }
 }
