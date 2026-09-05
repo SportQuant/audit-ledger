@@ -1,10 +1,48 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "fixture": "Brentford vs Sunderland",
   "match_id": "api_1557388",
   "league": "Premier League",
   "kickoff_utc": "2026-09-05T14:00:00+00:00",
   "commit_utc": "2026-09-03T14:00:19.420647+00:00",
+  "revealed_utc": "2026-09-05T16:31:57.352289+00:00",
   "model_version": "ensemble_v1_veritas",
-  "sha256_hash": "7f63b751ff7b5117e53a5948fb9143f1108547bae979b57ab5e9110dd5233bda"
+  "sha256_hash": "7f63b751ff7b5117e53a5948fb9143f1108547bae979b57ab5e9110dd5233bda",
+  "revealed_probabilities": {
+    "home_win": 0.3704,
+    "away_win": 0.3526,
+    "draw": 0.277
+  },
+  "salt": "847510696c117c3dc9f772d2e1810fa165957feae1bcca6660293e440c535d55",
+  "canonical_payload": {
+    "salt": "847510696c117c3dc9f772d2e1810fa165957feae1bcca6660293e440c535d55",
+    "market": "1X2",
+    "match_id": "api_1557388",
+    "away_team": "Sunderland",
+    "home_team": "Brentford",
+    "kickoff_time": "2026-09-05T14:00:00+00:00",
+    "model_version": "ensemble_v1_veritas",
+    "probabilities": {
+      "draw": 0.277,
+      "away_win": 0.3526,
+      "home_win": 0.3704
+    },
+    "reference_odds": {
+      "away": 5.44,
+      "draw": 3.97,
+      "home": 1.66,
+      "provider": "pinnacle"
+    }
+  },
+  "settlement": {
+    "actual_result": "DRAW",
+    "brier_score": 0.7843,
+    "closing_lines": {
+      "sportsbook": "Pinnacle",
+      "home_win": 1.68,
+      "draw": 3.98,
+      "away_win": 5.37
+    },
+    "clv_beat": true
+  }
 }
