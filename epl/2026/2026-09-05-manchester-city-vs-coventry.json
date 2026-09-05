@@ -1,10 +1,48 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "fixture": "Manchester City vs Coventry",
   "match_id": "api_1557394",
   "league": "Premier League",
   "kickoff_utc": "2026-09-05T14:00:00+00:00",
   "commit_utc": "2026-09-03T14:00:15.136066+00:00",
+  "revealed_utc": "2026-09-05T16:03:21.445112+00:00",
   "model_version": "ensemble_v1_veritas",
-  "sha256_hash": "1a2032aa83e7e94984e7a7f28b922b9f289ab6f3a621506962f664b9573e9fed"
+  "sha256_hash": "1a2032aa83e7e94984e7a7f28b922b9f289ab6f3a621506962f664b9573e9fed",
+  "revealed_probabilities": {
+    "home_win": 0.7918,
+    "away_win": 0.0724,
+    "draw": 0.1358
+  },
+  "salt": "432152b7676694aeebeec2e9944429ed17f1958051e12a102ed0425017d9ad9b",
+  "canonical_payload": {
+    "salt": "432152b7676694aeebeec2e9944429ed17f1958051e12a102ed0425017d9ad9b",
+    "market": "1X2",
+    "match_id": "api_1557394",
+    "away_team": "Coventry",
+    "home_team": "Manchester City",
+    "kickoff_time": "2026-09-05T14:00:00+00:00",
+    "model_version": "ensemble_v1_veritas",
+    "probabilities": {
+      "draw": 0.1358,
+      "away_win": 0.0724,
+      "home_win": 0.7918
+    },
+    "reference_odds": {
+      "away": 13.88,
+      "draw": 8.41,
+      "home": 1.18,
+      "provider": "pinnacle"
+    }
+  },
+  "settlement": {
+    "actual_result": "HOME",
+    "brier_score": 0.067,
+    "closing_lines": {
+      "sportsbook": "Pinnacle",
+      "home_win": 1.2,
+      "draw": 8.0,
+      "away_win": 15.0
+    },
+    "clv_beat": false
+  }
 }
