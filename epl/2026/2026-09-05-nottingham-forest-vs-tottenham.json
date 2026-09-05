@@ -1,10 +1,48 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "fixture": "Nottingham Forest vs Tottenham",
   "match_id": "api_1557396",
   "league": "Premier League",
   "kickoff_utc": "2026-09-05T14:00:00+00:00",
   "commit_utc": "2026-09-03T14:00:22.167765+00:00",
+  "revealed_utc": "2026-09-05T16:03:22.787282+00:00",
   "model_version": "ensemble_v1_veritas",
-  "sha256_hash": "239c49fb5a6398cfd6b8e70f245572f180b8c85d0d57330a7d877bc99878cab0"
+  "sha256_hash": "239c49fb5a6398cfd6b8e70f245572f180b8c85d0d57330a7d877bc99878cab0",
+  "revealed_probabilities": {
+    "home_win": 0.5193,
+    "away_win": 0.2107,
+    "draw": 0.27
+  },
+  "salt": "61b92078cbc0435fa2abb6192004d81a46a359bf69f3dfa8f4172475fc332776",
+  "canonical_payload": {
+    "salt": "61b92078cbc0435fa2abb6192004d81a46a359bf69f3dfa8f4172475fc332776",
+    "market": "1X2",
+    "match_id": "api_1557396",
+    "away_team": "Tottenham",
+    "home_team": "Nottingham Forest",
+    "kickoff_time": "2026-09-05T14:00:00+00:00",
+    "model_version": "ensemble_v1_veritas",
+    "probabilities": {
+      "draw": 0.27,
+      "away_win": 0.2107,
+      "home_win": 0.5193
+    },
+    "reference_odds": {
+      "away": 2.91,
+      "draw": 3.54,
+      "home": 2.45,
+      "provider": "pinnacle"
+    }
+  },
+  "settlement": {
+    "actual_result": "DRAW",
+    "brier_score": 0.847,
+    "closing_lines": {
+      "sportsbook": "Pinnacle",
+      "home_win": 2.74,
+      "draw": 3.41,
+      "away_win": 2.7
+    },
+    "clv_beat": false
+  }
 }
