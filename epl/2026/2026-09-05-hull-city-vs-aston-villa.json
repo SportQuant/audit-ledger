@@ -1,10 +1,48 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "fixture": "Hull City vs Aston Villa",
   "match_id": "api_1557392",
   "league": "Premier League",
   "kickoff_utc": "2026-09-05T16:30:00+00:00",
   "commit_utc": "2026-09-03T16:32:04.377010+00:00",
+  "revealed_utc": "2026-09-05T18:40:07.922425+00:00",
   "model_version": "ensemble_v1_veritas",
-  "sha256_hash": "03256ea7c5f30acca285dfc697b4a56a67a3b0bf1fb530c24c3e77c59246ac9b"
+  "sha256_hash": "03256ea7c5f30acca285dfc697b4a56a67a3b0bf1fb530c24c3e77c59246ac9b",
+  "revealed_probabilities": {
+    "home_win": 0.1746,
+    "away_win": 0.6193,
+    "draw": 0.2061
+  },
+  "salt": "cce4fbf24117a8ad973e30e1bbcf2dbd74deba1ede6b643a3a9fea62aeb79117",
+  "canonical_payload": {
+    "salt": "cce4fbf24117a8ad973e30e1bbcf2dbd74deba1ede6b643a3a9fea62aeb79117",
+    "market": "1X2",
+    "match_id": "api_1557392",
+    "away_team": "Aston Villa",
+    "home_team": "Hull City",
+    "kickoff_time": "2026-09-05T16:30:00+00:00",
+    "model_version": "ensemble_v1_veritas",
+    "probabilities": {
+      "draw": 0.2061,
+      "away_win": 0.6193,
+      "home_win": 0.1746
+    },
+    "reference_odds": {
+      "away": 1.89,
+      "draw": 3.73,
+      "home": 4.18,
+      "provider": "pinnacle"
+    }
+  },
+  "settlement": {
+    "actual_result": "DRAW",
+    "brier_score": 1.0443,
+    "closing_lines": {
+      "sportsbook": "Pinnacle",
+      "home_win": 4.25,
+      "draw": 3.85,
+      "away_win": 1.87
+    },
+    "clv_beat": false
+  }
 }
