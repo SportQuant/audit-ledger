@@ -1,10 +1,48 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "fixture": "Arsenal vs Chelsea",
   "match_id": "api_1557387",
   "league": "Premier League",
   "kickoff_utc": "2026-09-06T15:30:00+00:00",
   "commit_utc": "2026-09-04T15:31:33.865820+00:00",
+  "revealed_utc": "2026-09-06T17:31:31.695549+00:00",
   "model_version": "ensemble_v1_veritas",
-  "sha256_hash": "62a6824378e3833ee9b02cf7bf945fd8512f0192c41f9d95a27e7ded2448d210"
+  "sha256_hash": "62a6824378e3833ee9b02cf7bf945fd8512f0192c41f9d95a27e7ded2448d210",
+  "revealed_probabilities": {
+    "home_win": 0.7043,
+    "away_win": 0.108,
+    "draw": 0.1877
+  },
+  "salt": "9d37aae88a9f2db8797511525461bf3a7e353a8794ca31297d680a87c1b3c34e",
+  "canonical_payload": {
+    "salt": "9d37aae88a9f2db8797511525461bf3a7e353a8794ca31297d680a87c1b3c34e",
+    "market": "1X2",
+    "match_id": "api_1557387",
+    "away_team": "Chelsea",
+    "home_team": "Arsenal",
+    "kickoff_time": "2026-09-06T15:30:00+00:00",
+    "model_version": "ensemble_v1_veritas",
+    "probabilities": {
+      "draw": 0.1877,
+      "away_win": 0.108,
+      "home_win": 0.7043
+    },
+    "reference_odds": {
+      "away": 4.98,
+      "draw": 3.86,
+      "home": 1.74,
+      "provider": "pinnacle"
+    }
+  },
+  "settlement": {
+    "actual_result": "HOME",
+    "brier_score": 0.1343,
+    "closing_lines": {
+      "sportsbook": "Pinnacle",
+      "home_win": 1.72,
+      "draw": 3.85,
+      "away_win": 5.35
+    },
+    "clv_beat": false
+  }
 }
