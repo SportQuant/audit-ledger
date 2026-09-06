@@ -1,10 +1,48 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "fixture": "Everton vs Manchester United",
   "match_id": "api_1557390",
   "league": "Premier League",
   "kickoff_utc": "2026-09-06T13:00:00+00:00",
   "commit_utc": "2026-09-04T13:00:16.491213+00:00",
+  "revealed_utc": "2026-09-06T15:01:43.185222+00:00",
   "model_version": "ensemble_v1_veritas",
-  "sha256_hash": "4de75eb8c908c3ca70129adc1ad5920ba8322c82159f2756d9753949b449190c"
+  "sha256_hash": "4de75eb8c908c3ca70129adc1ad5920ba8322c82159f2756d9753949b449190c",
+  "revealed_probabilities": {
+    "home_win": 0.2514,
+    "away_win": 0.5031,
+    "draw": 0.2455
+  },
+  "salt": "5e3ccb2e433ff55810902c3ccbdfb8d4254993c4479228a34a0f5f594d6d5cce",
+  "canonical_payload": {
+    "salt": "5e3ccb2e433ff55810902c3ccbdfb8d4254993c4479228a34a0f5f594d6d5cce",
+    "market": "1X2",
+    "match_id": "api_1557390",
+    "away_team": "Manchester United",
+    "home_team": "Everton",
+    "kickoff_time": "2026-09-06T13:00:00+00:00",
+    "model_version": "ensemble_v1_veritas",
+    "probabilities": {
+      "draw": 0.2455,
+      "away_win": 0.5031,
+      "home_win": 0.2514
+    },
+    "reference_odds": {
+      "away": 2.13,
+      "draw": 3.68,
+      "home": 3.4,
+      "provider": "pinnacle"
+    }
+  },
+  "settlement": {
+    "actual_result": "DRAW",
+    "brier_score": 0.8856,
+    "closing_lines": {
+      "sportsbook": "Pinnacle",
+      "home_win": 3.71,
+      "draw": 3.89,
+      "away_win": 2.01
+    },
+    "clv_beat": false
+  }
 }
