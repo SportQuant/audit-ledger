@@ -43,6 +43,8 @@
       "draw": 3.43,
       "away_win": 3.55
     },
-    "clv_beat": false
+    "clv_beat": true,
+    "closing_ev": 0.2023,
+    "residual_edge": 0.092
   }
 }

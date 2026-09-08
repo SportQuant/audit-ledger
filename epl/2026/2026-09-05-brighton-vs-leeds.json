@@ -1,10 +1,48 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "fixture": "Brighton vs Leeds",
   "match_id": "api_1557389",
   "league": "Premier League",
   "kickoff_utc": "2026-09-05T14:00:00+00:00",
   "commit_utc": "2026-09-03T14:00:17.153249+00:00",
+  "revealed_utc": "2026-09-05T16:03:20.153249+00:00",
   "model_version": "ensemble_v1_veritas",
-  "sha256_hash": "efdaf861621c60bb760ac951f7de17792c64646f88411622df1fd33286a9c661"
+  "sha256_hash": "efdaf861621c60bb760ac951f7de17792c64646f88411622df1fd33286a9c661",
+  "revealed_probabilities": {
+    "home_win": 0.4927,
+    "away_win": 0.2507,
+    "draw": 0.2566
+  },
+  "salt": "9ea3fcbb151809bd78337a1010584aa5fb576a144d9005676b21a2c101813c8d",
+  "canonical_payload": {
+    "salt": "9ea3fcbb151809bd78337a1010584aa5fb576a144d9005676b21a2c101813c8d",
+    "market": "1X2",
+    "match_id": "api_1557389",
+    "away_team": "Leeds",
+    "home_team": "Brighton",
+    "kickoff_time": "2026-09-05T14:00:00+00:00",
+    "model_version": "ensemble_v1_veritas",
+    "probabilities": {
+      "draw": 0.2566,
+      "away_win": 0.2507,
+      "home_win": 0.4927
+    },
+    "reference_odds": {
+      "away": 3.8,
+      "draw": 3.63,
+      "home": 2.02,
+      "provider": "pinnacle"
+    }
+  },
+  "settlement": {
+    "actual_result": "DRAW",
+    "brier_score": 0.8582,
+    "closing_lines": {
+      "sportsbook": "Pinnacle",
+      "home_win": 1.96,
+      "draw": 3.74,
+      "away_win": 3.97
+    },
+    "clv_beat": false
+  }
 }

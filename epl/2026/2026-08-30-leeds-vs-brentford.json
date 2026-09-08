@@ -32,10 +32,12 @@
     "actual_result": "DRAW",
     "brier_score": 0.7955,
     "closing_lines": {
-      "home": 2.93,
-      "draw": 3.48,
-      "away": 2.5
+      "home_win": 2.88,
+      "draw": 3.46,
+      "away_win": 2.55
     },
-    "clv_beat": false
+    "clv_beat": false,
+    "closing_ev": 0.1019,
+    "residual_edge": 0.0354
   }
 }
