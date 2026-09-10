@@ -1,0 +1,10 @@
+{
+  "status": "COMMITTED",
+  "fixture": "Tottenham vs Everton",
+  "match_id": "api_1557406",
+  "league": "Premier League",
+  "kickoff_utc": "2026-09-12T16:30:00+00:00",
+  "commit_utc": "2026-09-10T16:32:34.809918+00:00",
+  "model_version": "ensemble_v1_veritas",
+  "sha256_hash": "f5703cffdb4ede17ea5e27c2feefc049c640163048b60f60b3c6a6a70b720b53"
+}
