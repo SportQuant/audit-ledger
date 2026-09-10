@@ -1,0 +1,10 @@
+{
+  "status": "COMMITTED",
+  "fixture": "Aston Villa vs Nottingham Forest",
+  "match_id": "api_1557397",
+  "league": "Premier League",
+  "kickoff_utc": "2026-09-12T14:00:00+00:00",
+  "commit_utc": "2026-09-10T14:00:12.672257+00:00",
+  "model_version": "ensemble_v1_veritas",
+  "sha256_hash": "d5bf8ff71153336b295ad8524296f193737361c1e17fd112564357bf60982481"
+}
