@@ -1,0 +1,10 @@
+{
+  "status": "COMMITTED",
+  "fixture": "Crystal Palace vs Ipswich",
+  "match_id": "api_1557401",
+  "league": "Premier League",
+  "kickoff_utc": "2026-09-12T14:00:00+00:00",
+  "commit_utc": "2026-09-10T14:00:15.084447+00:00",
+  "model_version": "ensemble_v1_veritas",
+  "sha256_hash": "58394f58856b3877fa31e6c285d0277e25f4242eeb5abc70ab506340b321e409"
+}
