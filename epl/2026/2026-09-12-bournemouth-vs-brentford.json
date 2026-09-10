@@ -1,0 +1,10 @@
+{
+  "status": "COMMITTED",
+  "fixture": "Bournemouth vs Brentford",
+  "match_id": "api_1557398",
+  "league": "Premier League",
+  "kickoff_utc": "2026-09-12T14:00:00+00:00",
+  "commit_utc": "2026-09-10T14:00:22.614719+00:00",
+  "model_version": "ensemble_v1_veritas",
+  "sha256_hash": "127cc7a761d8478eb416a5e303379e59ab8371d54ab0a761626c7225155833fc"
+}
