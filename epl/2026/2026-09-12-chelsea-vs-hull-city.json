@@ -1,0 +1,10 @@
+{
+  "status": "COMMITTED",
+  "fixture": "Chelsea vs Hull City",
+  "match_id": "api_1557399",
+  "league": "Premier League",
+  "kickoff_utc": "2026-09-12T14:00:00+00:00",
+  "commit_utc": "2026-09-10T14:00:19.384464+00:00",
+  "model_version": "ensemble_v1_veritas",
+  "sha256_hash": "f44de73e3a0b086430fd90a8eda774ae6be6c4c8f7f7a30a50a3fa7885146c07"
+}
