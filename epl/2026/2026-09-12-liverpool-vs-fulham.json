@@ -1,0 +1,10 @@
+{
+  "status": "COMMITTED",
+  "fixture": "Liverpool vs Fulham",
+  "match_id": "api_1557403",
+  "league": "Premier League",
+  "kickoff_utc": "2026-09-12T14:00:00+00:00",
+  "commit_utc": "2026-09-10T14:00:17.594026+00:00",
+  "model_version": "ensemble_v1_veritas",
+  "sha256_hash": "5cbc2b4816b80fe79b31c42c382de05b358d5cf78ce5ba1fbe80606f3d54df8c"
+}
