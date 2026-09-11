@@ -1,0 +1,10 @@
+{
+  "status": "COMMITTED",
+  "fixture": "Sunderland vs Arsenal",
+  "match_id": "api_1557405",
+  "league": "Premier League",
+  "kickoff_utc": "2026-09-12T19:00:00+00:00",
+  "commit_utc": "2026-09-11T22:00:13.813520+00:00",
+  "model_version": "ensemble_v1_veritas",
+  "sha256_hash": "209c8f9621dc884ff94fce06a52320f83e0be7ee5c536ad7ea83001814d8f08d"
+}
