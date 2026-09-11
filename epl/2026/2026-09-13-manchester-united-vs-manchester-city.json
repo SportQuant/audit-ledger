@@ -1,0 +1,10 @@
+{
+  "status": "COMMITTED",
+  "fixture": "Manchester United vs Manchester City",
+  "match_id": "api_1557404",
+  "league": "Premier League",
+  "kickoff_utc": "2026-09-13T15:30:00+00:00",
+  "commit_utc": "2026-09-11T22:00:16.011097+00:00",
+  "model_version": "ensemble_v1_veritas",
+  "sha256_hash": "b43fb6b0bee1ddbb7741c7c23208ec3bbf4c45cbf15f9d9b9c538d987bbe4aa9"
+}
