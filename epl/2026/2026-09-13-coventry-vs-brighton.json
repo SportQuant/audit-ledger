@@ -1,0 +1,10 @@
+{
+  "status": "COMMITTED",
+  "fixture": "Coventry vs Brighton",
+  "match_id": "api_1557400",
+  "league": "Premier League",
+  "kickoff_utc": "2026-09-13T13:00:00+00:00",
+  "commit_utc": "2026-09-11T22:00:19.215854+00:00",
+  "model_version": "ensemble_v1_veritas",
+  "sha256_hash": "9b0a98ea22533ff048ff6285adebbd3d41b3102d39b880f2224bf736c666f250"
+}
