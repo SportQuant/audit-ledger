@@ -1,10 +1,50 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "fixture": "Chelsea vs Hull City",
   "match_id": "api_1557399",
   "league": "Premier League",
   "kickoff_utc": "2026-09-12T14:00:00+00:00",
   "commit_utc": "2026-09-10T14:00:19.384464+00:00",
+  "revealed_utc": "2026-09-12T16:02:25.705390+00:00",
   "model_version": "ensemble_v1_veritas",
-  "sha256_hash": "f44de73e3a0b086430fd90a8eda774ae6be6c4c8f7f7a30a50a3fa7885146c07"
+  "sha256_hash": "f44de73e3a0b086430fd90a8eda774ae6be6c4c8f7f7a30a50a3fa7885146c07",
+  "salt": "f90ef16df436f82254c8816cbf35e99d2202f10aa433e7df6ab0723cdd934cdd",
+  "revealed_probabilities": {
+    "home_win": 0.6241,
+    "draw": 0.2067,
+    "away_win": 0.1692
+  },
+  "canonical_payload": {
+    "match_id": "api_1557399",
+    "market": "1X2",
+    "home_team": "Chelsea",
+    "away_team": "Hull City",
+    "kickoff_time": "2026-09-12T14:00:00+00:00",
+    "model_version": "ensemble_v1_veritas",
+    "salt": "f90ef16df436f82254c8816cbf35e99d2202f10aa433e7df6ab0723cdd934cdd",
+    "probabilities": {
+      "home_win": 0.6241,
+      "draw": 0.2067,
+      "away_win": 0.1692
+    },
+    "reference_odds": {
+      "sportsbook": "Pinnacle",
+      "home_win": 1.24,
+      "draw": 6.04,
+      "away_win": 13.7
+    }
+  },
+  "settlement": {
+    "actual_result": "DRAW",
+    "brier_score": 1.0475,
+    "closing_lines": {
+      "sportsbook": "Pinnacle",
+      "home_win": 1.22,
+      "draw": 7.5,
+      "away_win": 13.5
+    },
+    "clv_beat": true,
+    "closing_ev": 1.2842,
+    "residual_edge": 0.0951
+  }
 }
