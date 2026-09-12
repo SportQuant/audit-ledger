@@ -1,10 +1,50 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "fixture": "Crystal Palace vs Ipswich",
   "match_id": "api_1557401",
   "league": "Premier League",
   "kickoff_utc": "2026-09-12T14:00:00+00:00",
   "commit_utc": "2026-09-10T14:00:15.084447+00:00",
+  "revealed_utc": "2026-09-12T16:02:22.974867+00:00",
   "model_version": "ensemble_v1_veritas",
-  "sha256_hash": "58394f58856b3877fa31e6c285d0277e25f4242eeb5abc70ab506340b321e409"
+  "sha256_hash": "58394f58856b3877fa31e6c285d0277e25f4242eeb5abc70ab506340b321e409",
+  "salt": "f7fd05b3490d8dd1aee62cc0b986f4daa1106b8fd0e37ecacd5607d2ef885547",
+  "revealed_probabilities": {
+    "home_win": 0.54,
+    "draw": 0.2339,
+    "away_win": 0.2262
+  },
+  "canonical_payload": {
+    "match_id": "api_1557401",
+    "market": "1X2",
+    "home_team": "Crystal Palace",
+    "away_team": "Ipswich",
+    "kickoff_time": "2026-09-12T14:00:00+00:00",
+    "model_version": "ensemble_v1_veritas",
+    "salt": "f7fd05b3490d8dd1aee62cc0b986f4daa1106b8fd0e37ecacd5607d2ef885547",
+    "probabilities": {
+      "home_win": 0.54,
+      "draw": 0.2339,
+      "away_win": 0.2262
+    },
+    "reference_odds": {
+      "sportsbook": "Pinnacle",
+      "home_win": 1.89,
+      "draw": 3.95,
+      "away_win": 3.96
+    }
+  },
+  "settlement": {
+    "actual_result": "AWAY",
+    "brier_score": 0.9451,
+    "closing_lines": {
+      "sportsbook": "Pinnacle",
+      "home_win": 2.13,
+      "draw": 3.63,
+      "away_win": 3.52
+    },
+    "clv_beat": false,
+    "closing_ev": 0.1502,
+    "residual_edge": 0.0705
+  }
 }
