@@ -1,0 +1,10 @@
+{
+  "status": "COMMITTED",
+  "fixture": "Leeds vs Newcastle",
+  "match_id": "api_1557402",
+  "league": "Premier League",
+  "kickoff_utc": "2026-09-14T19:00:00+00:00",
+  "commit_utc": "2026-09-12T19:00:14.845420+00:00",
+  "model_version": "ensemble_v1_veritas",
+  "sha256_hash": "46a2871feb3b2dfe3579701e87a0694b145181bd69d191e0f6c3b75dae52ba8f"
+}
