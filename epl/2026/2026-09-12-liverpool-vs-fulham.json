@@ -1,10 +1,50 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "fixture": "Liverpool vs Fulham",
   "match_id": "api_1557403",
   "league": "Premier League",
   "kickoff_utc": "2026-09-12T14:00:00+00:00",
   "commit_utc": "2026-09-10T14:00:17.594026+00:00",
+  "revealed_utc": "2026-09-12T16:02:24.308027+00:00",
   "model_version": "ensemble_v1_veritas",
-  "sha256_hash": "5cbc2b4816b80fe79b31c42c382de05b358d5cf78ce5ba1fbe80606f3d54df8c"
+  "sha256_hash": "5cbc2b4816b80fe79b31c42c382de05b358d5cf78ce5ba1fbe80606f3d54df8c",
+  "salt": "e6f9356b32b80e990b81d3c7462c05dfbda4087724fdeed53fd475449c1f418c",
+  "revealed_probabilities": {
+    "home_win": 0.5083,
+    "draw": 0.2317,
+    "away_win": 0.26
+  },
+  "canonical_payload": {
+    "match_id": "api_1557403",
+    "market": "1X2",
+    "home_team": "Liverpool",
+    "away_team": "Fulham",
+    "kickoff_time": "2026-09-12T14:00:00+00:00",
+    "model_version": "ensemble_v1_veritas",
+    "salt": "e6f9356b32b80e990b81d3c7462c05dfbda4087724fdeed53fd475449c1f418c",
+    "probabilities": {
+      "home_win": 0.5083,
+      "draw": 0.2317,
+      "away_win": 0.26
+    },
+    "reference_odds": {
+      "sportsbook": "Pinnacle",
+      "home_win": 1.45,
+      "draw": 5.01,
+      "away_win": 6.67
+    }
+  },
+  "settlement": {
+    "actual_result": "DRAW",
+    "brier_score": 0.9163,
+    "closing_lines": {
+      "sportsbook": "Pinnacle",
+      "home_win": 1.53,
+      "draw": 4.7,
+      "away_win": 6.2
+    },
+    "clv_beat": true,
+    "closing_ev": 0.612,
+    "residual_edge": 0.0987
+  }
 }
