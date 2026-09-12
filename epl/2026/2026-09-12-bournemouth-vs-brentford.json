@@ -1,10 +1,48 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "fixture": "Bournemouth vs Brentford",
   "match_id": "api_1557398",
   "league": "Premier League",
   "kickoff_utc": "2026-09-12T14:00:00+00:00",
   "commit_utc": "2026-09-10T14:00:22.614719+00:00",
+  "revealed_utc": "2026-09-12T16:02:27.076047+00:00",
   "model_version": "ensemble_v1_veritas",
-  "sha256_hash": "127cc7a761d8478eb416a5e303379e59ab8371d54ab0a761626c7225155833fc"
+  "sha256_hash": "127cc7a761d8478eb416a5e303379e59ab8371d54ab0a761626c7225155833fc",
+  "salt": "d53165104ea7ac23cfe56dbd4dcb9b621241610731748709c37877f4909c276f",
+  "revealed_probabilities": {
+    "home_win": 0.3755,
+    "draw": 0.2653,
+    "away_win": 0.3592
+  },
+  "canonical_payload": {
+    "match_id": "api_1557398",
+    "market": "1X2",
+    "home_team": "Bournemouth",
+    "away_team": "Brentford",
+    "kickoff_time": "2026-09-12T14:00:00+00:00",
+    "model_version": "ensemble_v1_veritas",
+    "salt": "d53165104ea7ac23cfe56dbd4dcb9b621241610731748709c37877f4909c276f",
+    "probabilities": {
+      "home_win": 0.3755,
+      "draw": 0.2653,
+      "away_win": 0.3592
+    },
+    "reference_odds": {
+      "sportsbook": "Pinnacle",
+      "home_win": 2.48,
+      "draw": 3.73,
+      "away_win": 2.75
+    }
+  },
+  "settlement": {
+    "actual_result": "DRAW",
+    "brier_score": 0.8098,
+    "closing_lines": {
+      "sportsbook": "Pinnacle",
+      "home_win": 2.37,
+      "draw": 3.66,
+      "away_win": 3.01
+    },
+    "clv_beat": false
+  }
 }
