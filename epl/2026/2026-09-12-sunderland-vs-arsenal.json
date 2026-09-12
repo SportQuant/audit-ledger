@@ -1,10 +1,50 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "fixture": "Sunderland vs Arsenal",
   "match_id": "api_1557405",
   "league": "Premier League",
   "kickoff_utc": "2026-09-12T19:00:00+00:00",
   "commit_utc": "2026-09-11T22:00:13.813520+00:00",
+  "revealed_utc": "2026-09-12T21:02:24.582578+00:00",
   "model_version": "ensemble_v1_veritas",
-  "sha256_hash": "209c8f9621dc884ff94fce06a52320f83e0be7ee5c536ad7ea83001814d8f08d"
+  "sha256_hash": "209c8f9621dc884ff94fce06a52320f83e0be7ee5c536ad7ea83001814d8f08d",
+  "salt": "5c27016efacfe4612421bfc744f9a0f980466b3c61e4c331d31497a3ace2e54b",
+  "revealed_probabilities": {
+    "home_win": 0.1899,
+    "draw": 0.2516,
+    "away_win": 0.5585
+  },
+  "canonical_payload": {
+    "match_id": "api_1557405",
+    "market": "1X2",
+    "home_team": "Sunderland",
+    "away_team": "Arsenal",
+    "kickoff_time": "2026-09-12T19:00:00+00:00",
+    "model_version": "ensemble_v1_veritas",
+    "salt": "5c27016efacfe4612421bfc744f9a0f980466b3c61e4c331d31497a3ace2e54b",
+    "probabilities": {
+      "home_win": 0.1899,
+      "draw": 0.2516,
+      "away_win": 0.5585
+    },
+    "reference_odds": {
+      "sportsbook": "Pinnacle",
+      "home_win": 7.18,
+      "draw": 4.36,
+      "away_win": 1.5
+    }
+  },
+  "settlement": {
+    "actual_result": "AWAY",
+    "brier_score": 0.2943,
+    "closing_lines": {
+      "sportsbook": "Pinnacle",
+      "home_win": 6.95,
+      "draw": 3.95,
+      "away_win": 1.59
+    },
+    "clv_beat": true,
+    "closing_ev": 0.3198,
+    "residual_edge": 0.046
+  }
 }
