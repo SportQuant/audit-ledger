@@ -1,10 +1,50 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "fixture": "Tottenham vs Everton",
   "match_id": "api_1557406",
   "league": "Premier League",
   "kickoff_utc": "2026-09-12T16:30:00+00:00",
   "commit_utc": "2026-09-10T16:32:34.809918+00:00",
+  "revealed_utc": "2026-09-12T18:37:47.419542+00:00",
   "model_version": "ensemble_v1_veritas",
-  "sha256_hash": "f5703cffdb4ede17ea5e27c2feefc049c640163048b60f60b3c6a6a70b720b53"
+  "sha256_hash": "f5703cffdb4ede17ea5e27c2feefc049c640163048b60f60b3c6a6a70b720b53",
+  "salt": "12678a2b866687e94f7caeca78529838c49d5a578553b4c4653fc1b133282324",
+  "revealed_probabilities": {
+    "home_win": 0.2684,
+    "draw": 0.2921,
+    "away_win": 0.4394
+  },
+  "canonical_payload": {
+    "match_id": "api_1557406",
+    "market": "1X2",
+    "home_team": "Tottenham",
+    "away_team": "Everton",
+    "kickoff_time": "2026-09-12T16:30:00+00:00",
+    "model_version": "ensemble_v1_veritas",
+    "salt": "12678a2b866687e94f7caeca78529838c49d5a578553b4c4653fc1b133282324",
+    "probabilities": {
+      "home_win": 0.2684,
+      "draw": 0.2921,
+      "away_win": 0.4394
+    },
+    "reference_odds": {
+      "sportsbook": "Pinnacle",
+      "home_win": 2.06,
+      "draw": 3.68,
+      "away_win": 3.6
+    }
+  },
+  "settlement": {
+    "actual_result": "DRAW",
+    "brier_score": 0.7662,
+    "closing_lines": {
+      "sportsbook": "Pinnacle",
+      "home_win": 2.02,
+      "draw": 3.75,
+      "away_win": 3.82
+    },
+    "clv_beat": false,
+    "closing_ev": 0.6785,
+    "residual_edge": 0.1776
+  }
 }
