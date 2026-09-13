@@ -1,10 +1,50 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "fixture": "Manchester United vs Manchester City",
   "match_id": "api_1557404",
   "league": "Premier League",
   "kickoff_utc": "2026-09-13T15:30:00+00:00",
   "commit_utc": "2026-09-11T22:00:16.011097+00:00",
+  "revealed_utc": "2026-09-13T18:37:46.802012+00:00",
   "model_version": "ensemble_v1_veritas",
-  "sha256_hash": "b43fb6b0bee1ddbb7741c7c23208ec3bbf4c45cbf15f9d9b9c538d987bbe4aa9"
+  "sha256_hash": "b43fb6b0bee1ddbb7741c7c23208ec3bbf4c45cbf15f9d9b9c538d987bbe4aa9",
+  "salt": "a07bd655e1414165f06285dc5862f0c8dea52c6ad31d71496ae87aba65291917",
+  "revealed_probabilities": {
+    "home_win": 0.3952,
+    "draw": 0.2392,
+    "away_win": 0.3656
+  },
+  "canonical_payload": {
+    "match_id": "api_1557404",
+    "market": "1X2",
+    "home_team": "Manchester United",
+    "away_team": "Manchester City",
+    "kickoff_time": "2026-09-13T15:30:00+00:00",
+    "model_version": "ensemble_v1_veritas",
+    "salt": "a07bd655e1414165f06285dc5862f0c8dea52c6ad31d71496ae87aba65291917",
+    "probabilities": {
+      "home_win": 0.3952,
+      "draw": 0.2392,
+      "away_win": 0.3656
+    },
+    "reference_odds": {
+      "sportsbook": "Pinnacle",
+      "home_win": 3.22,
+      "draw": 3.91,
+      "away_win": 2.14
+    }
+  },
+  "settlement": {
+    "actual_result": "AWAY",
+    "brier_score": 0.6159,
+    "closing_lines": {
+      "sportsbook": "Pinnacle",
+      "home_win": 3.12,
+      "draw": 3.86,
+      "away_win": 2.23
+    },
+    "clv_beat": true,
+    "closing_ev": 0.233,
+    "residual_edge": 0.0747
+  }
 }
