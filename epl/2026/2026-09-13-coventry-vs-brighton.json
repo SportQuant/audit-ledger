@@ -1,10 +1,50 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "fixture": "Coventry vs Brighton",
   "match_id": "api_1557400",
   "league": "Premier League",
   "kickoff_utc": "2026-09-13T13:00:00+00:00",
   "commit_utc": "2026-09-11T22:00:19.215854+00:00",
+  "revealed_utc": "2026-09-13T15:01:05.169029+00:00",
   "model_version": "ensemble_v1_veritas",
-  "sha256_hash": "9b0a98ea22533ff048ff6285adebbd3d41b3102d39b880f2224bf736c666f250"
+  "sha256_hash": "9b0a98ea22533ff048ff6285adebbd3d41b3102d39b880f2224bf736c666f250",
+  "salt": "18e3eb988e66ab0a6843221d5204f8d1de3670440913659f1a2ad820a4bb2dcc",
+  "revealed_probabilities": {
+    "home_win": 0.1484,
+    "draw": 0.2425,
+    "away_win": 0.6091
+  },
+  "canonical_payload": {
+    "match_id": "api_1557400",
+    "market": "1X2",
+    "home_team": "Coventry",
+    "away_team": "Brighton",
+    "kickoff_time": "2026-09-13T13:00:00+00:00",
+    "model_version": "ensemble_v1_veritas",
+    "salt": "18e3eb988e66ab0a6843221d5204f8d1de3670440913659f1a2ad820a4bb2dcc",
+    "probabilities": {
+      "home_win": 0.1484,
+      "draw": 0.2425,
+      "away_win": 0.6091
+    },
+    "reference_odds": {
+      "sportsbook": "Pinnacle",
+      "home_win": 4.08,
+      "draw": 3.81,
+      "away_win": 1.9
+    }
+  },
+  "settlement": {
+    "actual_result": "AWAY",
+    "brier_score": 0.2336,
+    "closing_lines": {
+      "sportsbook": "Pinnacle",
+      "home_win": 4.02,
+      "draw": 3.86,
+      "away_win": 1.92
+    },
+    "clv_beat": false,
+    "closing_ev": 0.1695,
+    "residual_edge": 0.0883
+  }
 }
