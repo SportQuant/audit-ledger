@@ -1,10 +1,50 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "fixture": "Leeds vs Newcastle",
   "match_id": "api_1557402",
   "league": "Premier League",
   "kickoff_utc": "2026-09-14T19:00:00+00:00",
   "commit_utc": "2026-09-12T19:00:14.845420+00:00",
+  "revealed_utc": "2026-09-14T21:01:11.854059+00:00",
   "model_version": "ensemble_v1_veritas",
-  "sha256_hash": "46a2871feb3b2dfe3579701e87a0694b145181bd69d191e0f6c3b75dae52ba8f"
+  "sha256_hash": "46a2871feb3b2dfe3579701e87a0694b145181bd69d191e0f6c3b75dae52ba8f",
+  "salt": "9f71b583dfac309bbaaa59992fb6bac091c19bf340dbb3bfd5a121437143d4d6",
+  "revealed_probabilities": {
+    "home_win": 0.364,
+    "draw": 0.2806,
+    "away_win": 0.3554
+  },
+  "canonical_payload": {
+    "match_id": "api_1557402",
+    "market": "1X2",
+    "home_team": "Leeds",
+    "away_team": "Newcastle",
+    "kickoff_time": "2026-09-14T19:00:00+00:00",
+    "model_version": "ensemble_v1_veritas",
+    "salt": "9f71b583dfac309bbaaa59992fb6bac091c19bf340dbb3bfd5a121437143d4d6",
+    "probabilities": {
+      "home_win": 0.364,
+      "draw": 0.2806,
+      "away_win": 0.3554
+    },
+    "reference_odds": {
+      "sportsbook": "Pinnacle",
+      "home_win": 2.35,
+      "draw": 3.65,
+      "away_win": 3.0
+    }
+  },
+  "settlement": {
+    "actual_result": "HOME",
+    "brier_score": 0.6095,
+    "closing_lines": {
+      "sportsbook": "Pinnacle",
+      "home_win": 2.43,
+      "draw": 3.49,
+      "away_win": 3.03
+    },
+    "clv_beat": false,
+    "closing_ev": 0.0769,
+    "residual_edge": 0.0254
+  }
 }
