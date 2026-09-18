@@ -1,5 +1,30 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-09-18T18:46:00.247199Z",
-  "sha256_hash": "7275b0338c46ddd82dfd8b5541fd912b9e7d8549951c30621fbc19577e99c482"
+  "revealed_utc": "2026-09-18T21:14:33.934812Z",
+  "sha256_hash": "7275b0338c46ddd82dfd8b5541fd912b9e7d8549951c30621fbc19577e99c482",
+  "canonical_payload": {
+    "match_id": "epl_2026_brentford_chelsea",
+    "market": "1X2",
+    "home_team": "Brentford",
+    "away_team": "Chelsea",
+    "kickoff_utc": "2026-09-18T19:00:00Z",
+    "model_version": "veritas-v1.0",
+    "salt": "579d646083ac5728af75223dd8ac7eb8e044c198b4c61511c5e703f60815a0d6",
+    "probabilities": {
+      "home_win": 0.5035,
+      "draw": 0.2386,
+      "away_win": 0.2579
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.0,
+        "away_win": 0.0
+      }
+    }
+  },
+  "settlement": {
+    "actual_result": "HOME",
+    "brier_score": 0.37
+  }
 }
