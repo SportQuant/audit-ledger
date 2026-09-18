@@ -1,7 +1,7 @@
 {
   "status": "REVEALED",
   "commit_utc": "2026-09-18T18:46:00.247199Z",
-  "revealed_utc": "2026-09-18T21:14:33.934812Z",
+  "revealed_utc": "2026-09-18T21:14:35.272871Z",
   "sha256_hash": "7275b0338c46ddd82dfd8b5541fd912b9e7d8549951c30621fbc19577e99c482",
   "canonical_payload": {
     "match_id": "epl_2026_brentford_chelsea",
