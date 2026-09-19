@@ -1,7 +1,7 @@
 {
   "status": "REVEALED",
   "commit_utc": "2026-09-17T14:00:13.457198Z",
-  "revealed_utc": "2026-09-19T16:01:15.745901Z",
+  "revealed_utc": "2026-09-19T16:01:16.854972Z",
   "sha256_hash": "c26ffbc861cc7673f7f501d5aa6bfcf3be4228101520b8797fe3b5e48f105e68",
   "canonical_payload": {
     "match_id": "epl_2026_brighton_arsenal",
