@@ -1,5 +1,38 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-09-17T14:00:13.457198Z",
-  "sha256_hash": "c26ffbc861cc7673f7f501d5aa6bfcf3be4228101520b8797fe3b5e48f105e68"
+  "revealed_utc": "2026-09-19T16:01:15.745901Z",
+  "sha256_hash": "c26ffbc861cc7673f7f501d5aa6bfcf3be4228101520b8797fe3b5e48f105e68",
+  "canonical_payload": {
+    "match_id": "epl_2026_brighton_arsenal",
+    "market": "1X2",
+    "home_team": "Brighton",
+    "away_team": "Arsenal",
+    "kickoff_utc": "2026-09-19T14:00:00Z",
+    "model_version": "veritas-v1.0",
+    "salt": "db5c7d73a325e508e1c5dcaf2e92b715ce6768f4f32b43cc896f8f52ad38d8a1",
+    "probabilities": {
+      "home_win": 0.221,
+      "draw": 0.2278,
+      "away_win": 0.5512
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.1476,
+        "draw": 0.1939,
+        "away_win": 0.6585
+      },
+      "ml_ensemble": {
+        "home_win": 0.221,
+        "draw": 0.2278,
+        "away_win": 0.5512
+      },
+      "entropy_score": 0.9093,
+      "dynamic_alpha": 0.5
+    }
+  },
+  "settlement": {
+    "actual_result": "HOME",
+    "brier_score": 0.9626
+  }
 }
