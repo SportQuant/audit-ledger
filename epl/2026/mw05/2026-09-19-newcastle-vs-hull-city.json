@@ -1,5 +1,38 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-09-17T14:00:15.707047Z",
-  "sha256_hash": "a84b954b632fa7eb5fe58541f13ecbee865f0aad13ecea70d0638a41af5c4c45"
+  "revealed_utc": "2026-09-19T16:01:20.361225Z",
+  "sha256_hash": "a84b954b632fa7eb5fe58541f13ecbee865f0aad13ecea70d0638a41af5c4c45",
+  "canonical_payload": {
+    "match_id": "epl_2026_newcastle_hull_city",
+    "market": "1X2",
+    "home_team": "Newcastle",
+    "away_team": "Hull City",
+    "kickoff_utc": "2026-09-19T14:00:00Z",
+    "model_version": "veritas-v1.0",
+    "salt": "9d8511e0f0d24f3db14d535d56d28a91ba8e481b2cdf9115e11c6d81a065aeaf",
+    "probabilities": {
+      "home_win": 0.3841,
+      "draw": 0.2831,
+      "away_win": 0.3328
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.3656,
+        "draw": 0.2787,
+        "away_win": 0.3557
+      },
+      "ml_ensemble": {
+        "home_win": 0.3841,
+        "draw": 0.2831,
+        "away_win": 0.3328
+      },
+      "entropy_score": 0.993,
+      "dynamic_alpha": 0.5
+    }
+  },
+  "settlement": {
+    "actual_result": "HOME",
+    "brier_score": 0.5702
+  }
 }
