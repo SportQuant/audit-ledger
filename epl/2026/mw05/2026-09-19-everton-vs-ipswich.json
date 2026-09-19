@@ -1,7 +1,7 @@
 {
   "status": "REVEALED",
   "commit_utc": "2026-09-17T14:00:17.438683Z",
-  "revealed_utc": "2026-09-19T16:01:18.085997Z",
+  "revealed_utc": "2026-09-19T16:01:19.109796Z",
   "sha256_hash": "17a11d1c8763ead404a2e736c0d06b8efe68e6e2e5769c0e09be121799e267d9",
   "canonical_payload": {
     "match_id": "epl_2026_everton_ipswich",
