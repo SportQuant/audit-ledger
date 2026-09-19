@@ -1,5 +1,38 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-09-17T14:00:17.438683Z",
-  "sha256_hash": "17a11d1c8763ead404a2e736c0d06b8efe68e6e2e5769c0e09be121799e267d9"
+  "revealed_utc": "2026-09-19T16:01:18.085997Z",
+  "sha256_hash": "17a11d1c8763ead404a2e736c0d06b8efe68e6e2e5769c0e09be121799e267d9",
+  "canonical_payload": {
+    "match_id": "epl_2026_everton_ipswich",
+    "market": "1X2",
+    "home_team": "Everton",
+    "away_team": "Ipswich",
+    "kickoff_utc": "2026-09-19T14:00:00Z",
+    "model_version": "veritas-v1.0",
+    "salt": "1766695b55c7f1ef0c9be14180d525ed7514e55250ae6cfcc37eb06ebc38283b",
+    "probabilities": {
+      "home_win": 0.5616,
+      "draw": 0.2335,
+      "away_win": 0.2049
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.5969,
+        "draw": 0.2152,
+        "away_win": 0.1879
+      },
+      "ml_ensemble": {
+        "home_win": 0.5616,
+        "draw": 0.2335,
+        "away_win": 0.2049
+      },
+      "entropy_score": 0.8998,
+      "dynamic_alpha": 0.5
+    }
+  },
+  "settlement": {
+    "actual_result": "HOME",
+    "brier_score": 0.2887
+  }
 }
