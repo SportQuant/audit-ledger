@@ -1,5 +1,38 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-09-17T16:45:36.358757Z",
-  "sha256_hash": "51ae4a08340dba8f4c5f5c9509fae0af0b2da92711e9689d8cb73acd6fe7bee8"
+  "revealed_utc": "2026-09-19T18:31:14.800672Z",
+  "sha256_hash": "51ae4a08340dba8f4c5f5c9509fae0af0b2da92711e9689d8cb73acd6fe7bee8",
+  "canonical_payload": {
+    "match_id": "epl_2026_nottingham_forest_coventry",
+    "market": "1X2",
+    "home_team": "Nottingham Forest",
+    "away_team": "Coventry",
+    "kickoff_utc": "2026-09-19T16:30:00Z",
+    "model_version": "veritas-v1.0",
+    "salt": "108f65f25650bf38c078e51de02fb65e470e6a2d1bb70fc66a5c71effda642ba",
+    "probabilities": {
+      "home_win": 0.6723,
+      "draw": 0.2196,
+      "away_win": 0.1081
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.77,
+        "draw": 0.1823,
+        "away_win": 0.0477
+      },
+      "ml_ensemble": {
+        "home_win": 0.6723,
+        "draw": 0.2196,
+        "away_win": 0.1081
+      },
+      "entropy_score": 0.7649,
+      "dynamic_alpha": 0.5
+    }
+  },
+  "settlement": {
+    "actual_result": "AWAY",
+    "brier_score": 1.2957
+  }
 }
