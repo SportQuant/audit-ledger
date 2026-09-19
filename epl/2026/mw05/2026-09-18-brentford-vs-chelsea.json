@@ -26,5 +26,22 @@
   "settlement": {
     "actual_result": "HOME",
     "brier_score": 0.37
+  },
+  "audit_errata": {
+    "note": "The canonical_payload telemetry was locked with schema v1.0 which omitted ML/Entropy parameters and zeroed the physics anchor. The true recovered telemetry for this vector is provided below for historical parity.",
+    "recovered_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.5229,
+        "draw": 0.211,
+        "away_win": 0.2661
+      },
+      "ml_ensemble": {
+        "home_win": 0.5035,
+        "draw": 0.2386,
+        "away_win": 0.2579
+      },
+      "entropy_score": 0.9438,
+      "dynamic_alpha": 0.5
+    }
   }
 }
