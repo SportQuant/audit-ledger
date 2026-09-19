@@ -1,5 +1,38 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-09-17T11:30:15.929366Z",
-  "sha256_hash": "a8103fadae341aae9c8e4716f8567aa8679887d60bd31f45a5a29165168a039c"
+  "revealed_utc": "2026-09-19T13:46:09.216222Z",
+  "sha256_hash": "a8103fadae341aae9c8e4716f8567aa8679887d60bd31f45a5a29165168a039c",
+  "canonical_payload": {
+    "match_id": "epl_2026_tottenham_aston_villa",
+    "market": "1X2",
+    "home_team": "Tottenham",
+    "away_team": "Aston Villa",
+    "kickoff_utc": "2026-09-19T11:30:00Z",
+    "model_version": "veritas-v1.0",
+    "salt": "05dc66a6979148ee32bede5739cc7a8673bf40dfb59e8947e7cb10abf600827d",
+    "probabilities": {
+      "home_win": 0.2509,
+      "draw": 0.3498,
+      "away_win": 0.3993
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.2083,
+        "draw": 0.3674,
+        "away_win": 0.4243
+      },
+      "ml_ensemble": {
+        "home_win": 0.2509,
+        "draw": 0.3498,
+        "away_win": 0.3993
+      },
+      "entropy_score": 0.9839,
+      "dynamic_alpha": 0.5
+    }
+  },
+  "settlement": {
+    "actual_result": "AWAY",
+    "brier_score": 0.5462
+  }
 }
