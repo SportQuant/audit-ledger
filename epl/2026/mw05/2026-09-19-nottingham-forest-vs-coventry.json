@@ -1,7 +1,7 @@
 {
   "status": "REVEALED",
   "commit_utc": "2026-09-17T16:45:36.358757Z",
-  "revealed_utc": "2026-09-19T18:31:14.800672Z",
+  "revealed_utc": "2026-09-19T18:31:16.106777Z",
   "sha256_hash": "51ae4a08340dba8f4c5f5c9509fae0af0b2da92711e9689d8cb73acd6fe7bee8",
   "canonical_payload": {
     "match_id": "epl_2026_nottingham_forest_coventry",
