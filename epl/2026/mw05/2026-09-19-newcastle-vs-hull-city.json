@@ -1,7 +1,7 @@
 {
   "status": "REVEALED",
   "commit_utc": "2026-09-17T14:00:15.707047Z",
-  "revealed_utc": "2026-09-19T16:01:20.361225Z",
+  "revealed_utc": "2026-09-19T16:01:21.433897Z",
   "sha256_hash": "a84b954b632fa7eb5fe58541f13ecbee865f0aad13ecea70d0638a41af5c4c45",
   "canonical_payload": {
     "match_id": "epl_2026_newcastle_hull_city",
