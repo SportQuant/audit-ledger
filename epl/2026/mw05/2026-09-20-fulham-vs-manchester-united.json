@@ -1,7 +1,7 @@
 {
   "status": "REVEALED",
   "commit_utc": "2026-09-18T16:00:06.622207Z",
-  "revealed_utc": "2026-09-20T17:30:50.531784Z",
+  "revealed_utc": "2026-09-20T17:30:51.677889Z",
   "sha256_hash": "f96eefd04bc442da74772b31479b53691a1372be349a089e7f3a8466db034fd2",
   "canonical_payload": {
     "match_id": "epl_2026_fulham_manchester_united",
