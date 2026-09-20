@@ -1,5 +1,38 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-09-18T13:00:09.686979Z",
-  "sha256_hash": "47a733808bb4e65047ea8e089f28be55c3c42aa2a4ed8913982ac17351b1a91f"
+  "revealed_utc": "2026-09-20T15:01:12.153718Z",
+  "sha256_hash": "47a733808bb4e65047ea8e089f28be55c3c42aa2a4ed8913982ac17351b1a91f",
+  "canonical_payload": {
+    "match_id": "epl_2026_leeds_crystal_palace",
+    "market": "1X2",
+    "home_team": "Leeds",
+    "away_team": "Crystal Palace",
+    "kickoff_utc": "2026-09-20T13:00:00Z",
+    "model_version": "veritas-v1.0",
+    "salt": "0423aba23bf096ab37b64c24a5cb9a474587d8745e80be64d0d5f00541c07d17",
+    "probabilities": {
+      "home_win": 0.5512,
+      "draw": 0.2246,
+      "away_win": 0.2242
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.5886,
+        "draw": 0.2024,
+        "away_win": 0.209
+      },
+      "ml_ensemble": {
+        "home_win": 0.5512,
+        "draw": 0.2246,
+        "away_win": 0.2242
+      },
+      "entropy_score": 0.9093,
+      "dynamic_alpha": 0.5
+    }
+  },
+  "settlement": {
+    "actual_result": "DRAW",
+    "brier_score": 0.9553
+  }
 }
