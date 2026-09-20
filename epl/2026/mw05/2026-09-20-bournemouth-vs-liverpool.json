@@ -1,5 +1,38 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-09-18T13:00:11.256249Z",
-  "sha256_hash": "00a23e36141e2648ed3e4ad1d7b09f3f2591f7e67c895ebb25526762b905f57f"
+  "revealed_utc": "2026-09-20T15:01:09.722659Z",
+  "sha256_hash": "00a23e36141e2648ed3e4ad1d7b09f3f2591f7e67c895ebb25526762b905f57f",
+  "canonical_payload": {
+    "match_id": "epl_2026_bournemouth_liverpool",
+    "market": "1X2",
+    "home_team": "Bournemouth",
+    "away_team": "Liverpool",
+    "kickoff_utc": "2026-09-20T13:00:00Z",
+    "model_version": "veritas-v1.0",
+    "salt": "956a511c576a7f34d0d30c9a94d9d3956947719e22818b00b606134bfdae3f4e",
+    "probabilities": {
+      "home_win": 0.348,
+      "draw": 0.2662,
+      "away_win": 0.3858
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.3263,
+        "draw": 0.2525,
+        "away_win": 0.4212
+      },
+      "ml_ensemble": {
+        "home_win": 0.348,
+        "draw": 0.2662,
+        "away_win": 0.3858
+      },
+      "entropy_score": 0.9895,
+      "dynamic_alpha": 0.5
+    }
+  },
+  "settlement": {
+    "actual_result": "AWAY",
+    "brier_score": 0.5692
+  }
 }
