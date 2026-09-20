@@ -1,5 +1,38 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-09-18T16:00:06.622207Z",
-  "sha256_hash": "f96eefd04bc442da74772b31479b53691a1372be349a089e7f3a8466db034fd2"
+  "revealed_utc": "2026-09-20T17:30:50.531784Z",
+  "sha256_hash": "f96eefd04bc442da74772b31479b53691a1372be349a089e7f3a8466db034fd2",
+  "canonical_payload": {
+    "match_id": "epl_2026_fulham_manchester_united",
+    "market": "1X2",
+    "home_team": "Fulham",
+    "away_team": "Manchester United",
+    "kickoff_utc": "2026-09-20T15:30:00Z",
+    "model_version": "veritas-v1.0",
+    "salt": "36d6e6377311afd7c1fd923b40105856154de7ab506f2023dd2c2c99f264c296",
+    "probabilities": {
+      "home_win": 0.2871,
+      "draw": 0.2513,
+      "away_win": 0.4616
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.2696,
+        "draw": 0.2289,
+        "away_win": 0.5015
+      },
+      "ml_ensemble": {
+        "home_win": 0.2871,
+        "draw": 0.2513,
+        "away_win": 0.4616
+      },
+      "entropy_score": 0.9669,
+      "dynamic_alpha": 0.5
+    }
+  },
+  "settlement": {
+    "actual_result": "DRAW",
+    "brier_score": 0.8561
+  }
 }
