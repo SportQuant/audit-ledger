@@ -1,7 +1,7 @@
 {
   "status": "REVEALED",
   "commit_utc": "2026-09-18T13:00:09.686979Z",
-  "revealed_utc": "2026-09-20T15:01:12.153718Z",
+  "revealed_utc": "2026-09-20T15:01:13.412845Z",
   "sha256_hash": "47a733808bb4e65047ea8e089f28be55c3c42aa2a4ed8913982ac17351b1a91f",
   "canonical_payload": {
     "match_id": "epl_2026_leeds_crystal_palace",
