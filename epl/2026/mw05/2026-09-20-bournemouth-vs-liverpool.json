@@ -1,7 +1,7 @@
 {
   "status": "REVEALED",
   "commit_utc": "2026-09-18T13:00:11.256249Z",
-  "revealed_utc": "2026-09-20T15:01:09.722659Z",
+  "revealed_utc": "2026-09-20T15:01:10.769985Z",
   "sha256_hash": "00a23e36141e2648ed3e4ad1d7b09f3f2591f7e67c895ebb25526762b905f57f",
   "canonical_payload": {
     "match_id": "epl_2026_bournemouth_liverpool",
