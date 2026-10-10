@@ -1,5 +1,38 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-10-08T14:00:11.661059Z",
-  "sha256_hash": "4c0b88bd18bb7830f558ff05f4775dd32537a3d1ecf949a00e54d96925b2cb2d"
+  "revealed_utc": "2026-10-10T16:03:23.051492Z",
+  "sha256_hash": "4c0b88bd18bb7830f558ff05f4775dd32537a3d1ecf949a00e54d96925b2cb2d",
+  "canonical_payload": {
+    "match_id": "epl_2026_ipswich_fulham",
+    "market": "1X2",
+    "home_team": "Ipswich",
+    "away_team": "Fulham",
+    "kickoff_utc": "2026-10-10T14:00:00Z",
+    "model_version": "veritas-v1.1",
+    "salt": "175dd0f12fabfbea0c5e56e29b990d8d0dfffe04aadb50f4eb9a5b47dd4607e5",
+    "probabilities": {
+      "home_win": 0.337,
+      "draw": 0.2618,
+      "away_win": 0.4012
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.3467,
+        "draw": 0.2375,
+        "away_win": 0.4158
+      },
+      "ml_ensemble": {
+        "home_win": 0.2909,
+        "draw": 0.3377,
+        "away_win": 0.3714
+      },
+      "entropy_score": 0.9955,
+      "dynamic_alpha": 0.2522
+    }
+  },
+  "settlement": {
+    "actual_result": "HOME",
+    "brier_score": 0.6691
+  }
 }
