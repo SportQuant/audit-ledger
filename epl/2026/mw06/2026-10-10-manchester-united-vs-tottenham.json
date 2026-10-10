@@ -1,5 +1,38 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-10-08T16:32:54.430068Z",
-  "sha256_hash": "f2ffada3e0843e08551fdbb49be07100c16f9581924f50a8931f61f5c0b1239f"
+  "revealed_utc": "2026-10-10T18:32:57.767956Z",
+  "sha256_hash": "f2ffada3e0843e08551fdbb49be07100c16f9581924f50a8931f61f5c0b1239f",
+  "canonical_payload": {
+    "match_id": "epl_2026_manchester_united_tottenham",
+    "market": "1X2",
+    "home_team": "Manchester United",
+    "away_team": "Tottenham",
+    "kickoff_utc": "2026-10-10T16:30:00Z",
+    "model_version": "veritas-v1.0",
+    "salt": "f259311e7629ef9666a18a019fbd1a4d64e90deea6199493415ff8e8b3c54bcc",
+    "probabilities": {
+      "home_win": 0.6507,
+      "draw": 0.2256,
+      "away_win": 0.1237
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.7183,
+        "draw": 0.202,
+        "away_win": 0.0797
+      },
+      "ml_ensemble": {
+        "home_win": 0.5093,
+        "draw": 0.2837,
+        "away_win": 0.207
+      },
+      "entropy_score": 0.9348,
+      "dynamic_alpha": 0.2815
+    }
+  },
+  "settlement": {
+    "actual_result": "DRAW",
+    "brier_score": 1.0384
+  }
 }
