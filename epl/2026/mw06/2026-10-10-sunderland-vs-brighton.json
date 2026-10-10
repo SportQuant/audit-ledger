@@ -1,5 +1,38 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-10-08T14:00:17.457654Z",
-  "sha256_hash": "c2e215ea5ca7735d0bc5e5a3a7689f4414d11a23856cc68050cc4e1c3d5e796f"
+  "revealed_utc": "2026-10-10T16:03:21.084186Z",
+  "sha256_hash": "c2e215ea5ca7735d0bc5e5a3a7689f4414d11a23856cc68050cc4e1c3d5e796f",
+  "canonical_payload": {
+    "match_id": "epl_2026_sunderland_brighton",
+    "market": "1X2",
+    "home_team": "Sunderland",
+    "away_team": "Brighton",
+    "kickoff_utc": "2026-10-10T14:00:00Z",
+    "model_version": "veritas-v1.0",
+    "salt": "56c61dc5ce6fc01b13a7a73b37371848d45c65789efaae58c2bcd08898da01a8",
+    "probabilities": {
+      "home_win": 0.3106,
+      "draw": 0.2515,
+      "away_win": 0.4379
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.2803,
+        "draw": 0.2289,
+        "away_win": 0.4908
+      },
+      "ml_ensemble": {
+        "home_win": 0.3787,
+        "draw": 0.3203,
+        "away_win": 0.301
+      },
+      "entropy_score": 0.9956,
+      "dynamic_alpha": 0.2522
+    }
+  },
+  "settlement": {
+    "actual_result": "AWAY",
+    "brier_score": 0.4757
+  }
 }
