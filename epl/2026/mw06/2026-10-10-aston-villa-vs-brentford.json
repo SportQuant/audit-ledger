@@ -1,5 +1,38 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-10-08T14:00:15.317391Z",
-  "sha256_hash": "9ed196acbfab3114063b6882f98378aec50161606852fca92dd4859509b07f15"
+  "revealed_utc": "2026-10-10T16:03:26.941886Z",
+  "sha256_hash": "9ed196acbfab3114063b6882f98378aec50161606852fca92dd4859509b07f15",
+  "canonical_payload": {
+    "match_id": "epl_2026_aston_villa_brentford",
+    "market": "1X2",
+    "home_team": "Aston Villa",
+    "away_team": "Brentford",
+    "kickoff_utc": "2026-10-10T14:00:00Z",
+    "model_version": "veritas-v1.1",
+    "salt": "fc9c080e4b35db9ad9669bd9dca8194d90a4c07d3c8edde161207d4fe1a35155",
+    "probabilities": {
+      "home_win": 0.298,
+      "draw": 0.2649,
+      "away_win": 0.4371
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.2303,
+        "draw": 0.2632,
+        "away_win": 0.5065
+      },
+      "ml_ensemble": {
+        "home_win": 0.298,
+        "draw": 0.2649,
+        "away_win": 0.4371
+      },
+      "entropy_score": 0.978,
+      "dynamic_alpha": 0.5
+    }
+  },
+  "settlement": {
+    "actual_result": "DRAW",
+    "brier_score": 0.8202
+  }
 }
