@@ -1,5 +1,38 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-10-09T13:00:12.018740Z",
-  "sha256_hash": "3028b78eedd7678155e4e6ccb5365dcfce8f26e8a972a436d9fff5251d77759e"
+  "revealed_utc": "2026-10-11T15:02:55.101172Z",
+  "sha256_hash": "3028b78eedd7678155e4e6ccb5365dcfce8f26e8a972a436d9fff5251d77759e",
+  "canonical_payload": {
+    "match_id": "epl_2026_hull_city_everton",
+    "market": "1X2",
+    "home_team": "Hull City",
+    "away_team": "Everton",
+    "kickoff_utc": "2026-10-11T13:00:00Z",
+    "model_version": "veritas-v1.0",
+    "salt": "f40cacaea587be97dc838c7f797c745691ffa224e20837b1b4031fcac586ffdc",
+    "probabilities": {
+      "home_win": 0.3066,
+      "draw": 0.3295,
+      "away_win": 0.3639
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.3142,
+        "draw": 0.3354,
+        "away_win": 0.3504
+      },
+      "ml_ensemble": {
+        "home_win": 0.2629,
+        "draw": 0.3271,
+        "away_win": 0.41
+      },
+      "entropy_score": 0.9852,
+      "dynamic_alpha": 0.2574
+    }
+  },
+  "settlement": {
+    "actual_result": "DRAW",
+    "brier_score": 0.676
+  }
 }
