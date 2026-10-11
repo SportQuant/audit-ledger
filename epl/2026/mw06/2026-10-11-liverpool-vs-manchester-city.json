@@ -1,5 +1,38 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-10-09T15:33:07.730331Z",
-  "sha256_hash": "16c50e869b4051b0c2e1d2ca430ecb9274255f7bf6848f9b82d2f9fa0f559823"
+  "revealed_utc": "2026-10-11T17:32:49.293771Z",
+  "sha256_hash": "16c50e869b4051b0c2e1d2ca430ecb9274255f7bf6848f9b82d2f9fa0f559823",
+  "canonical_payload": {
+    "match_id": "epl_2026_liverpool_manchester_city",
+    "market": "1X2",
+    "home_team": "Liverpool",
+    "away_team": "Manchester City",
+    "kickoff_utc": "2026-10-11T15:30:00Z",
+    "model_version": "veritas-v1.1",
+    "salt": "6ca7a0b257cbd0ca3ff8f491a5cabdfbaa4fdbce764ca217ef4a3bb6a87ede23",
+    "probabilities": {
+      "home_win": 0.3098,
+      "draw": 0.2743,
+      "away_win": 0.4159
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.2766,
+        "draw": 0.2633,
+        "away_win": 0.4601
+      },
+      "ml_ensemble": {
+        "home_win": 0.3098,
+        "draw": 0.2743,
+        "away_win": 0.4159
+      },
+      "entropy_score": 0.9855,
+      "dynamic_alpha": 0.5
+    }
+  },
+  "settlement": {
+    "actual_result": "AWAY",
+    "brier_score": 0.5124
+  }
 }
