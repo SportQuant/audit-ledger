@@ -1,5 +1,38 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-10-09T13:00:09.848320Z",
-  "sha256_hash": "cfbee4282344ca1454f04ab3c2df7de98c8a7b9c30ee2587f25a42b3a932a0d5"
+  "revealed_utc": "2026-10-11T15:02:53.436007Z",
+  "sha256_hash": "cfbee4282344ca1454f04ab3c2df7de98c8a7b9c30ee2587f25a42b3a932a0d5",
+  "canonical_payload": {
+    "match_id": "epl_2026_crystal_palace_nottingham_forest",
+    "market": "1X2",
+    "home_team": "Crystal Palace",
+    "away_team": "Nottingham Forest",
+    "kickoff_utc": "2026-10-11T13:00:00Z",
+    "model_version": "veritas-v1.0",
+    "salt": "aa449bfe348cd6db407b83189415f7184c57d20ca55b73eeab70b3d7021a2a3a",
+    "probabilities": {
+      "home_win": 0.3192,
+      "draw": 0.2715,
+      "away_win": 0.4093
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.3076,
+        "draw": 0.2448,
+        "away_win": 0.4476
+      },
+      "ml_ensemble": {
+        "home_win": 0.3333,
+        "draw": 0.3567,
+        "away_win": 0.31
+      },
+      "entropy_score": 0.9985,
+      "dynamic_alpha": 0.2507
+    }
+  },
+  "settlement": {
+    "actual_result": "HOME",
+    "brier_score": 0.7047
+  }
 }
