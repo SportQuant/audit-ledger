@@ -1,5 +1,38 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-10-10T19:00:08.694329Z",
-  "sha256_hash": "7d41afc208bae0a169dd251d1a19ad9b0b0bb79d9826e0a4782abac1afdec4bc"
+  "revealed_utc": "2026-10-12T21:03:01.306833Z",
+  "sha256_hash": "7d41afc208bae0a169dd251d1a19ad9b0b0bb79d9826e0a4782abac1afdec4bc",
+  "canonical_payload": {
+    "match_id": "epl_2026_coventry_newcastle",
+    "market": "1X2",
+    "home_team": "Coventry",
+    "away_team": "Newcastle",
+    "kickoff_utc": "2026-10-12T19:00:00Z",
+    "model_version": "veritas-v1.1",
+    "salt": "42afe2a0ec11221b7ac633d1f7e5e61b641dc98a56ef807cd659be7794c7355c",
+    "probabilities": {
+      "home_win": 0.1482,
+      "draw": 0.2201,
+      "away_win": 0.6317
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.0712,
+        "draw": 0.1808,
+        "away_win": 0.748
+      },
+      "ml_ensemble": {
+        "home_win": 0.1482,
+        "draw": 0.2201,
+        "away_win": 0.6317
+      },
+      "entropy_score": 0.8249,
+      "dynamic_alpha": 0.5
+    }
+  },
+  "settlement": {
+    "actual_result": "HOME",
+    "brier_score": 1.1731
+  }
 }
