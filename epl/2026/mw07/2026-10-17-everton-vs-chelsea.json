@@ -1,5 +1,38 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-10-15T11:32:59.462188Z",
-  "sha256_hash": "937d494accf581646eb9723d61cd445004a16753e7234c33ca6f1015459994a0"
+  "revealed_utc": "2026-10-17T13:47:39.442855Z",
+  "sha256_hash": "937d494accf581646eb9723d61cd445004a16753e7234c33ca6f1015459994a0",
+  "canonical_payload": {
+    "match_id": "epl_2026_everton_chelsea",
+    "market": "1X2",
+    "home_team": "Everton",
+    "away_team": "Chelsea",
+    "kickoff_utc": "2026-10-17T11:30:00Z",
+    "model_version": "veritas-v1.0",
+    "salt": "16132f05511b80f0a997f5a4c3d9afcacead46cf469fcd7903534c07cc5b13c6",
+    "probabilities": {
+      "home_win": 0.4272,
+      "draw": 0.2602,
+      "away_win": 0.3126
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.4336,
+        "draw": 0.2442,
+        "away_win": 0.3222
+      },
+      "ml_ensemble": {
+        "home_win": 0.406,
+        "draw": 0.3105,
+        "away_win": 0.2835
+      },
+      "entropy_score": 0.989,
+      "dynamic_alpha": 0.2555
+    }
+  },
+  "settlement": {
+    "actual_result": "AWAY",
+    "brier_score": 0.7227
+  }
 }
