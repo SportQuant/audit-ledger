@@ -1,5 +1,38 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-10-15T14:00:14.405492Z",
-  "sha256_hash": "bca2b5f24889ace7f04fed6a26e92833092eab2ada0d79b6a9907a88814b0470"
+  "revealed_utc": "2026-10-17T16:02:47.510418Z",
+  "sha256_hash": "bca2b5f24889ace7f04fed6a26e92833092eab2ada0d79b6a9907a88814b0470",
+  "canonical_payload": {
+    "match_id": "epl_2026_fulham_hull_city",
+    "market": "1X2",
+    "home_team": "Fulham",
+    "away_team": "Hull City",
+    "kickoff_utc": "2026-10-17T14:00:00Z",
+    "model_version": "veritas-v1.1",
+    "salt": "0e48ba3aa93b356f0c122d8de00ab987d959c1b85dac0d62bf2ab318eaf49883",
+    "probabilities": {
+      "home_win": 0.4065,
+      "draw": 0.2961,
+      "away_win": 0.2974
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.3784,
+        "draw": 0.2997,
+        "away_win": 0.3219
+      },
+      "ml_ensemble": {
+        "home_win": 0.4065,
+        "draw": 0.2961,
+        "away_win": 0.2974
+      },
+      "entropy_score": 0.9894,
+      "dynamic_alpha": 0.5
+    }
+  },
+  "settlement": {
+    "actual_result": "HOME",
+    "brier_score": 0.5284
+  }
 }
