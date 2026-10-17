@@ -1,5 +1,38 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-10-15T16:33:02.282128Z",
-  "sha256_hash": "a7997591d0965c6336a6fe8aefc65440c93a5a4c58f4d5d85f8ae9959983faca"
+  "revealed_utc": "2026-10-17T18:32:34.809019Z",
+  "sha256_hash": "a7997591d0965c6336a6fe8aefc65440c93a5a4c58f4d5d85f8ae9959983faca",
+  "canonical_payload": {
+    "match_id": "epl_2026_newcastle_aston_villa",
+    "market": "1X2",
+    "home_team": "Newcastle",
+    "away_team": "Aston Villa",
+    "kickoff_utc": "2026-10-17T16:30:00Z",
+    "model_version": "veritas-v1.1",
+    "salt": "fda7c5f409ab00aed24faf8b1612d4f75609de1b4e427c6d6f615e6e0b93478f",
+    "probabilities": {
+      "home_win": 0.3612,
+      "draw": 0.2512,
+      "away_win": 0.3876
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.3469,
+        "draw": 0.2312,
+        "away_win": 0.4219
+      },
+      "ml_ensemble": {
+        "home_win": 0.3903,
+        "draw": 0.3123,
+        "away_win": 0.2974
+      },
+      "entropy_score": 0.9934,
+      "dynamic_alpha": 0.2533
+    }
+  },
+  "settlement": {
+    "actual_result": "AWAY",
+    "brier_score": 0.5686
+  }
 }
