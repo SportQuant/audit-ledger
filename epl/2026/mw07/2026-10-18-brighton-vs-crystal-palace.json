@@ -1,5 +1,38 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-10-16T13:00:09.864676Z",
-  "sha256_hash": "0a0ac1849d90d9e28a7bdbdf77fce4eb70b3990fa1237490eeba292497126496"
+  "revealed_utc": "2026-10-18T15:02:43.003785Z",
+  "sha256_hash": "0a0ac1849d90d9e28a7bdbdf77fce4eb70b3990fa1237490eeba292497126496",
+  "canonical_payload": {
+    "match_id": "epl_2026_brighton_crystal_palace",
+    "market": "1X2",
+    "home_team": "Brighton",
+    "away_team": "Crystal Palace",
+    "kickoff_utc": "2026-10-18T13:00:00Z",
+    "model_version": "veritas-v1.1",
+    "salt": "7c9cb4a4380ea4ee9dc8d8741dbcfd5b67f1aefa67d4cfc4b1639b2a49dd78cc",
+    "probabilities": {
+      "home_win": 0.6296,
+      "draw": 0.197,
+      "away_win": 0.1734
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.6889,
+        "draw": 0.161,
+        "away_win": 0.1501
+      },
+      "ml_ensemble": {
+        "home_win": 0.505,
+        "draw": 0.2833,
+        "away_win": 0.2117
+      },
+      "entropy_score": 0.9384,
+      "dynamic_alpha": 0.2798
+    }
+  },
+  "settlement": {
+    "actual_result": "HOME",
+    "brier_score": 0.2061
+  }
 }
