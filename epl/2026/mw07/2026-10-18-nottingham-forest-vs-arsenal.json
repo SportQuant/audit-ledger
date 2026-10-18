@@ -1,5 +1,38 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-10-16T15:32:48.856080Z",
-  "sha256_hash": "ff799093a0744bca3a513e3413361daa7a30448b2b70cd09783892fb9c8d30c0"
+  "revealed_utc": "2026-10-18T17:32:44.166398Z",
+  "sha256_hash": "ff799093a0744bca3a513e3413361daa7a30448b2b70cd09783892fb9c8d30c0",
+  "canonical_payload": {
+    "match_id": "epl_2026_nottingham_forest_arsenal",
+    "market": "1X2",
+    "home_team": "Nottingham Forest",
+    "away_team": "Arsenal",
+    "kickoff_utc": "2026-10-18T15:30:00Z",
+    "model_version": "veritas-v1.1",
+    "salt": "e416cf352d2c2813dd8b250d556a8d5aa8bfc71b955bc396ac84515d4e3ea60c",
+    "probabilities": {
+      "home_win": 0.2164,
+      "draw": 0.2507,
+      "away_win": 0.5329
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.1818,
+        "draw": 0.233,
+        "away_win": 0.5852
+      },
+      "ml_ensemble": {
+        "home_win": 0.2802,
+        "draw": 0.304,
+        "away_win": 0.4158
+      },
+      "entropy_score": 0.9861,
+      "dynamic_alpha": 0.2569
+    }
+  },
+  "settlement": {
+    "actual_result": "AWAY",
+    "brier_score": 0.3279
+  }
 }
