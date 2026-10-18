@@ -1,5 +1,38 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-10-16T13:00:15.513113Z",
-  "sha256_hash": "d75221048848ee0a41816bcec017d37a813bb4c82d1fa0dc303dda73efa0fbd2"
+  "revealed_utc": "2026-10-18T15:02:38.909719Z",
+  "sha256_hash": "d75221048848ee0a41816bcec017d37a813bb4c82d1fa0dc303dda73efa0fbd2",
+  "canonical_payload": {
+    "match_id": "epl_2026_bournemouth_sunderland",
+    "market": "1X2",
+    "home_team": "Bournemouth",
+    "away_team": "Sunderland",
+    "kickoff_utc": "2026-10-18T13:00:00Z",
+    "model_version": "veritas-v1.0",
+    "salt": "2887f7b0be37590e7fc55916c8fbc36d1415e95c14458107b6e8bed92b2dc46d",
+    "probabilities": {
+      "home_win": 0.4709,
+      "draw": 0.2625,
+      "away_win": 0.2666
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.4729,
+        "draw": 0.2514,
+        "away_win": 0.2757
+      },
+      "ml_ensemble": {
+        "home_win": 0.4699,
+        "draw": 0.2963,
+        "away_win": 0.2338
+      },
+      "entropy_score": 0.9604,
+      "dynamic_alpha": 0.2694
+    }
+  },
+  "settlement": {
+    "actual_result": "HOME",
+    "brier_score": 0.4199
+  }
 }
