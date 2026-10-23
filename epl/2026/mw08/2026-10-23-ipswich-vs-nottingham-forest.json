@@ -1,5 +1,38 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-10-21T19:00:10.750824Z",
-  "sha256_hash": "1c590bb351ec2d2d910e17f5d14caa2ce66941c85cb8ba64168478938869bd04"
+  "revealed_utc": "2026-10-23T21:02:28.122658Z",
+  "sha256_hash": "1c590bb351ec2d2d910e17f5d14caa2ce66941c85cb8ba64168478938869bd04",
+  "canonical_payload": {
+    "match_id": "epl_2026_ipswich_nottingham_forest",
+    "market": "1X2",
+    "home_team": "Ipswich",
+    "away_team": "Nottingham Forest",
+    "kickoff_utc": "2026-10-23T19:00:00Z",
+    "model_version": "veritas-v1.0",
+    "salt": "d27bda9ed0359bafd72553fbc2695f9caac1a3fb998fd95601f8300be07972ac",
+    "probabilities": {
+      "home_win": 0.2793,
+      "draw": 0.2573,
+      "away_win": 0.4634
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.2703,
+        "draw": 0.2335,
+        "away_win": 0.4962
+      },
+      "ml_ensemble": {
+        "home_win": 0.2788,
+        "draw": 0.3301,
+        "away_win": 0.3911
+      },
+      "entropy_score": 0.9914,
+      "dynamic_alpha": 0.2543
+    }
+  },
+  "settlement": {
+    "actual_result": "DRAW",
+    "brier_score": 0.8444
+  }
 }
