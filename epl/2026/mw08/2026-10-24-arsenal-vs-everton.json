@@ -1,5 +1,38 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-10-22T14:00:09.427221Z",
-  "sha256_hash": "a6a6aa2d2505e65cc1b9e43abe6a11fff0e923f35db6bda593348187b87aec4a"
+  "revealed_utc": "2026-10-24T16:02:26.448551Z",
+  "sha256_hash": "a6a6aa2d2505e65cc1b9e43abe6a11fff0e923f35db6bda593348187b87aec4a",
+  "canonical_payload": {
+    "match_id": "epl_2026_arsenal_everton",
+    "market": "1X2",
+    "home_team": "Arsenal",
+    "away_team": "Everton",
+    "kickoff_utc": "2026-10-24T14:00:00Z",
+    "model_version": "veritas-v1.1",
+    "salt": "991bd23e61a7bcea1ef073f5a15a6c803eed422b0ac62929f5402eb9f1ead6e0",
+    "probabilities": {
+      "home_win": 0.5947,
+      "draw": 0.2321,
+      "away_win": 0.1732
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.6049,
+        "draw": 0.2303,
+        "away_win": 0.1648
+      },
+      "ml_ensemble": {
+        "home_win": 0.5925,
+        "draw": 0.2353,
+        "away_win": 0.1722
+      },
+      "entropy_score": 0.8679,
+      "dynamic_alpha": 0.3117
+    }
+  },
+  "settlement": {
+    "actual_result": "HOME",
+    "brier_score": 0.2481
+  }
 }
