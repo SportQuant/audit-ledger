@@ -1,5 +1,38 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-10-22T14:00:11.488650Z",
-  "sha256_hash": "45cb59d8ddbb2fbe921aaeaa621669e962091fd9aec03a3fcd13383ca0580704"
+  "revealed_utc": "2026-10-24T16:02:24.446446Z",
+  "sha256_hash": "45cb59d8ddbb2fbe921aaeaa621669e962091fd9aec03a3fcd13383ca0580704",
+  "canonical_payload": {
+    "match_id": "epl_2026_coventry_fulham",
+    "market": "1X2",
+    "home_team": "Coventry",
+    "away_team": "Fulham",
+    "kickoff_utc": "2026-10-24T14:00:00Z",
+    "model_version": "veritas-v1.1",
+    "salt": "8b4174e23057a1afaef101b5615c71b8092c7697a15289a716cf57601ef516c8",
+    "probabilities": {
+      "home_win": 0.321,
+      "draw": 0.2748,
+      "away_win": 0.4042
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.3096,
+        "draw": 0.254,
+        "away_win": 0.4364
+      },
+      "ml_ensemble": {
+        "home_win": 0.3349,
+        "draw": 0.3432,
+        "away_win": 0.3219
+      },
+      "entropy_score": 0.9997,
+      "dynamic_alpha": 0.2502
+    }
+  },
+  "settlement": {
+    "actual_result": "AWAY",
+    "brier_score": 0.5335
+  }
 }
