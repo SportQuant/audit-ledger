@@ -1,5 +1,38 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-10-22T16:32:27.267598Z",
-  "sha256_hash": "e2b2cb85f988e48dd37e1e2b2ea066b2c5081addd0f4dbc956fbf8711c2c81b2"
+  "revealed_utc": "2026-10-24T18:32:54.469858Z",
+  "sha256_hash": "e2b2cb85f988e48dd37e1e2b2ea066b2c5081addd0f4dbc956fbf8711c2c81b2",
+  "canonical_payload": {
+    "match_id": "epl_2026_chelsea_tottenham",
+    "market": "1X2",
+    "home_team": "Chelsea",
+    "away_team": "Tottenham",
+    "kickoff_utc": "2026-10-24T16:30:00Z",
+    "model_version": "veritas-v1.0",
+    "salt": "781c30fdb0442dc5978f11343e6cfadd82e73b25f361fcb2db71eae978fc441a",
+    "probabilities": {
+      "home_win": 0.6041,
+      "draw": 0.2422,
+      "away_win": 0.1537
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.6653,
+        "draw": 0.2185,
+        "away_win": 0.1162
+      },
+      "ml_ensemble": {
+        "home_win": 0.4623,
+        "draw": 0.3073,
+        "away_win": 0.2304
+      },
+      "entropy_score": 0.9626,
+      "dynamic_alpha": 0.2684
+    }
+  },
+  "settlement": {
+    "actual_result": "AWAY",
+    "brier_score": 1.1398
+  }
 }
