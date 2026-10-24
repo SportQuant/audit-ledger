@@ -1,5 +1,38 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-10-22T11:32:21.917042Z",
-  "sha256_hash": "42a85f2db3691aebb2ce7decdc8e50d5628ae81f15164166329ead5d2c016647"
+  "revealed_utc": "2026-10-24T13:32:23.389532Z",
+  "sha256_hash": "42a85f2db3691aebb2ce7decdc8e50d5628ae81f15164166329ead5d2c016647",
+  "canonical_payload": {
+    "match_id": "epl_2026_aston_villa_manchester_city",
+    "market": "1X2",
+    "home_team": "Aston Villa",
+    "away_team": "Manchester City",
+    "kickoff_utc": "2026-10-24T11:30:00Z",
+    "model_version": "veritas-v1.1",
+    "salt": "cb4eecc4fe9f15baecafb3b16f0f7b2ceddbb849036ec006c1351384ecc468ed",
+    "probabilities": {
+      "home_win": 0.2853,
+      "draw": 0.2396,
+      "away_win": 0.4751
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.2314,
+        "draw": 0.2216,
+        "away_win": 0.547
+      },
+      "ml_ensemble": {
+        "home_win": 0.4159,
+        "draw": 0.2918,
+        "away_win": 0.2923
+      },
+      "entropy_score": 0.9865,
+      "dynamic_alpha": 0.2567
+    }
+  },
+  "settlement": {
+    "actual_result": "HOME",
+    "brier_score": 0.7939
+  }
 }
