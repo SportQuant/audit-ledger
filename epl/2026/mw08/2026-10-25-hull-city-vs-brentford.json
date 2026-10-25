@@ -1,5 +1,38 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-10-23T14:00:09.902006Z",
-  "sha256_hash": "11f739791e4328f770835ad69c25c6443010420adf7e3179a4eb4ae0c97b1a1d"
+  "revealed_utc": "2026-10-25T16:02:32.036176Z",
+  "sha256_hash": "11f739791e4328f770835ad69c25c6443010420adf7e3179a4eb4ae0c97b1a1d",
+  "canonical_payload": {
+    "match_id": "epl_2026_hull_city_brentford",
+    "market": "1X2",
+    "home_team": "Hull City",
+    "away_team": "Brentford",
+    "kickoff_utc": "2026-10-25T14:00:00Z",
+    "model_version": "veritas-v1.1",
+    "salt": "1bf218aa5d77240fd71c6f17c67fb2c9a35cd6c276e03d085cf5ddd2285b3df9",
+    "probabilities": {
+      "home_win": 0.2338,
+      "draw": 0.2488,
+      "away_win": 0.5174
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.2041,
+        "draw": 0.2199,
+        "away_win": 0.576
+      },
+      "ml_ensemble": {
+        "home_win": 0.2874,
+        "draw": 0.336,
+        "away_win": 0.3766
+      },
+      "entropy_score": 0.9945,
+      "dynamic_alpha": 0.2527
+    }
+  },
+  "settlement": {
+    "actual_result": "DRAW",
+    "brier_score": 0.8867
+  }
 }
