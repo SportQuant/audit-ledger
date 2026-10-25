@@ -1,5 +1,38 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-10-23T14:00:13.528363Z",
-  "sha256_hash": "b9b09d4f7c18f19f7ba5de99c489b6ca19cebfdc30728b74372e27b3db62d3b8"
+  "revealed_utc": "2026-10-25T16:02:34.078793Z",
+  "sha256_hash": "b9b09d4f7c18f19f7ba5de99c489b6ca19cebfdc30728b74372e27b3db62d3b8",
+  "canonical_payload": {
+    "match_id": "epl_2026_manchester_united_bournemouth",
+    "market": "1X2",
+    "home_team": "Manchester United",
+    "away_team": "Bournemouth",
+    "kickoff_utc": "2026-10-25T14:00:00Z",
+    "model_version": "veritas-v1.1",
+    "salt": "284eaaf31d1e7c8b4a049e86da51f2119f8817b0f3a60133ce379c42e7974f66",
+    "probabilities": {
+      "home_win": 0.4543,
+      "draw": 0.2603,
+      "away_win": 0.2854
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.4665,
+        "draw": 0.245,
+        "away_win": 0.2885
+      },
+      "ml_ensemble": {
+        "home_win": 0.4211,
+        "draw": 0.3077,
+        "away_win": 0.2712
+      },
+      "entropy_score": 0.9838,
+      "dynamic_alpha": 0.2581
+    }
+  },
+  "settlement": {
+    "actual_result": "AWAY",
+    "brier_score": 0.7848
+  }
 }
