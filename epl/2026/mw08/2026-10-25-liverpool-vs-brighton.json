@@ -1,5 +1,38 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-10-23T14:00:15.607386Z",
-  "sha256_hash": "1812aa2ee868bd33ad2670bdb4768232d27393bfe3e87426ea505fcdf8730751"
+  "revealed_utc": "2026-10-25T16:02:27.810397Z",
+  "sha256_hash": "1812aa2ee868bd33ad2670bdb4768232d27393bfe3e87426ea505fcdf8730751",
+  "canonical_payload": {
+    "match_id": "epl_2026_liverpool_brighton",
+    "market": "1X2",
+    "home_team": "Liverpool",
+    "away_team": "Brighton",
+    "kickoff_utc": "2026-10-25T14:00:00Z",
+    "model_version": "veritas-v1.1",
+    "salt": "53db435cc69fb7320d7c6f71910c0f4f2a3b0df47fd5d7069453649dd958402c",
+    "probabilities": {
+      "home_win": 0.2557,
+      "draw": 0.2666,
+      "away_win": 0.4777
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.1283,
+        "draw": 0.2595,
+        "away_win": 0.6122
+      },
+      "ml_ensemble": {
+        "home_win": 0.5361,
+        "draw": 0.2874,
+        "away_win": 0.1765
+      },
+      "entropy_score": 0.909,
+      "dynamic_alpha": 0.2934
+    }
+  },
+  "settlement": {
+    "actual_result": "HOME",
+    "brier_score": 0.8533
+  }
 }
