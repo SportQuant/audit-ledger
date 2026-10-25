@@ -1,5 +1,38 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-10-23T14:00:18.600866Z",
-  "sha256_hash": "5d010f7f1124119ae9b752f40c75dabc61393c377ccb6ca0203d77ecf98fb3b0"
+  "revealed_utc": "2026-10-25T16:02:29.937005Z",
+  "sha256_hash": "5d010f7f1124119ae9b752f40c75dabc61393c377ccb6ca0203d77ecf98fb3b0",
+  "canonical_payload": {
+    "match_id": "epl_2026_crystal_palace_newcastle",
+    "market": "1X2",
+    "home_team": "Crystal Palace",
+    "away_team": "Newcastle",
+    "kickoff_utc": "2026-10-25T14:00:00Z",
+    "model_version": "veritas-v1.1",
+    "salt": "83f373fdebbaa1403b8c2bebe83d94ebb72735ed5bb283db0e190d067e14a6e4",
+    "probabilities": {
+      "home_win": 0.4646,
+      "draw": 0.239,
+      "away_win": 0.2964
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.4907,
+        "draw": 0.2087,
+        "away_win": 0.3006
+      },
+      "ml_ensemble": {
+        "home_win": 0.3915,
+        "draw": 0.3281,
+        "away_win": 0.2804
+      },
+      "entropy_score": 0.9915,
+      "dynamic_alpha": 0.2542
+    }
+  },
+  "settlement": {
+    "actual_result": "AWAY",
+    "brier_score": 0.768
+  }
 }
