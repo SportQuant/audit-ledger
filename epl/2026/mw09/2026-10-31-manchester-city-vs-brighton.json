@@ -1,5 +1,38 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-10-29T15:00:16.027960Z",
-  "sha256_hash": "4d26166010cae338ebab0cc203a398008c43175dab24b08f6c6181ac8b0af703"
+  "revealed_utc": "2026-10-31T17:02:50.486524Z",
+  "sha256_hash": "4d26166010cae338ebab0cc203a398008c43175dab24b08f6c6181ac8b0af703",
+  "canonical_payload": {
+    "match_id": "epl_2026_manchester_city_brighton",
+    "market": "1X2",
+    "home_team": "Manchester City",
+    "away_team": "Brighton",
+    "kickoff_utc": "2026-10-31T15:00:00Z",
+    "model_version": "veritas-v1.1",
+    "salt": "8c5812d05f7bddb64d75b171e0ba27816a309dbd4c3105ae8d1eeda7a2dfc7a7",
+    "probabilities": {
+      "home_win": 0.3715,
+      "draw": 0.2346,
+      "away_win": 0.3939
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.2851,
+        "draw": 0.2346,
+        "away_win": 0.4803
+      },
+      "ml_ensemble": {
+        "home_win": 0.5646,
+        "draw": 0.2339,
+        "away_win": 0.2015
+      },
+      "entropy_score": 0.8969,
+      "dynamic_alpha": 0.2989
+    }
+  },
+  "settlement": {
+    "actual_result": "AWAY",
+    "brier_score": 0.5604
+  }
 }
