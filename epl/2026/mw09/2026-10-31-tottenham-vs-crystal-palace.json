@@ -1,5 +1,38 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-10-29T17:32:39.303560Z",
-  "sha256_hash": "1ddf65ce54f0e60811fd20f4ae9fd7ec0a63a32699abe341e3660b239240830c"
+  "revealed_utc": "2026-10-31T19:32:46.345426Z",
+  "sha256_hash": "1ddf65ce54f0e60811fd20f4ae9fd7ec0a63a32699abe341e3660b239240830c",
+  "canonical_payload": {
+    "match_id": "epl_2026_tottenham_crystal_palace",
+    "market": "1X2",
+    "home_team": "Tottenham",
+    "away_team": "Crystal Palace",
+    "kickoff_utc": "2026-10-31T17:30:00Z",
+    "model_version": "veritas-v1.1",
+    "salt": "7e3edfcfe7b4834aa820fbc8d4f666400bb5d5769ebc24f7bd4b698a6e5be984",
+    "probabilities": {
+      "home_win": 0.2945,
+      "draw": 0.2926,
+      "away_win": 0.4129
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.2287,
+        "draw": 0.2983,
+        "away_win": 0.473
+      },
+      "ml_ensemble": {
+        "home_win": 0.2945,
+        "draw": 0.2926,
+        "away_win": 0.4129
+      },
+      "entropy_score": 0.9875,
+      "dynamic_alpha": 0.5
+    }
+  },
+  "settlement": {
+    "actual_result": "HOME",
+    "brier_score": 0.7538
+  }
 }
