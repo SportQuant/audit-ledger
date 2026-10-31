@@ -1,5 +1,38 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-10-29T12:32:23.713195Z",
-  "sha256_hash": "6b52b88e009be3b569e4c79adeedabb3e33df7cf22921faa8d382c1c71446025"
+  "revealed_utc": "2026-10-31T14:32:34.165281Z",
+  "sha256_hash": "6b52b88e009be3b569e4c79adeedabb3e33df7cf22921faa8d382c1c71446025",
+  "canonical_payload": {
+    "match_id": "epl_2026_chelsea_manchester_united",
+    "market": "1X2",
+    "home_team": "Chelsea",
+    "away_team": "Manchester United",
+    "kickoff_utc": "2026-10-31T12:30:00Z",
+    "model_version": "veritas-v1.1",
+    "salt": "299e42ebf122373554e44bb15c02cfd94386b19b90c1a734adde657643c32723",
+    "probabilities": {
+      "home_win": 0.4754,
+      "draw": 0.2679,
+      "away_win": 0.2567
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.5065,
+        "draw": 0.2484,
+        "away_win": 0.2451
+      },
+      "ml_ensemble": {
+        "home_win": 0.3898,
+        "draw": 0.33,
+        "away_win": 0.2802
+      },
+      "entropy_score": 0.9918,
+      "dynamic_alpha": 0.2541
+    }
+  },
+  "settlement": {
+    "actual_result": "HOME",
+    "brier_score": 0.4129
+  }
 }
