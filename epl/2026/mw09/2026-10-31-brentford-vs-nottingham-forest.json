@@ -1,5 +1,38 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-10-29T15:00:11.248687Z",
-  "sha256_hash": "f424bda867d69a541321d0c73ac4bc984793ad9ac1ce0dd34865456282e94049"
+  "revealed_utc": "2026-10-31T17:02:48.535780Z",
+  "sha256_hash": "f424bda867d69a541321d0c73ac4bc984793ad9ac1ce0dd34865456282e94049",
+  "canonical_payload": {
+    "match_id": "epl_2026_brentford_nottingham_forest",
+    "market": "1X2",
+    "home_team": "Brentford",
+    "away_team": "Nottingham Forest",
+    "kickoff_utc": "2026-10-31T15:00:00Z",
+    "model_version": "veritas-v1.1",
+    "salt": "5b51ff365541c41f6b44feaee78abb90d815671c74f8b16a0d7255be7ed15991",
+    "probabilities": {
+      "home_win": 0.4706,
+      "draw": 0.2764,
+      "away_win": 0.253
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.4828,
+        "draw": 0.2672,
+        "away_win": 0.25
+      },
+      "ml_ensemble": {
+        "home_win": 0.4706,
+        "draw": 0.2764,
+        "away_win": 0.253
+      },
+      "entropy_score": 0.9629,
+      "dynamic_alpha": 0.5
+    }
+  },
+  "settlement": {
+    "actual_result": "HOME",
+    "brier_score": 0.4207
+  }
 }
