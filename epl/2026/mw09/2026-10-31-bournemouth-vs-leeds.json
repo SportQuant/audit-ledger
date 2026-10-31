@@ -1,5 +1,38 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-10-29T15:00:09.151184Z",
-  "sha256_hash": "a59ff9f831cb4a0b649bfe79530bf20ea946e9f16a2f15241a5d8cf7d400f4b8"
+  "revealed_utc": "2026-10-31T17:02:56.937800Z",
+  "sha256_hash": "a59ff9f831cb4a0b649bfe79530bf20ea946e9f16a2f15241a5d8cf7d400f4b8",
+  "canonical_payload": {
+    "match_id": "epl_2026_bournemouth_leeds",
+    "market": "1X2",
+    "home_team": "Bournemouth",
+    "away_team": "Leeds",
+    "kickoff_utc": "2026-10-31T15:00:00Z",
+    "model_version": "veritas-v1.1",
+    "salt": "79df182e19fc0b38f68e85ae7142970b21b11060027f58c0a0019490ccf7ec28",
+    "probabilities": {
+      "home_win": 0.408,
+      "draw": 0.268,
+      "away_win": 0.324
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.3789,
+        "draw": 0.2635,
+        "away_win": 0.3576
+      },
+      "ml_ensemble": {
+        "home_win": 0.4807,
+        "draw": 0.2846,
+        "away_win": 0.2347
+      },
+      "entropy_score": 0.9557,
+      "dynamic_alpha": 0.2716
+    }
+  },
+  "settlement": {
+    "actual_result": "HOME",
+    "brier_score": 0.5273
+  }
 }
