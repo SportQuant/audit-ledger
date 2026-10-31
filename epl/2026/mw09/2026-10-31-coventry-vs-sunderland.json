@@ -1,5 +1,38 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-10-29T15:00:13.327071Z",
-  "sha256_hash": "e93650c7285ab23c46d215baf593b21b074a1af4d47a272c86a985d908d0d154"
+  "revealed_utc": "2026-10-31T17:02:52.270406Z",
+  "sha256_hash": "e93650c7285ab23c46d215baf593b21b074a1af4d47a272c86a985d908d0d154",
+  "canonical_payload": {
+    "match_id": "epl_2026_coventry_sunderland",
+    "market": "1X2",
+    "home_team": "Coventry",
+    "away_team": "Sunderland",
+    "kickoff_utc": "2026-10-31T15:00:00Z",
+    "model_version": "veritas-v1.1",
+    "salt": "7ddad60a0f357793e9e5d7e62ccabe9f1273e0c5ed8076549a288c10e4254acb",
+    "probabilities": {
+      "home_win": 0.4603,
+      "draw": 0.2615,
+      "away_win": 0.2782
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.5076,
+        "draw": 0.2397,
+        "away_win": 0.2527
+      },
+      "ml_ensemble": {
+        "home_win": 0.3216,
+        "draw": 0.3308,
+        "away_win": 0.3476
+      },
+      "entropy_score": 0.9995,
+      "dynamic_alpha": 0.2502
+    }
+  },
+  "settlement": {
+    "actual_result": "HOME",
+    "brier_score": 0.4371
+  }
 }
