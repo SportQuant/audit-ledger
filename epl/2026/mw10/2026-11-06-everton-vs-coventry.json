@@ -1,5 +1,38 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-11-04T20:00:09.099776Z",
-  "sha256_hash": "5d287ac635eb779851b3cc63dbe53e6a7b739c0f4f6f7126866fbbef8f589b29"
+  "revealed_utc": "2026-11-06T22:03:24.481255Z",
+  "sha256_hash": "5d287ac635eb779851b3cc63dbe53e6a7b739c0f4f6f7126866fbbef8f589b29",
+  "canonical_payload": {
+    "match_id": "epl_2026_everton_coventry",
+    "market": "1X2",
+    "home_team": "Everton",
+    "away_team": "Coventry",
+    "kickoff_utc": "2026-11-06T20:00:00Z",
+    "model_version": "veritas-v1.1",
+    "salt": "c580b474befa0428bebf488c046ec6a5aba1dfe192a16e582bebe728fdd9786c",
+    "probabilities": {
+      "home_win": 0.6829,
+      "draw": 0.2163,
+      "away_win": 0.1008
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.7752,
+        "draw": 0.1816,
+        "away_win": 0.0432
+      },
+      "ml_ensemble": {
+        "home_win": 0.6829,
+        "draw": 0.2163,
+        "away_win": 0.1008
+      },
+      "entropy_score": 0.7491,
+      "dynamic_alpha": 0.5
+    }
+  },
+  "settlement": {
+    "actual_result": "HOME",
+    "brier_score": 0.1575
+  }
 }
