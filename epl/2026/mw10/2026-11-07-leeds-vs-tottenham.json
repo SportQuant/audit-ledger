@@ -1,5 +1,38 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-11-05T12:32:44.300481Z",
-  "sha256_hash": "a853af128ee64061813f08c68ebd9cfbd19c806629e9140d16f7b6450f380d01"
+  "revealed_utc": "2026-11-07T14:32:47.198357Z",
+  "sha256_hash": "a853af128ee64061813f08c68ebd9cfbd19c806629e9140d16f7b6450f380d01",
+  "canonical_payload": {
+    "match_id": "epl_2026_leeds_tottenham",
+    "market": "1X2",
+    "home_team": "Leeds",
+    "away_team": "Tottenham",
+    "kickoff_utc": "2026-11-07T12:30:00Z",
+    "model_version": "veritas-v1.1",
+    "salt": "fc2e1b8360d345dbfee134b73e858105850d6f52f4d5e7b50d9e847c8d0b5bd3",
+    "probabilities": {
+      "home_win": 0.5573,
+      "draw": 0.2811,
+      "away_win": 0.1616
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.6174,
+        "draw": 0.2685,
+        "away_win": 0.1141
+      },
+      "ml_ensemble": {
+        "home_win": 0.5573,
+        "draw": 0.2811,
+        "away_win": 0.1616
+      },
+      "entropy_score": 0.8894,
+      "dynamic_alpha": 0.5
+    }
+  },
+  "settlement": {
+    "actual_result": "HOME",
+    "brier_score": 0.3011
+  }
 }
