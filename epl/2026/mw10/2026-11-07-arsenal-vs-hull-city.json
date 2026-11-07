@@ -1,5 +1,38 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-11-05T15:00:14.122147Z",
-  "sha256_hash": "60626b6117b7d363cd9f95a07e7f61b30b63dcc6c68cb6692d15699805ae9cdc"
+  "revealed_utc": "2026-11-07T17:03:40.371043Z",
+  "sha256_hash": "60626b6117b7d363cd9f95a07e7f61b30b63dcc6c68cb6692d15699805ae9cdc",
+  "canonical_payload": {
+    "match_id": "epl_2026_arsenal_hull_city",
+    "market": "1X2",
+    "home_team": "Arsenal",
+    "away_team": "Hull City",
+    "kickoff_utc": "2026-11-07T15:00:00Z",
+    "model_version": "veritas-v1.0",
+    "salt": "79eac31ab02732600724e2c867f178c8416fd0f5c6ad9a253244c1f501ca8e92",
+    "probabilities": {
+      "home_win": 0.6447,
+      "draw": 0.2307,
+      "away_win": 0.1246
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.6703,
+        "draw": 0.2319,
+        "away_win": 0.0978
+      },
+      "ml_ensemble": {
+        "home_win": 0.617,
+        "draw": 0.2273,
+        "away_win": 0.1557
+      },
+      "entropy_score": 0.8413,
+      "dynamic_alpha": 0.3231
+    }
+  },
+  "settlement": {
+    "actual_result": "HOME",
+    "brier_score": 0.195
+  }
 }
