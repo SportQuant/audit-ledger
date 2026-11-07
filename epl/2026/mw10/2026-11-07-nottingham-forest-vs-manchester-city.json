@@ -1,5 +1,38 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-11-05T17:32:48.227419Z",
-  "sha256_hash": "b230c463b2e4be3c8d71c2a7503ed5ae3fd97df97bd0349669bec20353ad6c97"
+  "revealed_utc": "2026-11-07T19:32:45.822202Z",
+  "sha256_hash": "b230c463b2e4be3c8d71c2a7503ed5ae3fd97df97bd0349669bec20353ad6c97",
+  "canonical_payload": {
+    "match_id": "epl_2026_nottingham_forest_manchester_city",
+    "market": "1X2",
+    "home_team": "Nottingham Forest",
+    "away_team": "Manchester City",
+    "kickoff_utc": "2026-11-07T17:30:00Z",
+    "model_version": "veritas-v1.1",
+    "salt": "0487e373f85f8f0a18828216613cdf0448fcc8503779da49dfa282881cce759d",
+    "probabilities": {
+      "home_win": 0.212,
+      "draw": 0.2648,
+      "away_win": 0.5232
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.1866,
+        "draw": 0.2485,
+        "away_win": 0.5649
+      },
+      "ml_ensemble": {
+        "home_win": 0.212,
+        "draw": 0.2648,
+        "away_win": 0.5232
+      },
+      "entropy_score": 0.9281,
+      "dynamic_alpha": 0.5
+    }
+  },
+  "settlement": {
+    "actual_result": "HOME",
+    "brier_score": 0.9648
+  }
 }
