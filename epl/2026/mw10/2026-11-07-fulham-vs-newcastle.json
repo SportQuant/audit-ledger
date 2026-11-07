@@ -1,5 +1,38 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-11-05T15:00:10.996480Z",
-  "sha256_hash": "c3da242fadf40b062dd16c610f88045bb7cd9396c69ec46e8e575fc08bc089bc"
+  "revealed_utc": "2026-11-07T17:03:38.686395Z",
+  "sha256_hash": "c3da242fadf40b062dd16c610f88045bb7cd9396c69ec46e8e575fc08bc089bc",
+  "canonical_payload": {
+    "match_id": "epl_2026_fulham_newcastle",
+    "market": "1X2",
+    "home_team": "Fulham",
+    "away_team": "Newcastle",
+    "kickoff_utc": "2026-11-07T15:00:00Z",
+    "model_version": "veritas-v1.1",
+    "salt": "381566747c78e14b3a038f7afeea50dfc148ea67fcf8852424feb5db549d3f2b",
+    "probabilities": {
+      "home_win": 0.448,
+      "draw": 0.253,
+      "away_win": 0.299
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.4517,
+        "draw": 0.236,
+        "away_win": 0.3123
+      },
+      "ml_ensemble": {
+        "home_win": 0.448,
+        "draw": 0.253,
+        "away_win": 0.299
+      },
+      "entropy_score": 0.9725,
+      "dynamic_alpha": 0.5
+    }
+  },
+  "settlement": {
+    "actual_result": "DRAW",
+    "brier_score": 0.8481
+  }
 }
