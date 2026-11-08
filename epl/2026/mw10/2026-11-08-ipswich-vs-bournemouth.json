@@ -1,5 +1,38 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-11-06T14:00:18.338639Z",
-  "sha256_hash": "247ffe005c9c28af4156ca0e8ed4c34626dce83d89809b80fd08a148758fcf79"
+  "revealed_utc": "2026-11-08T16:02:49.293394Z",
+  "sha256_hash": "247ffe005c9c28af4156ca0e8ed4c34626dce83d89809b80fd08a148758fcf79",
+  "canonical_payload": {
+    "match_id": "epl_2026_ipswich_bournemouth",
+    "market": "1X2",
+    "home_team": "Ipswich",
+    "away_team": "Bournemouth",
+    "kickoff_utc": "2026-11-08T14:00:00Z",
+    "model_version": "veritas-v1.0",
+    "salt": "5f458b6486ba482fc6cf1f4cb684f1288d718b242be96611e74eb09631fe3161",
+    "probabilities": {
+      "home_win": 0.2539,
+      "draw": 0.2325,
+      "away_win": 0.5136
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.2404,
+        "draw": 0.1987,
+        "away_win": 0.5609
+      },
+      "ml_ensemble": {
+        "home_win": 0.2627,
+        "draw": 0.3292,
+        "away_win": 0.4081
+      },
+      "entropy_score": 0.9855,
+      "dynamic_alpha": 0.2572
+    }
+  },
+  "settlement": {
+    "actual_result": "AWAY",
+    "brier_score": 0.3551
+  }
 }
