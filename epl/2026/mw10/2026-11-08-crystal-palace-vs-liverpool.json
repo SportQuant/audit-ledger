@@ -1,5 +1,38 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-11-06T14:00:22.700826Z",
-  "sha256_hash": "fd13a05463665d5c2f5980ef9c79925858721cd34e4e49c5ba4828c47b165f8f"
+  "revealed_utc": "2026-11-08T16:02:45.065419Z",
+  "sha256_hash": "fd13a05463665d5c2f5980ef9c79925858721cd34e4e49c5ba4828c47b165f8f",
+  "canonical_payload": {
+    "match_id": "epl_2026_crystal_palace_liverpool",
+    "market": "1X2",
+    "home_team": "Crystal Palace",
+    "away_team": "Liverpool",
+    "kickoff_utc": "2026-11-08T14:00:00Z",
+    "model_version": "veritas-v1.1",
+    "salt": "309e4ed498da84233264485aaefe78c80e75be91d1267ce805a93945046b9222",
+    "probabilities": {
+      "home_win": 0.2411,
+      "draw": 0.2433,
+      "away_win": 0.5156
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.2069,
+        "draw": 0.2078,
+        "away_win": 0.5853
+      },
+      "ml_ensemble": {
+        "home_win": 0.2411,
+        "draw": 0.2433,
+        "away_win": 0.5156
+      },
+      "entropy_score": 0.9361,
+      "dynamic_alpha": 0.5
+    }
+  },
+  "settlement": {
+    "actual_result": "AWAY",
+    "brier_score": 0.352
+  }
 }
