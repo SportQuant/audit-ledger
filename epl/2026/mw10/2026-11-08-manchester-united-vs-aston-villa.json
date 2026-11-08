@@ -1,5 +1,38 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-11-06T16:33:19.276715Z",
-  "sha256_hash": "431572a58914b921ac6452d5c94c9d9c36ee98ed447e28d7f15e58fec211e07d"
+  "revealed_utc": "2026-11-08T18:32:41.475131Z",
+  "sha256_hash": "431572a58914b921ac6452d5c94c9d9c36ee98ed447e28d7f15e58fec211e07d",
+  "canonical_payload": {
+    "match_id": "epl_2026_manchester_united_aston_villa",
+    "market": "1X2",
+    "home_team": "Manchester United",
+    "away_team": "Aston Villa",
+    "kickoff_utc": "2026-11-08T16:30:00Z",
+    "model_version": "veritas-v1.1",
+    "salt": "51cfd93547013055af78ec6bac236cabbb49381cd994f51d8c5ff8dee4638db1",
+    "probabilities": {
+      "home_win": 0.3059,
+      "draw": 0.2502,
+      "away_win": 0.4439
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.2212,
+        "draw": 0.2472,
+        "away_win": 0.5316
+      },
+      "ml_ensemble": {
+        "home_win": 0.5055,
+        "draw": 0.2597,
+        "away_win": 0.2348
+      },
+      "entropy_score": 0.9422,
+      "dynamic_alpha": 0.278
+    }
+  },
+  "settlement": {
+    "actual_result": "DRAW",
+    "brier_score": 0.8528
+  }
 }
