@@ -1,5 +1,38 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-11-19T15:00:20.739880Z",
-  "sha256_hash": "d2e64797dcafa01a02a1bea254dbb12ddd303bc8766f283f53e7e907a8549687"
+  "revealed_utc": "2026-11-21T17:02:54.780825Z",
+  "sha256_hash": "d2e64797dcafa01a02a1bea254dbb12ddd303bc8766f283f53e7e907a8549687",
+  "canonical_payload": {
+    "match_id": "epl_2026_aston_villa_sunderland",
+    "market": "1X2",
+    "home_team": "Aston Villa",
+    "away_team": "Sunderland",
+    "kickoff_utc": "2026-11-21T15:00:00Z",
+    "model_version": "veritas-v1.1",
+    "salt": "77258cb1d084a9c14551e379340d0aee3f602d9012b985b027db17981f67090d",
+    "probabilities": {
+      "home_win": 0.3637,
+      "draw": 0.2922,
+      "away_win": 0.3441
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.3302,
+        "draw": 0.2941,
+        "away_win": 0.3757
+      },
+      "ml_ensemble": {
+        "home_win": 0.3637,
+        "draw": 0.2922,
+        "away_win": 0.3441
+      },
+      "entropy_score": 0.9962,
+      "dynamic_alpha": 0.5
+    }
+  },
+  "settlement": {
+    "actual_result": "DRAW",
+    "brier_score": 0.7517
+  }
 }
