@@ -1,5 +1,38 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-11-19T15:00:12.362051Z",
-  "sha256_hash": "e895219e284993f666124c6fd76bcfcb56fbbe1806875bdfda4d92670e8140a4"
+  "revealed_utc": "2026-11-21T17:02:56.888519Z",
+  "sha256_hash": "e895219e284993f666124c6fd76bcfcb56fbbe1806875bdfda4d92670e8140a4",
+  "canonical_payload": {
+    "match_id": "epl_2026_tottenham_ipswich",
+    "market": "1X2",
+    "home_team": "Tottenham",
+    "away_team": "Ipswich",
+    "kickoff_utc": "2026-11-21T15:00:00Z",
+    "model_version": "veritas-v1.1",
+    "salt": "e6ea05ac066d655ec833a0e56f5e3fe8281399f4a1dc5d0b9f3af09cb6605aa8",
+    "probabilities": {
+      "home_win": 0.5794,
+      "draw": 0.2295,
+      "away_win": 0.1911
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.6177,
+        "draw": 0.213,
+        "away_win": 0.1693
+      },
+      "ml_ensemble": {
+        "home_win": 0.5005,
+        "draw": 0.2709,
+        "away_win": 0.2286
+      },
+      "entropy_score": 0.9444,
+      "dynamic_alpha": 0.277
+    }
+  },
+  "settlement": {
+    "actual_result": "HOME",
+    "brier_score": 0.2661
+  }
 }
