@@ -1,5 +1,38 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-11-19T17:33:03.934804Z",
-  "sha256_hash": "5ea474deb14f7fe510c245d4e814bf06ac442c12539a32d6321b4ddc20b0408c"
+  "revealed_utc": "2026-11-21T19:32:43.651494Z",
+  "sha256_hash": "5ea474deb14f7fe510c245d4e814bf06ac442c12539a32d6321b4ddc20b0408c",
+  "canonical_payload": {
+    "match_id": "epl_2026_newcastle_arsenal",
+    "market": "1X2",
+    "home_team": "Newcastle",
+    "away_team": "Arsenal",
+    "kickoff_utc": "2026-11-21T17:30:00Z",
+    "model_version": "veritas-v1.1",
+    "salt": "6d8c90c174d33b8c7a43ff66b331fa35331c95646ea3bdabbe6355157fed7ebe",
+    "probabilities": {
+      "home_win": 0.1477,
+      "draw": 0.1959,
+      "away_win": 0.6564
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.0777,
+        "draw": 0.1489,
+        "away_win": 0.7734
+      },
+      "ml_ensemble": {
+        "home_win": 0.1477,
+        "draw": 0.1959,
+        "away_win": 0.6564
+      },
+      "entropy_score": 0.7993,
+      "dynamic_alpha": 0.5
+    }
+  },
+  "settlement": {
+    "actual_result": "DRAW",
+    "brier_score": 1.0993
+  }
 }
