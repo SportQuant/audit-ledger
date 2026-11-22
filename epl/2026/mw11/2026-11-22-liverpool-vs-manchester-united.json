@@ -1,5 +1,38 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-11-20T16:33:15.487151Z",
-  "sha256_hash": "029f63fc008472d596a82486dca42b95a6ee62e18fa24b715af66165d41b7cf0"
+  "revealed_utc": "2026-11-22T18:32:44.789478Z",
+  "sha256_hash": "029f63fc008472d596a82486dca42b95a6ee62e18fa24b715af66165d41b7cf0",
+  "canonical_payload": {
+    "match_id": "epl_2026_liverpool_manchester_united",
+    "market": "1X2",
+    "home_team": "Liverpool",
+    "away_team": "Manchester United",
+    "kickoff_utc": "2026-11-22T16:30:00Z",
+    "model_version": "veritas-v1.1",
+    "salt": "1a2226b7305a73cd64c14b2e31c14cd075033c2313a95d5429330bf598361900",
+    "probabilities": {
+      "home_win": 0.4009,
+      "draw": 0.2579,
+      "away_win": 0.3412
+    },
+    "model_telemetry": {
+      "physics_anchor": {
+        "home_win": 0.4032,
+        "draw": 0.2458,
+        "away_win": 0.351
+      },
+      "ml_ensemble": {
+        "home_win": 0.4009,
+        "draw": 0.2579,
+        "away_win": 0.3412
+      },
+      "entropy_score": 0.9856,
+      "dynamic_alpha": 0.5
+    }
+  },
+  "settlement": {
+    "actual_result": "HOME",
+    "brier_score": 0.5419
+  }
 }
