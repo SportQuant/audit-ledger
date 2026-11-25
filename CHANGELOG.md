@@ -7,6 +7,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [v2.0.0] - 2026-11-24 (Matchweek 12 Veritas v2.0 Cutover)
+
+### Added
+* **Sport-Agnostic `schema_version: "2.0"` Envelope**: Standardized canonical WORM payload with explicit `schema_version` (`"2.0"`), `sport`, `league`, `commit_window` (`"T-48h"` / `"T-45m"`), and `lineup_confirmed` (`bool`).
+* **Cryptographic Model Provenance (`model_provenance`)**: Every commitment and reveal binds `model_version` (`"veritas-v2.0"`), `bundle_id`, and `artifact_sha256` directly into the SHA-256 preimage.
+* **Multi-Market Coherent Derivative Locking (`markets`)**: Locks `1x2` (`home_win`, `draw`, `away_win`), `ou_2_5` (`over`, `under`), and `btts` (`yes`, `no`) probability vectors inside the `T-48h` SHA-256 commitment hash, each summing strictly to `1.0000` at 4 decimal places.
+* **Structural & Final Intensity Diagnostics (`model_diagnostics`)**: Publishes `distribution_family` (`"dixon_coles_poisson"`), `entropy_score`, and `parameters` (`lambda_home_struct`, `lambda_away_struct`, `lambda_home_final`, `lambda_away_final`, `rho`).
+
+### Changed
+* **Upstream Poisson Intensity Residual Stacking**: Replaced v1 post-grid linear probability blending with Stage 2 log-residual intensity stacking ($\hat{\lambda} = \lambda^{\text{struct}} \cdot \exp(\delta^{\text{ML}})$) prior to $10 \times 10$ Dixon-Coles matrix integration.
+* **Dual-Schema Verification (`verify_ledger.py`)**: Updated zero-dependency verifier to auto-detect `schema_version` (`"1.0"` vs `"2.0"`), preserving 100% backward-compatible verification across all 110 historical MW1–MW11 commitments.
+
+### Removed
+* Dropped deprecated v1 blending keys (`dynamic_alpha`, `physics_anchor`, `ml_ensemble`, `model_telemetry`) from all `schema_version: "2.0"` ledger payloads.
+
+---
+
 ## [v1.1.0] - 2026-09-18 (Matchweek 5 Genesis)
 
 ### Added
