@@ -1,5 +1,53 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-11-25T20:00:08.522510Z",
-  "sha256_hash": "7c7514be2608e63a55a9de790797d9f6fbc239671c0e12f19a94ee1d6157f22f"
+  "revealed_utc": "2026-11-27T22:07:36.205652Z",
+  "sha256_hash": "7c7514be2608e63a55a9de790797d9f6fbc239671c0e12f19a94ee1d6157f22f",
+  "canonical_payload": {
+    "schema_version": "2.0",
+    "sport": "soccer",
+    "league": "epl",
+    "match_id": "epl_2026_nottingham_forest_chelsea",
+    "home_team": "Nottingham Forest",
+    "away_team": "Chelsea",
+    "kickoff_utc": "2026-11-27T20:00:00Z",
+    "commit_window": "T-48h",
+    "lineup_confirmed": false,
+    "model_provenance": {
+      "model_version": "veritas-v2.0",
+      "bundle_id": "v20261125_0138-VERITAS-V2-SOCCER-EN_EPL",
+      "artifact_sha256": "7d3e3d00c6fc5e50ac605bf5b51d36e6cdcdaa5592c58dd6b800211ad2191d9a"
+    },
+    "markets": {
+      "1x2": {
+        "home_win": 0.3003,
+        "draw": 0.2419,
+        "away_win": 0.4578
+      },
+      "ou_2_5": {
+        "over": 0.6035,
+        "under": 0.3965
+      },
+      "btts": {
+        "yes": 0.6213,
+        "no": 0.3787
+      }
+    },
+    "model_diagnostics": {
+      "distribution_family": "dixon_coles_poisson",
+      "entropy_score": 0.9669,
+      "parameters": {
+        "lambda_home_struct": 1.3366,
+        "lambda_away_struct": 1.7162,
+        "lambda_home_final": 1.3776,
+        "lambda_away_final": 1.7439,
+        "rho": -0.0399
+      }
+    },
+    "salt": "d386075b2f70c9eb401e759ce3f8c383f1dda16f18ede94269be52ec70e87758"
+  },
+  "settlement": {
+    "actual_result": "HOME",
+    "brier_score": 0.7577
+  }
 }
