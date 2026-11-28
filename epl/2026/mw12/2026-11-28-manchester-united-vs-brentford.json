@@ -1,5 +1,53 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-11-26T15:00:09.206619Z",
-  "sha256_hash": "43d6feacd32a2bcfafdcdf3515d8a62d1fee1a08f7914223c96206757646cc61"
+  "revealed_utc": "2026-11-28T17:08:30.137128Z",
+  "sha256_hash": "43d6feacd32a2bcfafdcdf3515d8a62d1fee1a08f7914223c96206757646cc61",
+  "canonical_payload": {
+    "schema_version": "2.0",
+    "sport": "soccer",
+    "league": "epl",
+    "match_id": "epl_2026_manchester_united_brentford",
+    "home_team": "Manchester United",
+    "away_team": "Brentford",
+    "kickoff_utc": "2026-11-28T15:00:00Z",
+    "commit_window": "T-48h",
+    "lineup_confirmed": false,
+    "model_provenance": {
+      "model_version": "veritas-v2.0",
+      "bundle_id": "v20261125_0138-VERITAS-V2-SOCCER-EN_EPL",
+      "artifact_sha256": "7d3e3d00c6fc5e50ac605bf5b51d36e6cdcdaa5592c58dd6b800211ad2191d9a"
+    },
+    "markets": {
+      "1x2": {
+        "home_win": 0.4691,
+        "draw": 0.2374,
+        "away_win": 0.2935
+      },
+      "ou_2_5": {
+        "over": 0.6198,
+        "under": 0.3802
+      },
+      "btts": {
+        "yes": 0.6322,
+        "no": 0.3678
+      }
+    },
+    "model_diagnostics": {
+      "distribution_family": "dixon_coles_poisson",
+      "entropy_score": 0.9615,
+      "parameters": {
+        "lambda_home_struct": 1.7862,
+        "lambda_away_struct": 1.3636,
+        "lambda_home_final": 1.8061,
+        "lambda_away_final": 1.3926,
+        "rho": -0.0399
+      }
+    },
+    "salt": "f9d4bec5bef427cfa5ffe92bc2939b2dc8a070ac686aa20411ce516a1d336626"
+  },
+  "settlement": {
+    "actual_result": "AWAY",
+    "brier_score": 0.7756
+  }
 }
