@@ -1,5 +1,53 @@
 {
-  "status": "COMMITTED",
+  "status": "REVEALED",
   "commit_utc": "2026-11-26T15:00:11.440803Z",
-  "sha256_hash": "6e8b28c4cf664c0ca74ca6f06ad54dcd99b1fbc9438e1e11956cd6207b8831f7"
+  "revealed_utc": "2026-11-28T16:52:27.734133Z",
+  "sha256_hash": "6e8b28c4cf664c0ca74ca6f06ad54dcd99b1fbc9438e1e11956cd6207b8831f7",
+  "canonical_payload": {
+    "schema_version": "2.0",
+    "sport": "soccer",
+    "league": "epl",
+    "match_id": "epl_2026_leeds_coventry",
+    "home_team": "Leeds",
+    "away_team": "Coventry",
+    "kickoff_utc": "2026-11-28T15:00:00Z",
+    "commit_window": "T-48h",
+    "lineup_confirmed": false,
+    "model_provenance": {
+      "model_version": "veritas-v2.0",
+      "bundle_id": "v20261125_0138-VERITAS-V2-SOCCER-EN_EPL",
+      "artifact_sha256": "7d3e3d00c6fc5e50ac605bf5b51d36e6cdcdaa5592c58dd6b800211ad2191d9a"
+    },
+    "markets": {
+      "1x2": {
+        "home_win": 0.5379,
+        "draw": 0.2294,
+        "away_win": 0.2327
+      },
+      "ou_2_5": {
+        "over": 0.6058,
+        "under": 0.3942
+      },
+      "btts": {
+        "yes": 0.6025,
+        "no": 0.3975
+      }
+    },
+    "model_diagnostics": {
+      "distribution_family": "dixon_coles_poisson",
+      "entropy_score": 0.9198,
+      "parameters": {
+        "lambda_home_struct": 1.8967,
+        "lambda_away_struct": 1.2094,
+        "lambda_home_final": 1.927,
+        "lambda_away_final": 1.2053,
+        "rho": -0.0399
+      }
+    },
+    "salt": "981a665194c0400c8f3ac3be46f937bcd1eee6041b0bd8c94cdd5db1d2bc2d6d"
+  },
+  "settlement": {
+    "actual_result": "HOME",
+    "brier_score": 0.3203
+  }
 }
